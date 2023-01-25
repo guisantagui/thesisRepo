@@ -1,0 +1,6 @@
+error_*
+output_*
+launch_parseIndivSNPs.sh
+launch_proveanRun.sh
+launch_tstFixSNPs.sh
+Rplots.pdf

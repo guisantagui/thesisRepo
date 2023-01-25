@@ -1,0 +1,1239 @@
+,id,name,subsystem,reaction,GPR
+0,ABTA,4-aminobutyrate transaminase,"Alanine, Aspartate, and Glutamate Metabolism",4abut[c] + akg[c] --> glu__L[c] + sucsal[c],Rv2589
+1,AGMT,Agmatinase,"Alanine, Aspartate, and Glutamate Metabolism",agm[c] + h2o[c] --> ptrc[c] + urea[c],
+2,ALAD_L,L-alanine dehydrogenase,"Alanine, Aspartate, and Glutamate Metabolism",ala__L[c] + h2o[c] + nad[c] --> h[c] + nadh[c] + nh4[c] + pyr[c],Rv2780
+3,ARGDC,Arginine decarboxylase,"Alanine, Aspartate, and Glutamate Metabolism",arg__L[c] + h[c] --> agm[c] + co2[c],Rv2531c
+4,ARGSL,Argininosuccinate lyase,"Alanine, Aspartate, and Glutamate Metabolism",argsuc[c] --> arg__L[c] + fum[c],Rv1659
+5,ARGSS,Argininosuccinate synthase,"Alanine, Aspartate, and Glutamate Metabolism",asp__L[c] + atp[c] + citr__L[c] --> amp[c] + argsuc[c] + h[c] + ppi[c],Rv1658
+6,ASNN,L-asparaginase,"Alanine, Aspartate, and Glutamate Metabolism",asn__L[c] + h2o[c] --> asp__L[c] + nh4[c],Rv1538c
+7,ASNS1,Asparagine synthase (glutamine-hydrolysing),"Alanine, Aspartate, and Glutamate Metabolism",asp__L[c] + atp[c] + gln__L[c] + h2o[c] --> amp[c] + asn__L[c] + glu__L[c] + h[c] + ppi[c],Rv2201
+8,ASP1DC,Aspartate 1-decarboxylase,"Alanine, Aspartate, and Glutamate Metabolism",asp__L[c] + h[c] --> ala_B[c] + co2[c],Rv3601c
+9,ASPO5,L-aspartate oxidase,"Alanine, Aspartate, and Glutamate Metabolism",asp__L[c] + fum[c] --> h[c] + iasp[c] + succ[c],Rv1595
+10,ASPTA,Aspartate transaminase,"Alanine, Aspartate, and Glutamate Metabolism",akg[c] + asp__L[c] <=> glu__L[c] + oaa[c],Rv0337c
+11,GF6PTA,Glutamine-fructose-6-phosphate transaminase,"Alanine, Aspartate, and Glutamate Metabolism",f6p[c] + gln__L[c] <=> gam6p[c] + glu__L[c],Rv3436c
+12,GLNS,Glutamine synthetase,"Alanine, Aspartate, and Glutamate Metabolism",atp[c] + glu__L[c] + nh4[c] --> adp[c] + gln__L[c] + h[c] + pi[c],Rv2220 or Rv2222c or Rv1878 or Rv2860c
+13,GLUCYS,Gamma-glutamylcysteine synthetase,"Alanine, Aspartate, and Glutamate Metabolism",atp[c] + cys__L[c] + glu__L[c] --> adp[c] + glucys[c] + h[c] + pi[c],Rv3704c
+14,GLUDC,Glutamate Decarboxylase,"Alanine, Aspartate, and Glutamate Metabolism",glu__L[c] + h[c] --> 4abut[c] + co2[c],Rv3432c
+15,GLUDxi,Glutamate dehydrogenase  NAD ,"Alanine, Aspartate, and Glutamate Metabolism",glu__L[c] + h2o[c] + nad[c] <=> akg[c] + h[c] + nadh[c] + nh4[c],Rv2476c
+16,GLUR,Glutamate racemase,"Alanine, Aspartate, and Glutamate Metabolism",glu__D[c] <=> glu__L[c],Rv1338
+17,GLUSy,Glutamate synthase (NADPH),"Alanine, Aspartate, and Glutamate Metabolism",akg[c] + gln__L[c] + h[c] + nadph[c] --> 2.0 glu__L[c] + nadp[c],Rv3859c and Rv3858c
+18,GTHOr,Glutathione oxidoreductase,"Alanine, Aspartate, and Glutamate Metabolism",gthox[c] + h[c] + nadph[c] <=> 2.0 gthrd[c] + nadp[c],Rv2855
+19,NADS2,Nicotinate-mononucleotide adenylyltransferase,"Alanine, Aspartate, and Glutamate Metabolism",atp[c] + dnad[c] + gln__L[c] + h2o[c] --> amp[c] + glu__L[c] + h[c] + nad[c] + ppi[c],Rv2438c
+20,OPAH,5-Oxoproline amidohydrolase (ATP-hydrolysing) (ir),"Alanine, Aspartate, and Glutamate Metabolism",5oxpro[c] + atp[c] + 2.0 h2o[c] <=> adp[c] + glu__L[c] + h[c] + pi[c],Rv0266c
+21,P5CD,1-pyrroline-5-carboxylate dehydrogenase,"Alanine, Aspartate, and Glutamate Metabolism",1pyr5c[c] + 2.0 h2o[c] + nad[c] --> glu__L[c] + h[c] + nadh[c],Rv1187
+22,SSALx,Succinate-semialdehyde dehydrogenase (NAD),"Alanine, Aspartate, and Glutamate Metabolism",h2o[c] + nad[c] + sucsal[c] --> 2.0 h[c] + nadh[c] + succ[c],Rv0234c and Rv1731
+23,SSALy,Succinate-semialdehyde dehydrogenase (NADP),"Alanine, Aspartate, and Glutamate Metabolism",h2o[c] + nadp[c] + sucsal[c] --> 2.0 h[c] + nadph[c] + succ[c],Rv0234c or Rv1731
+24,HOAS,R_HOAS,"Alanine, Aspartate, and Glutamate Metabolism",akg[c] + glx[c] + 3.0 h[c] --> co2[c] + hoa[c],Rv1248c
+25,SR1,R_SR1,"Alanine, Aspartate, and Glutamate Metabolism",hoa[c] --> co2[c] + hla[c],
+26,ASPO6,L-aspartate oxidase,"Alanine, Aspartate, and Glutamate Metabolism",asp__L[c] + o2[c] --> h2o2[c] + h[c] + iasp[c],Rv1595
+27,ACS2,Acetyl-CoA synthase (propionate),Alternate Carbon Metabolism,atp[c] + coa[c] + ppa[c] --> amp[c] + ppcoa[c] + ppi[c],Rv3667
+28,AGDC,N-acetylglucosamine-6-phosphate deacetylase,Alternate Carbon Metabolism,acgam6p[c] + h2o[c] --> ac[c] + gam6p[c],Rv3332
+29,DGC3D,DGC3D,Alternate Carbon Metabolism,2dglcn[c] + nad[c] --> 3ddgc[c] + h[c] + nadh[c],Rv1928c or Rv1714
+30,G1PACT,Glucosamine-1-phosphate N-acetyltransferase,Alternate Carbon Metabolism,accoa[c] + gam1p[c] --> acgam1p[c] + coa[c] + h[c],
+31,GALKr,Galactokinase,Alternate Carbon Metabolism,atp[c] + gal[c] <=> adp[c] + gal1p[c] + h[c],Rv0620
+32,GALUi,UTP-glucose-1-phosphate uridylyltransferase (irreversible),Alternate Carbon Metabolism,g1p[c] + h[c] + utp[c] --> ppi[c] + udpg[c],Rv0993
+33,GLGC,Glucose-1-phosphate adenylyltransferase,Alternate Carbon Metabolism,atp[c] + g1p[c] + h[c] --> adpglc[c] + ppi[c],Rv1213
+34,GLYK,Glycerol kinase,Alternate Carbon Metabolism,atp[c] + glyc[c] --> adp[c] + glyc3p[c] + h[c],Rv3696c
+35,LACZ,B-galactosidase,Alternate Carbon Metabolism,h2o[c] + lcts[c] --> gal[c] + glc__D[c],
+36,MALT,Alpha glucosidase,Alternate Carbon Metabolism,h2o[c] + malt[c] --> 2.0 glc__D[c],Rv2471
+37,MMSAD1,Methylmalonate semialdehyde dehydrogenase,Alternate Carbon Metabolism,2mop[c] + coa[c] + nad[c] --> co2[c] + nadh[c] + ppcoa[c],Rv0753c
+38,MN6PP,Mannose 6-phosphate phosphatase,Alternate Carbon Metabolism,h2o[c] + man6p[c] --> man[c] + pi[c],
+39,MTI,Maltose trehalose isomerase,Alternate Carbon Metabolism,tre[c] <=> malt[c],Rv0126
+40,THZPSN,Thiazole phosphate synthesis,Alternate Carbon Metabolism,atp[c] + cys__L[c] + dxyl5p[c] + tyr__L[c] --> 4hba[c] + 4mpetz[c] + ala__L[c] + amp[c] + co2[c] + h2o[c] + h[c] + ppi[c],Rv0417
+41,UAGCVT,UDP-N-acetylglucosamine 1-carboxyvinyltransferase,Alternate Carbon Metabolism,pep[c] + uacgam[c] --> pi[c] + uaccg[c],Rv1315
+42,UAGDP,UDP-N-acetylglucosamine diphosphorylase,Alternate Carbon Metabolism,acgam1p[c] + h[c] + utp[c] --> ppi[c] + uacgam[c],Rv1018c
+43,UAPGR,UDP-N-acetylenolpyruvoylglucosamine reductase,Alternate Carbon Metabolism,h[c] + nadph[c] + uaccg[c] --> nadp[c] + uamr[c],Rv0482
+44,XYLK,Xylulokinase,Alternate Carbon Metabolism,atp[c] + xylu__D[c] --> adp[c] + h[c] + xu5p__D[c],Rv0729
+45,TREP,R_TREP,Alternate Carbon Metabolism,pi[c] + tre[c] --> g1p[c] + glc__D[c],Rv3401
+46,HIBD,3 hydroxyisobutyrate dehydrogenase,Alternate Carbon Metabolism,3hmp[c] + nad[c] --> 2mop[c] + h[c] + nadh[c],Rv0751c
+47,MANPGH,2-O-alpha-mannosyl-6-phosphate-D-glycerate hydrolase,Alternate Carbon Metabolism,h2o[c] + man6pglyc[c] --> glyc__R[c] + man6p[c],Rv0648
+48,ACGAMPM,Phosphoacetylglucosamine mutase,Arabinogalactan biosynthesis,acgam6p[c] <=> acgam1p[c],Rv3441c
+49,ACGAMT,UDP-N-acetylglucosamine:undecaprenylphosphate N-acetylglucosamine -1-phosphate transferase,Arabinogalactan biosynthesis,uacgam[c] + udcpp[c] --> ump[c] + unaga[c],Rv1302
+50,AFTA,Arabinofuranosyl transferase (M tb),Arabinogalactan biosynthesis,decda_tb[c] + galfragund[c] --> agalfragund[c] + decd_tb[c],Rv3792
+51,ALAALAr,D-alanine-D-alanine ligase (reversible),Arabinogalactan biosynthesis,2.0 ala__D[c] + atp[c] <=> adp[c] + alaala[c] + h[c] + pi[c],Rv2981c
+52,ALAR,Alanine racemase,Arabinogalactan biosynthesis,ala__L[c] <=> ala__D[c],Rv3423c
+53,DCPDPP,DCPDPP,Arabinogalactan biosynthesis,decdpr_tb[c] + h2o[c] --> decdr_tb[c] + pi[c],Rv3807c
+54,DCPE,"Decaprenylphosphoryl  ribose, arabinofuranose isomerization",Arabinogalactan biosynthesis,decdr_tb[c] <=> decda_tb[c],Rv3790 and Rv3791
+55,DCPT,Phosphoribose transferase (undecaprenyl phosphate),Arabinogalactan biosynthesis,decd_tb[c] + prpp[c] --> decdpr_tb[c] + ppi[c],Rv3806c
+56,G1PTT,Glucose-1-phosphate thymidylyltransferase,Arabinogalactan biosynthesis,dttp[c] + g1p[c] + h[c] --> dtdpglu[c] + ppi[c],Rv0334
+57,GALFT,Galactofuranose transferse (M tb),Arabinogalactan biosynthesis,h2o[c] + ragund[c] + 30.0 udpgalfur[c] --> galfragund[c] + 30.0 h[c] + 30.0 udp[c],Rv3808c and Rv3782
+58,O16RHAT,Rhamnosyltransferase (LPS O16 antigen biosynthesis),Arabinogalactan biosynthesis,dtdprmn[c] + unaga[c] --> dtdp[c] + h[c] + ragund[c],Rv3265c and Rv1525
+59,TDPDRE,"DTDP-4-dehydrorhamnose 3,5-epimerase",Arabinogalactan biosynthesis,dtdp4d6dg[c] --> dtdp4d6dm[c],Rv3465
+60,TDPDRR,DTDP-4-dehydrorhamnose reductase,Arabinogalactan biosynthesis,dtdp4d6dm[c] + h[c] + nadph[c] --> dtdprmn[c] + nadp[c],Rv3266c
+61,TDPGDH,"DTDPglucose 4,6-dehydratase",Arabinogalactan biosynthesis,dtdpglu[c] --> dtdp4d6dg[c] + h2o[c],Rv3464 and (Rv3468c or Rv3784)
+62,UDPGALM,UDPgalactopyranose mutase,Arabinogalactan biosynthesis,udpgal[c] --> udpgalfur[c],Rv3809c
+63,ALDR,R_ALDR,Arabinogalactan biosynthesis,arab__D[c] + h[c] + nadph[c] --> arabl__D[c] + nadp[c],
+64,AL4D,R_AL4D,Arabinogalactan biosynthesis,arabl__D[c] + nad[c] --> h[c] + nadh[c] + xylu__D[c],Rv1928c
+65,MANT1,R_MANT1,Arabinogalactan biosynthesis,PIM4[c] + decdman1p_tb[c] --> LM[c] + decd_tb[c],Rv1635c and Rv2174 and Rv2181
+66,EMB,EMB,Arabinogalactan biosynthesis,agalfragund[c] + 70.0 decda_tb[c] <=> arabinanagalfragund[c] + 70.0 decd_tb[c],Rv3794 and Rv3795 and Rv3793 and Rv2673 and Rv3805c
+67,ARABT,R_ARABT,Arabinogalactan bioynthesis,LM[c] + decda_tb[c] --> LAM[c] + decd_tb[c],Rv1635c and Rv2181 and Rv3793
+68,ACGK,Acetylglutamate kinase,Arginine and Proline Metabolism,acglu[c] + atp[c] --> acg5p[c] + adp[c],Rv1654
+69,ACOTA,Acetylornithine transaminase,Arginine and Proline Metabolism,acorn[c] + akg[c] <=> acg5sa[c] + glu__L[c],Rv1655
+70,AGPR,N-acetyl-g-glutamyl-phosphate reductase,Arginine and Proline Metabolism,acg5sa[c] + nadp[c] + pi[c] <=> acg5p[c] + h[c] + nadph[c],Rv1652
+71,ARGDr,Arginine deiminase,Arginine and Proline Metabolism,arg__L[c] + h2o[c] --> citr__L[c] + nh4[c],Rv1001
+72,AST,Arginine succinyltransferase,Arginine and Proline Metabolism,arg__L[c] + succoa[c] --> coa[c] + h[c] + sucarg[c],
+73,G5SADs,L-glutamate 5-semialdehyde dehydratase (spontaneous),Arginine and Proline Metabolism,glu5sa[c] --> 1pyr5c[c] + h2o[c] + h[c],
+74,OCBT,Ornithine carbamoyltransferase,Arginine and Proline Metabolism,cbp[c] + orn[c] <=> citr__L[c] + h[c] + pi[c],Rv1656
+75,ORNTA,Ornithine transaminase,Arginine and Proline Metabolism,akg[c] + orn[c] --> glu5sa[c] + glu__L[c],Rv2321c or Rv2322c
+76,ORNTAC,Ornithine transacetylase,Arginine and Proline Metabolism,acorn[c] + glu__L[c] <=> acglu[c] + orn[c],Rv1653
+77,P5CR,Pyrroline-5-carboxylate reductase,Arginine and Proline Metabolism,1pyr5c[c] + 2.0 h[c] + nadph[c] --> nadp[c] + pro__L[c],Rv0500
+78,P5CRx,Pyrroline-5-carboxylate reductase(nadh),Arginine and Proline Metabolism,1pyr5c[c] + 2.0 h[c] + nadh[c] --> nad[c] + pro__L[c],Rv0500
+79,PROD2,Proline dehydrogenase,Arginine and Proline Metabolism,fad[c] + pro__L[c] --> 1pyr5c[c] + fadh2[c] + h[c],Rv1188
+80,SADH,Succinylarginine dihydrolase,Arginine and Proline Metabolism,2.0 h2o[c] + 2.0 h[c] + sucarg[c] --> co2[c] + 2.0 nh4[c] + sucorn[c],
+81,SGDS,Succinylglutamate desuccinylase,Arginine and Proline Metabolism,h2o[c] + sucglu[c] --> glu__L[c] + succ[c],
+82,SGSAD,Succinylglutamic semialdehyde dehydrogenase,Arginine and Proline Metabolism,h2o[c] + nad[c] + sucgsa[c] --> 2.0 h[c] + nadh[c] + sucglu[c],
+83,SOTA,Succinylornithine transaminase,Arginine and Proline Metabolism,akg[c] + sucorn[c] --> glu__L[c] + sucgsa[c],
+84,FAD_14,R_FAD_14,Beta oxidation of unsaturated fatty acids,coa[c] + fad[c] + nad[c] + odecoa[c] --> accoa[c] + fadh2[c] + hdcoa[c] + nadh[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+85,FAD_15,R_FAD_15,Beta oxidation of unsaturated fatty acids,coa[c] + fad[c] + hdcoa[c] + nad[c] --> accoa[c] + c5tetdcoa[c] + fadh2[c] + nadh[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+86,FAD_16,R_FAD_16,Beta oxidation of unsaturated fatty acids,c5tetdcoa[c] + coa[c] + fad[c] + nad[c] --> accoa[c] + c3dodcoa[c] + fadh2[c] + nadh[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+87,FAD_17,R_FAD_17,Beta oxidation of unsaturated fatty acids,c3dodcoa[c] + h2o[c] --> h[c] + t2dodcoa[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+88,FAD_18,R_FAD_18,Beta oxidation of unsaturated fatty acids,3.0 h2o[c] + t2dodcoa[c] --> d2hdodcoa[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+89,FAD_19,R_FAD_19,Beta oxidation of unsaturated fatty acids,d2hdodcoa[c] + nad[c] --> dodcoa[c] + nadh[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+90,COCO2,MNXR26399,Carbon metabolism,co[c] + 2.0 fdxox[c] + h2o[c] <=> co2[c] + 2.0 fdxrd[c] + 2.0 h[c],Rv0373c and Rv0374c and Rv0375c
+91,ACONT,Aconitate hydratase,Citric Acid Cycle,cit[c] <=> icit[c],Rv1475c
+92,AKGDb,Oxoglutarate dehydrogenase (dihydrolipoamide S-succinyltransferase),Citric Acid Cycle,coa[c] + sdhlam[c] --> dhlam[c] + succoa[c],Rv2215
+93,CITL,Citrate lyase,Citric Acid Cycle,cit[c] --> ac[c] + oaa[c],Rv2498c or Rv3075c
+94,CS,Citrate synthase,Citric Acid Cycle,accoa[c] + h2o[c] + oaa[c] --> cit[c] + coa[c] + h[c],Rv0896 or Rv0889c
+95,FRD,FRD,Citric Acid Cycle,fadh2[c] + fum[c] --> fad[c] + succ[c],(Rv3318 and Rv3319 and Rv3316 and Rv3317) or (Rv1552 and Rv1553 and Rv1554 and Rv1555)
+96,FRD2,Fumarate reductase,Citric Acid Cycle,fum[c] + mql8[c] --> mqn8[c] + succ[c],(Rv3316 and Rv3317 and Rv3318 and Rv3319) or (Rv0247c and Rv3316 and Rv3317 and Rv3318) or (Rv0248c and Rv3316 and Rv3317 and Rv3318)
+97,FRD3,Fumarate reductase,Citric Acid Cycle,2dmmql8[c] + fum[c] --> 2dmmq8[c] + succ[c],(Rv3316 and Rv3317 and Rv3318 and Rv3319) or (Rv0247c and Rv3316 and Rv3317 and Rv3318) or (Rv0248c and Rv3316 and Rv3317 and Rv3318)
+98,FUM,Fumarase,Citric Acid Cycle,fum[c] + h2o[c] <=> mal__L[c],Rv1098c
+99,GCCc,Glycine-cleavage complex,Citric Acid Cycle,dhlpro[c] + nad[c] --> h[c] + lpro[c] + nadh[c],Rv3303c
+100,ICDHyr,Isocitrate dehydrogenase (NADP),Citric Acid Cycle,icit[c] + nadp[c] --> akg[c] + co2[c] + nadph[c],Rv3339c or Rv0066c
+101,MDH,Malate dehydrogenase,Citric Acid Cycle,mal__L[c] + nad[c] <=> h[c] + nadh[c] + oaa[c],Rv1240
+102,OXGDC,2 oxoglutarate decarboxylase,Citric Acid Cycle,akg[c] + h[c] --> co2[c] + sucsal[c],Rv1248c or Rv0555
+103,PC,Pyruvate carboxylase,Citric Acid Cycle,atp[c] + hco3[c] + pyr[c] --> adp[c] + h[c] + oaa[c] + pi[c],Rv2967c
+104,PDHcr,Pyruvate dehydrogenase (dihydrolipoamide dehydrogenase) reversible,Citric Acid Cycle,dhlam[c] + nad[c] --> h[c] + lpam[c] + nadh[c],Rv0462 or Rv0843
+105,PEPCK_re,Phosphoenolpyruvate carboxykinase (GTP),Citric Acid Cycle,gtp[c] + oaa[c] <=> co2[c] + gdp[c] + pep[c],Rv0211
+106,SUCD1,Succinate dehydrogenase,Citric Acid Cycle,fad[c] + succ[c] --> fadh2[c] + fum[c],(Rv3318 and Rv3319 and Rv3316 and Rv3317) or (Rv0247c and Rv0248c and Rv0249c) or (Rv1552 and Rv1553 and Rv1554 and Rv1555)
+107,SUCOAS,Succinyl-CoA synthetase (ADP-forming),Citric Acid Cycle,atp[c] + coa[c] + succ[c] <=> adp[c] + pi[c] + succoa[c],Rv0952 and Rv0951
+108,KGD2,MNXR84838,Citric Acid Cycle,co2[c] + 2.0 fdxrd[c] + h[c] + succoa[c] <=> akg[c] + coa[c] + 2.0 fdxox[c],Rv1248c or (Rv2454c and Rv2455c)
+109,AKGDa,Oxoglutarate dehydrogenase (lipoamide),Citric Acid Cycle,akg[c] + h[c] + lpam[c] <=> co2[c] + sdhlam[c],Rv1248c
+110,AKGDH,2-Oxogluterate dehydrogenase,Citric Acid Cycle,akg[c] + coa[c] + nad[c] --> co2[c] + nadh[c] + succoa[c],
+111,MHUD1,Heme Degredation MhuD,Cofacto,h2o[c] + o2[c] + pheme[c] --> fe2[c] + mycobilin[c],Rv3592
+112,ACBIPGT,Adenosyl cobinamide phosphate guanyltransferase,Cofactor and Prosthetic Group Biosynthesis,adocbip[c] + gtp[c] + h[c] --> agdpcbi[c] + ppi[c],Rv0254c
+113,ADCPS1,Adenosylcobinamide-phosphate synthase,Cofactor and Prosthetic Group Biosynthesis,adcobhex[c] + appl[c] + atp[c] --> adocbi[c] + adp[c] + h[c] + pi[c],Rv2236c
+114,ADCPS2,Adenosylcobinamide-phosphate synthase,Cofactor and Prosthetic Group Biosynthesis,adcobhex[c] + applp[c] + atp[c] --> adocbip[c] + adp[c] + h[c] + pi[c],Rv0254c or Rv2236c
+115,ADCYRS,Adenosylcobyric acid synthase (glutamine-hydrolysing),Cofactor and Prosthetic Group Biosynthesis,adcobdam[c] + 4.0 atp[c] + 4.0 gln__L[c] + 4.0 h2o[c] --> adcobhex[c] + 4.0 adp[c] + 4.0 glu__L[c] + 4.0 h[c] + 4.0 pi[c],Rv0255c
+116,ADOCBIK,Adenosyl cobinamide kinase,Cofactor and Prosthetic Group Biosynthesis,adocbi[c] + atp[c] --> adocbip[c] + adp[c] + h[c],Rv0254c
+117,ADOCBLS,Adenosylcobalamin 5'-phosphate synthase,Cofactor and Prosthetic Group Biosynthesis,agdpcbi[c] + rdmbzi[c] --> adocbl[c] + gmp[c] + h[c],Rv2208
+118,AHMMPS,4 amino 5 hydroxymethyl 2 methylpyrimidine synthetase,Cofactor and Prosthetic Group Biosynthesis,air[c] + 2.0 h[c] --> 4ahmmp[c] + gcald[c] + pi[c],Rv0423c
+119,AMAOTr,Adenosylmethionine-8-amino-7-oxononanoate transaminase,Cofactor and Prosthetic Group Biosynthesis,8aonn[c] + amet[c] <=> amob[c] + dann[c],Rv1568
+120,AMMQT8,S-adenosylmethione:2-demthylmenaquinone methyltransferase (menaquinone 8),Cofactor and Prosthetic Group Biosynthesis,2dmmq8[c] + amet[c] + h[c] --> ahcys[c] + mql8[c],
+121,AOXSr,8-amino-7-oxononanoate synthase,Cofactor and Prosthetic Group Biosynthesis,ala__L[c] + h[c] + pmcoa[c] <=> 8aonn[c] + co2[c] + coa[c],Rv1569 and Rv0032
+122,BACCL,Biotin acetyl CoA carboxylase ligase,Cofactor and Prosthetic Group Biosynthesis,atp[c] + btn[c] + h[c] --> btamp[c] + ppi[c],Rv3279c
+123,BTS2,Biotin synthase (ala-L producing),Cofactor and Prosthetic Group Biosynthesis,cys__L[c] + dtbt[c] <=> ala__L[c] + btn[c] + 2.0 h[c],Rv1589
+124,BTS3r,Biotin synthase,Cofactor and Prosthetic Group Biosynthesis,dtbt[c] + 2.0 s[c] <=> btn[c] + h2s[c],Rv1589
+125,CBIAT,Cobinamide adenyltransferase,Cofactor and Prosthetic Group Biosynthesis,atp[c] + cbi[c] + h[c] <=> adocbi[c] + pppi[c],Rv2849c
+126,CBLAT,Cob(I)alamin adenosyltransferase,Cofactor and Prosthetic Group Biosynthesis,atp[c] + cbl1[c] + h[c] <=> adocbl[c] + pppi[c],
+127,COCHL,Cobaltochelatase,Cofactor and Prosthetic Group Biosynthesis,atp[c] + cobalt2[c] + h2o[c] + hgbam[c] --> adp[c] + co2dam[c] + 2.0 h[c] + pi[c],Rv2062c
+128,CPC6R,Precorrin-6A reductase,Cofactor and Prosthetic Group Biosynthesis,copre6[c] + h[c] + nadph[c] --> codhpre6[c] + nadp[c],Rv2070c
+129,CPPPGO,Coproporphyrinogen oxidase (O2 required),Cofactor and Prosthetic Group Biosynthesis,cpppg3[c] + 2.0 h[c] + o2[c] --> 2.0 co2[c] + 2.0 h2o[c] + pppg9[c],Rv2388c
+130,CYRDAAT,"Cob(I)yrinic acid a,c-diamide adenosyltransferase",Cofactor and Prosthetic Group Biosynthesis,atp[c] + co1dam[c] + h[c] --> adcobdam[c] + pppi[c],Rv2849c
+131,CYRDAR2,"Cob(II)yrinic acid a,c-diamide reductase (fmn-dependent)",Cofactor and Prosthetic Group Biosynthesis,2.0 co2dam[c] + fmnh2[c] --> 2.0 co1dam[c] + fmn[c] + 2.0 h[c],
+132,DB4PS,"3,4-Dihydroxy-2-butanone-4-phosphate synthase",Cofactor and Prosthetic Group Biosynthesis,ru5p__D[c] --> db4p[c] + for[c] + h[c],Rv1940
+133,DBTS,Dethiobiotin synthase,Cofactor and Prosthetic Group Biosynthesis,atp[c] + co2[c] + dann[c] <=> adp[c] + dtbt[c] + 3.0 h[c] + pi[c],Rv1570
+134,DHNAOT,"1,4-dihydroxy-2-naphthoate octaprenyltransferase",Cofactor and Prosthetic Group Biosynthesis,dhna[c] + octdp[c] --> 2dmmq8[c] + co2[c] + h[c] + ppi[c],Rv0534c
+135,DMATT,Dimethylallyltranstransferase,Cofactor and Prosthetic Group Biosynthesis,dmpp[c] + ipdp[c] --> grdp[c] + ppi[c],Rv3398c or Rv3383c or Rv2173
+136,DMPPS,1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase (dmpp),Cofactor and Prosthetic Group Biosynthesis,h2mb4p[c] + h[c] + nadh[c] --> dmpp[c] + h2o[c] + nad[c],Rv1110
+137,FCLT,Ferrochelatase,Cofactor and Prosthetic Group Biosynthesis,fe2[c] + ppp9[c] --> 2.0 h[c] + pheme[c],Rv1485
+138,FCLT2,FCLT2,Cofactor and Prosthetic Group Biosynthesis,fmcbtt[c] + ppp9[c] --> 2.0 h[c] + mcbtt[c] + pheme[c],Rv1485
+139,FOMETRi,Aminomethyltransferase,Cofactor and Prosthetic Group Biosynthesis,5fthf[c] + h[c] <=> h2o[c] + methf[c],Rv2211c
+140,FTHFCL,5 formethyltetrahydrofolate cyclo ligase,Cofactor and Prosthetic Group Biosynthesis,5fthf[c] + atp[c] --> adp[c] + methf[c] + pi[c],Rv0992c
+141,G1SAT,Glutamate-1-semialdehyde aminotransferase,Cofactor and Prosthetic Group Biosynthesis,glu1sa[c] --> 5aop[c],Rv0524
+142,GTPCII2,GTP cyclohydrolase II (25drapp),Cofactor and Prosthetic Group Biosynthesis,gtp[c] + 3.0 h2o[c] --> 25drapp[c] + for[c] + 2.0 h[c] + ppi[c],Rv1415 or Rv1940
+143,HMBS,Hydroxymethylbilane synthase,Cofactor and Prosthetic Group Biosynthesis,h2o[c] + 4.0 ppbng[c] --> hmbil[c] + 4.0 nh4[c],Rv0510
+144,HMPK1,Hydroxymethylpyrimidine kinase (ATP),Cofactor and Prosthetic Group Biosynthesis,4ahmmp[c] + atp[c] --> 4ampm[c] + adp[c] + h[c],Rv0422c
+145,HMPK2,Hydroxymethylpyrimidine kinase (CTP),Cofactor and Prosthetic Group Biosynthesis,4ahmmp[c] + ctp[c] --> 4ampm[c] + cdp[c] + h[c],Rv0422c
+146,HMPK3,Hydroxymethylpyrimidine kinase (UTP),Cofactor and Prosthetic Group Biosynthesis,4ahmmp[c] + utp[c] --> 4ampm[c] + h[c] + udp[c],Rv0422c
+147,HMPK4,Hydroxymethylpyrimidine kinase (GTP),Cofactor and Prosthetic Group Biosynthesis,4ahmmp[c] + gtp[c] --> 4ampm[c] + gdp[c] + h[c],Rv0422c
+148,MPML,Mg-protoporphyrin IX magnesium-lyase,Cofactor and Prosthetic Group Biosynthesis,atp[c] + h2o[c] + mg2[c] + ppp9[c] <=> adp[c] + 3.0 h[c] + mppp9[c] + pi[c],Rv2850c or Rv0958
+149,NADTRHD,NAD transhydrogenase,Cofactor and Prosthetic Group Biosynthesis,nad[c] + nadph[c] --> nadh[c] + nadp[c],Rv2713 or (Rv0155 and Rv0156 and Rv0157)
+150,NO3R1,Nitrate reductase (Ubiquinol-8),Cofactor and Prosthetic Group Biosynthesis,2.0 h[c] + no3[c] + q8h2[c] --> h2o[c] + 2.0 h[e] + no2[c] + q8[c],(Rv1161 and Rv1162 and Rv1164 and Rv1163) or Rv1736c
+151,NO3R2,Nitrate reductase (Menaquinol-8),Cofactor and Prosthetic Group Biosynthesis,2.0 h[c] + mql8[c] + no3[c] --> h2o[c] + 2.0 h[e] + mqn8[c] + no2[c],Rv1161 and Rv1162 and Rv1163 and Rv1164 and Rv1736c
+152,NPHS,Naphthoate synthase,Cofactor and Prosthetic Group Biosynthesis,sbzcoa[c] --> coa[c] + dhna[c],Rv0548c
+153,NTRIRx,Nitrite reductase (NADH),Cofactor and Prosthetic Group Biosynthesis,4.0 h[c] + 3.0 nadh[c] + no2[c] --> h2o[c] + 3.0 nad[c] + nh4oh[c],Rv0252 and Rv0253
+154,PC11M,Precorrin-4 C11-methyltransferase,Cofactor and Prosthetic Group Biosynthesis,amet[c] + pre4[c] --> ahcys[c] + h[c] + pre5[c],Rv2071c
+155,PC17M,Precorrin-3B C17-methyltransferase,Cofactor and Prosthetic Group Biosynthesis,amet[c] + pre3b[c] --> ahcys[c] + 3.0 h[c] + pre4[c],Rv2066
+156,PC20M,Precorrin-2 C20-methyltransferase,Cofactor and Prosthetic Group Biosynthesis,amet[c] + dscl[c] --> ahcys[c] + h[c] + pre3a[c],Rv2066
+157,PC6AR,Precorrin-6A reductase,Cofactor and Prosthetic Group Biosynthesis,h[c] + nadph[c] + pre6a[c] --> nadp[c] + pre6b[c],Rv2070c
+158,PC6YM,"Precorrin-6Y C5,15-methyltransferase (decarboxylating)",Cofactor and Prosthetic Group Biosynthesis,2.0 amet[c] + pre6b[c] --> 2.0 ahcys[c] + co2[c] + 2.0 h[c] + pre8[c],Rv2072c
+159,PC8XM,Precorrin-8X methylmutase,Cofactor and Prosthetic Group Biosynthesis,h[c] + pre8[c] --> hgbyr[c],Rv2065
+160,PMDPHT,Pyrimidine phosphatase,Cofactor and Prosthetic Group Biosynthesis,5aprbu[c] + h2o[c] --> 4r5au[c] + pi[c],
+161,PNCDC,PNCDC,Cofactor and Prosthetic Group Biosynthesis,h[c] + ptcys[c] --> co2[c] + ptth[c],Rv1092c
+162,PPBNGS,Porphobilinogen synthase,Cofactor and Prosthetic Group Biosynthesis,2.0 5aop[c] --> 2.0 h2o[c] + h[c] + ppbng[c],Rv0512
+163,PPNCL3,4'-Phosphopantothenate:L-cysteine ligase,Cofactor and Prosthetic Group Biosynthesis,4ppan[c] + atp[c] + cys__L[c] --> 4ppcys[c] + amp[c] + h[c] + ppi[c],Rv1391
+164,PPPGO,Protoporphyrinogen oxidase (aerobic),Cofactor and Prosthetic Group Biosynthesis,1.5 o2[c] + pppg9[c] --> 3.0 h2o[c] + ppp9[c],Rv2677c
+165,PYDXNO,Pyridoxine oxidase,Cofactor and Prosthetic Group Biosynthesis,o2[c] + pydxn[c] <=> h2o2[c] + pydx[c],Rv2607
+166,PYDXO,Pyridoxal oxidase,Cofactor and Prosthetic Group Biosynthesis,2.0 h2o[c] + nh4[c] + 0.5 o2[c] + pydx[c] <=> 2.0 h2o2[c] + pydam[c],Rv2607
+167,R05217,Precorrin 3A + Oxygen <=> Precorrin 3B,Cofactor and Prosthetic Group Biosynthesis,h[c] + 0.5 o2[c] + pre3a[c] --> pre3b[c],Rv2064
+168,R05219,Precorrin 5 <=> Precorrin 6X,Cofactor and Prosthetic Group Biosynthesis,amet[c] + h2o[c] + pre5[c] --> ac[c] + ahcys[c] + h[c] + pre6a[c],
+169,R05224_2,"Hydrogenobyrinate  <=> Hydrogenobyrinate a,c diamide",Cofactor and Prosthetic Group Biosynthesis,2.0 atp[c] + 2.0 gln__L[c] + h2o[c] + hgbyr[c] --> 2.0 adp[c] + 2.0 glu__L[c] + 2.0 h[c] + hgbam[c] + ppi[c],Rv2848c
+170,RZ5PP,Alpha-ribazole 5-phosphate phosphatase,Cofactor and Prosthetic Group Biosynthesis,5prdmbz[c] + h2o[c] --> pi[c] + rdmbzi[c],Rv2228c or Rv3113
+171,SHCHD2,Sirohydrochlorin dehydrogenase (NAD),Cofactor and Prosthetic Group Biosynthesis,dscl[c] + nad[c] --> h[c] + nadh[c] + scl[c],Rv2847c
+172,SHCHD3,SHCHD3,Cofactor and Prosthetic Group Biosynthesis,dscl[c] + nad[c] --> h[c] + nadh[c] + scl2[c],Rv2847c
+173,SHCHF,Sirohydrochlorin ferrochelatase,Cofactor and Prosthetic Group Biosynthesis,fe2[c] + scl[c] --> 3.0 h[c] + sheme[c],Rv2393 or Rv2847c
+174,SPODM,Superoxide dismutase,Cofactor and Prosthetic Group Biosynthesis,2.0 h[c] + 2.0 o2s[c] --> h2o2[c] + o2[c],Rv0432 or Rv3846
+175,SUCBZL,O-succinylbenzoate-CoA ligase,Cofactor and Prosthetic Group Biosynthesis,atp[c] + coa[c] + sucbz[c] --> amp[c] + ppi[c] + sbzcoa[c],Rv0542c and Rv0553
+176,SUCBZS,O-succinylbenzoate-CoA synthase,Cofactor and Prosthetic Group Biosynthesis,2shchc[c] --> h2o[c] + sucbz[c],
+177,THMDP,THMDP,Cofactor and Prosthetic Group Biosynthesis,2.0 h2o[c] + thmpp[c] --> h[c] + 2.0 pi[c] + thm[c],Rv3113
+178,TMN,Thiaminase,Cofactor and Prosthetic Group Biosynthesis,h2o[c] + thm[c] --> 4ahmmp[c] + 4mhetz[c] + h[c],
+179,UDCPDP,Undecaprenyl-diphosphatase,Cofactor and Prosthetic Group Biosynthesis,h2o[c] + udcpdp[c] --> h[c] + pi[c] + udcpp[c],Rv2136c
+180,UDCPDPS,Undecaprenyl diphosphate synthase,Cofactor and Prosthetic Group Biosynthesis,frdp[c] + 8.0 ipdp[c] --> 8.0 ppi[c] + udcpdp[c],
+181,UPP3MT,Uroporphyrinogen methyltransferase,Cofactor and Prosthetic Group Biosynthesis,2.0 amet[c] + uppg3[c] --> 2.0 ahcys[c] + dscl[c] + h[c],Rv2847c
+182,UPP3S,Uroporphyrinogen-III synthase,Cofactor and Prosthetic Group Biosynthesis,hmbil[c] --> h2o[c] + uppg3[c],Rv0511
+183,UPPDC1,Uroporphyrinogen decarboxylase (uroporphyrinogen III),Cofactor and Prosthetic Group Biosynthesis,4.0 h[c] + uppg3[c] --> 4.0 co2[c] + cpppg3[c],Rv2678c
+184,UPPDC2,Uroporphyrinogen decarboxylase (uroporphyrinogen I),Cofactor and Prosthetic Group Biosynthesis,4.0 h[c] + uppg1[c] --> 4.0 co2[c] + cpppg1[c],Rv2678c
+185,DTBTST,R_DTBTST,Cofactor and Prosthetic Group Biosynthesis,2.0 amet[c] + dtbt[c] + s[c] --> btn[c] + 2.0 dad_5[c] + 2.0 met__L[c],Rv1589
+186,PYDXS,Pyridoxal 5-phosphate synthase,Cofactor and Prosthetic Group Biosynthesis,g3p[c] + gln__L[c] + ru5p__D[c] --> glu__L[c] + 3.0 h2o[c] + h[c] + pi[c] + pydx5p[c],Rv2604c and Rv2606c
+187,PLPS,Pyridoxal-5-phosphate synthase,Cofactor and Prosthetic Group Biosynthesis,g3p[c] + gln__L[c] + r5p[c] --> glu__L[c] + 3.0 h2o[c] + h[c] + pi[c] + pydx5p[c],Rv2604c and Rv2606c
+188,PDBL_3,R_PDBL_3,Cofactor and Prosthetic Group Biosynthesis,dhap[c] + gln__L[c] + ru5p__D[c] --> glu__L[c] + 3.0 h2o[c] + h[c] + pi[c] + pydx5p[c],Rv2604c and Rv2606c
+189,PDBL_4,R_PDBL_4,Cofactor and Prosthetic Group Biosynthesis,dhap[c] + gln__L[c] + r5p[c] --> glu__L[c] + 3.0 h2o[c] + h[c] + pi[c] + pydx5p[c],Rv2604c and Rv2606c
+190,2PLS,2-phospho-L-lactate synthase,Cofactor and Prosthetic Group Biosynthesis,gtp[c] + lac__L[c] --> 2plac__L[c] + gdp[c] + h[c],
+191,LPPGS,LPPG synthetase,Cofactor and Prosthetic Group Biosynthesis,2plac__L[c] + gtp[c] + h[c] --> lppg[c] + ppi[c],
+192,DMHDRFS_1,DMHDRFS,Cofactor and Prosthetic Group Biosynthesis,34hpp[c] + 4r5au[c] + 2.0 amet[c] + h2o[c] --> 2.0 dad_5[c] + ddhrb[c] + 2.0 met__L[c] + nh4[c] + oxa[c],Rv1173
+193,LPFPLT,LPPG:Fo 2-phospho-L-lactate transferase,Cofactor and Prosthetic Group Biosynthesis,ddhrb[c] + lppg[c] --> f420_0[c] + gmp[c] + h[c],Rv3261 and Rv3262
+194,GF4GL_7,GF4GL 0,Cofactor and Prosthetic Group Biosynthesis,f420_0[c] + glu__L[c] + gtp[c] --> f420_1[c] + gdp[c] + pi[c],Rv3261
+195,GF4GL_1,GF4GL 1,Cofactor and Prosthetic Group Biosynthesis,f420_1[c] + glu__L[c] + gtp[c] --> f420_2[c] + gdp[c] + h[c] + pi[c],Rv3261 and Rv3262
+196,CPMPS,Cyclic pyranopterin monophosphate synthase,Cofactor and Prosthetic Group Biosynthesis,gtp[c] + h2o[c] --> cpmp[c] + ppi[c],((Rv3109 or Rv0869c) and Rv3116 and Rv3111)
+197,ISCS,ISCS,Cofactor and Prosthetic Group Biosynthesis,cys__L[c] + fe2[c] <=> ala__L[c] + fdxox[c],Rv3025c or Rv1464
+198,MOEA1,MNXR79418,Cofactor and Prosthetic Group Biosynthesis,mobd[c] + mptamp[c] --> amp[c] + h2o[c] + moco[c],Rv0994 or Rv0438c
+199,MPTAT,Molybdopterin adenylyltransferase,Cofactor and Prosthetic Group Biosynthesis,atp[c] + h[c] + mpt[c] --> mptamp[c] + ppi[c],Rv0865
+200,MOBA,MNXR63860,Cofactor and Prosthetic Group Biosynthesis,gmp[c] + h[c] + mpt[c] + nad[c] --> h2o[c] + mocogdp[c] + nadh[c],Rv2453c
+201,MOAE1,MNXR85919,Cofactor and Prosthetic Group Biosynthesis,cpmp[c] + h[c] + 2.0 moadcosh[c] --> 2.0 moadcoo[c] + mpt[c],((Rv3119 or Rv0866) and Rv3322c)
+202,MOEB1,MNXR88174,Cofactor and Prosthetic Group Biosynthesis,atp[c] + h2s[c] + moadcoo[c] --> amp[c] + h[c] + moadcosh[c] + ppi[c],Rv3206c and Rv3025c
+203,ADOCBIAH,MNXR85327,Cofactor and Prosthetic Group Biosynthesis,adocbi[c] + h2o[c] <-- adcobhex[c] + appl[c],Rv2231c
+204,COB2,MNXR84736,Cofactor and Prosthetic Group Biosynthesis,2.0 cbl2[c] + nadh[c] <=> 2.0 cbl1[c] + h[c] + nad[c],
+205,CBL2OR_1,NADH:cob(III)alamine oxidoreductase,Cofactor and Prosthetic Group Biosynthesis,2.0 aqcobal[c] + nadh[c] <=> 2.0 cbl2[c] + 2.0 h2o[c] + h[c] + nad[c],
+206,PHEMEt,Heme transport,Cofactor and Prosthetic Group Biosynthesis,pheme[e] --> pheme[c],((Rv0202c or Rv0206c) and Rv0203)
+207,HEMEOS,Heme O synthase,Cofactor and Prosthetic Group Biosynthesis,frdp[c] + h2o[c] + pheme[c] --> hemeO[c] + ppi[c],Rv1451
+208,HEMEAS,Heme A synthase,Cofactor and Prosthetic Group Biosynthesis,h2o[c] + hemeO[c] --> 4.0 h[c] + hemeA[c],Rv2194 and Rv2195 and Rv2196 and Rv1456c and Rv3029c and Rv3028c and Rv2200c and Rv3043c and Rv2193 and Rv1623c and Rv1622c
+209,GSEALD,GSEALD,Cofactor and Prosthetic Group Biosynthesis,glu__L[c] + 2.0 h[c] + nadph[c] --> glu1sa[c] + h2o[c] + nadp[c],
+210,CPPPGO2_1,Oxygen Independent coproporphyrinogen-III oxidase,Cofactor and Prosthetic Group Biosynthesis,2.0 amet[c] + cpppg3[c] --> 2.0 co2[c] + 2.0 dad_2[c] + 2.0 met__L[c] + pppg9[c],Rv2388c
+211,FPRA,R01195,Cofactor and Prosthetic Group Biosynthesis,fdxrd[c] + h[c] + nadp[c] --> fdxox[c] + nadph[c],Rv3106 or Rv0886
+212,THMP,Thiamin phosphatase,Cofactor and Prosthetic Group Biosynthesis,h2o[c] + thmmp[c] --> pi[c] + thm[c],
+213,SHCHCS3,"2-succinyl-6-hydroxy-2,4-cyclohexadiene 1-carboxylate synthase",Cofactor and Prosthetic Group Biosynthesis,2sephchc[c] <=> 2shchc[c] + pyr[c],Rv0555
+214,SEPHCHCS,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase,Cofactor and Prosthetic Group Biosynthesis,akg[c] + h[c] + ichor[c] <=> 2sephchc[c] + co2[c],Rv0555
+215,APPLDHr,Aminopropanol dehydrogenase reversible,Cofactor and Prosthetic Group Biosynthesis,aact[c] + h[c] + nadh[c] --> appl[c] + nad[c],
+216,AOBUTDs,L-2-amino-3-oxobutanoate decarboxylation (spontaneous),Cofactor and Prosthetic Group Biosynthesis,2aobut[c] + h[c] --> aact[c] + co2[c],
+217,DMBI,MNXR18583,Cofactor and Prosthetic Group Biosynthesis,fmnh2[c] + h[c] + nadh[c] + o2[c] <=> barb[c] + dmbzid[c] + e4p[c] + h2o[c] + nad[c],
+218,HETZK,Hydroxyethylthiazole kinase,Cofactor and Prosthetic Group Biosynthesis,4mhetz[c] + atp[c] <=> 4mpetz[c] + adp[c] + h[c],
+219,ADMDC,Adenosylmethionine decarboxylase,Cysteine and methionine metabolism,amet[c] + h[c] <=> ametam[c] + co2[c],
+220,AHCi,Adenosylhomocysteinase,Cysteine and methionine metabolism,ahcys[c] + h2o[c] <=> adn[c] + hcys__L[c],Rv3248c
+221,AHCYSNS,S-adenosylhomocysteine nucleosidase,Cysteine and methionine metabolism,ahcys[c] + h2o[c] --> ade[c] + rhcys[c],Rv0091
+222,CYANST,Cyanide sulfurtransferase,Cysteine and methionine metabolism,cyan[c] + tsul[c] --> h[c] + so3[c] + tcynt[c],Rv0815c or Rv2291 or Rv3117 or Rv3283 or Rv0390
+223,CYSS,Cysteine synthase,Cysteine and methionine metabolism,acser[c] + h2s[c] --> ac[c] + cys__L[c] + h[c],Rv2334 or Rv1336
+224,CYSTL,Cystathionine b-lyase,Cysteine and methionine metabolism,cyst__L[c] + h2o[c] --> hcys__L[c] + nh4[c] + pyr[c],Rv0075 or Rv2294
+225,CYSTS,Cystathionine beta synthase,Cysteine and methionine metabolism,hcys__L[c] + ser__L[c] --> cyst__L[c] + h2o[c],Rv1077
+226,HCYSMT,Homocysteine S-methyltransferase,Cysteine and methionine metabolism,amet[c] + hcys__L[c] --> ahcys[c] + h[c] + met__L[c],Rv2458
+227,HSERTA,Homoserine O trans acetylase,Cysteine and methionine metabolism,accoa[c] + hom__L[c] <=> achms[c] + coa[c],Rv3341
+228,METAT,Methionine adenosyltransferase,Cysteine and methionine metabolism,atp[c] + h2o[c] + met__L[c] --> amet[c] + pi[c] + ppi[c],Rv1392
+229,METOX1s,Methionine oxidation (spontaneous),Cysteine and methionine metabolism,h2o2[c] + met__L[c] --> h2o[c] + metsox_S__L[c],
+230,METOX2s,Methionine oxidation 2 (spontaneous),Cysteine and methionine metabolism,h2o2[c] + met__L[c] --> h2o[c] + metsox_R__L[c],
+231,METS,Methionine synthase,Cysteine and methionine metabolism,5mthf[c] + hcys__L[c] --> h[c] + met__L[c] + thf[c],Rv2124c and Rv1133c
+232,MHPGLUT,5 methyltetrahydropteroyltriglutamate homocysteine S methyltransferase,Cysteine and methionine metabolism,hcys__L[c] + mhpglu[c] --> hpglu[c] + met__L[c],Rv1133c
+233,MTAN,Methylthioadenosine nucleosidase,Cysteine and methionine metabolism,5mta[c] + h2o[c] --> 5mtr[c] + ade[c],Rv0091
+234,SERAT,Serine O-acetyltransferase,Cysteine and methionine metabolism,accoa[c] + ser__L[c] --> acser[c] + coa[c],Rv2335
+235,SERD_L,L-serine deaminase,Cysteine and methionine metabolism,ser__L[c] --> nh4[c] + pyr[c],Rv0069c
+236,SHSL1,O-succinylhomoserine lyase (L-cysteine),Cysteine and methionine metabolism,cys__L[c] + suchms[c] <=> cyst__L[c] + h[c] + succ[c],Rv1079
+237,SHSL4r,O succinylhomoserine lyase  elimination   reversible,Cysteine and methionine metabolism,h2o[c] + suchms[c] <=> 2obut[c] + h[c] + nh4[c] + succ[c],Rv1079
+238,THRD_L,L-threonine deaminase,Cysteine and methionine metabolism,thr__L[c] --> 2obut[c] + nh4[c],Rv1559
+239,AHSERL2,O acetylhomoserine  thiol  lyase,Cysteine and methionine metabolism,achms[c] + h2s[c] --> ac[c] + h[c] + hcys__L[c],Rv3340
+240,CYST_II,R_CYST_II,Cysteine and methionine metabolism,h2s[c] + pser__L[c] --> cys__L[c] + pi[c],Rv0848
+241,SHSL2r,O-succinylhomoserine lyase (H2S),Cysteine and methionine metabolism,h2s[c] + suchms[c] --> h[c] + hcys__L[c] + succ[c],Rv0391
+242,CYSK2_I,O-Phospho-L-Serine-dependent S-Suflocysteine Synthase,Cysteine and methionine metabolism,h[c] + pser__L[c] + tsul[c] --> pi[c] + scys__L[c],Rv0848
+243,CYSM_I,CysO-dependent L-cystein biosynthesis CysM,Cysteine and methionine metabolism,cysOsh[c] + pser__L[c] --> cysOcys__L[c] + pi[c],Rv1336
+244,CYSM_II,CysO-dependent L-cystein biosynthesis Mec+,Cysteine and methionine metabolism,cysOcys__L[c] --> cysO[c] + cys__L[c],Rv1334
+245,CYSO_I,CysO Adenylation by MoeZ,Cysteine and methionine metabolism,atp[c] + cysO[c] + h2o[c] --> cysOamp[c] + h[c] + ppi[c],Rv3206c
+246,CYSO_II,CysO Sulfuration by MoeZ,Cysteine and methionine metabolism,cysOamp[c] + h2s[c] --> amp[c] + cysOsh[c],Rv3206c
+247,MTAP,5  methylthioadenosine phosphorylase,Cysteine and methionine metabolism,5mta[c] + pi[c] --> 5mdr1p[c] + ade[c],Rv0535
+248,EPH,Epoxide hydrolysis,Degradation/Utilization/Assimilation,epox[c] + h2o[c] <=> dhocdc[c],Rv1124 or Rv3176c or Rv1938 or Rv0134 or Rv3617 or Rv3670 or Rv2740
+249,EGTB,EGTB,Ergothioneine biosynthesis,glucys[c] + hercyn[c] + o2[c] --> gluhercyso[c],Rv3703c
+250,EGTC,EGTC,Ergothioneine biosynthesis,fadh2[c] + gluhercyso[c] --> fad[c] + glu__L[c] + hercyso[c],Rv3702c
+251,EGTE,EGTE,Ergothioneine biosynthesis,hercyso[c] --> ergoth[c] + nh4[c] + pyr[c],Rv3700c
+252,EX_acysbmn_e,EX acysbmn LPAREN e RPAREN ,Extracellular exchange,acysbmn[e] <=> ,
+253,EX_ala_B_e,Beta-Alanine exchange,Extracellular exchange,ala_B[e] <=> ,
+254,EX_ala__D_e,D-Alanine exchange,Extracellular exchange,ala__D[e] <=> ,
+255,EX_ala__L_e,L-Alanine exchange,Extracellular exchange,ala__L[e] <=> ,
+256,EX_arab__D_e,D Arabinose exchange,Extracellular exchange,arab__D[e] <=> ,
+257,EX_arab__L_e,L-Arabinose exchange,Extracellular exchange,arab__L[e] <=> ,
+258,EX_arg__L_e,L-Arginine exchange,Extracellular exchange,arg__L[e] <=> ,
+259,EX_asn__L_e,L-Asparagine exchange,Extracellular exchange,asn__L[e] <=> ,
+260,EX_asp__L_e,L-Aspartate exchange,Extracellular exchange,asp__L[e] <=> ,
+261,EX_atp_e,EX atp LPAREN e RPAREN ,Extracellular exchange,atp[e] <=> ,
+262,EX_bmn_e,EX bmn LPAREN e RPAREN ,Extracellular exchange,bmn[e] <=> ,
+263,EX_ca2_e,Calcium exchange,Extracellular exchange,ca2[e] <=> ,
+264,EX_chol_e,Choline exchange,Extracellular exchange,chol[e] <=> ,
+265,EX_cit_e,Citrate exchange,Extracellular exchange,cit[e] <=> ,
+266,EX_cl_e,Chloride exchange,Extracellular exchange,cl[e] <=> ,
+267,EX_co2_e,CO2 exchange,Extracellular exchange,co2[e] <=> ,
+268,EX_coa_e,EX coa LPAREN e RPAREN ,Extracellular exchange,coa[e] <=> ,
+269,EX_cobalt2_e,Co2+ exchange,Extracellular exchange,cobalt2[e] <=> ,
+270,EX_crn_e,L-Carnitine exchange,Extracellular exchange,crn[e] <=> ,
+271,EX_cu2_e,Cu2+ exchange,Extracellular exchange,cu2[e] <=> ,
+272,EX_cytd_e,Cytidine exchange,Extracellular exchange,cytd[e] <=> ,
+273,EX_etha_e,Ethanolamine exchange,Extracellular exchange,etha[e] <=> ,
+274,EX_fe2_e,Fe2+ exchange,Extracellular exchange,fe2[e] <=> ,
+275,EX_fe3_e,Fe3+ exchange,Extracellular exchange,fe3[e] <=> ,
+276,EX_fum_e,Fumarate exchange,Extracellular exchange,fum[e] <=> ,
+277,EX_gal_e,D-Galactose exchange,Extracellular exchange,gal[e] <=> ,
+278,EX_glc__D_e,D-Glucose exchange,Extracellular exchange,glc__D[e] <=> ,
+279,EX_glu__L_e,L-Glutamate exchange,Extracellular exchange,glu__L[e] <=> ,
+280,EX_gly_e,Glycine exchange,Extracellular exchange,gly[e] <=> ,
+281,EX_glyb_e,Glycine betaine exchange,Extracellular exchange,glyb[e] <=> ,
+282,EX_glyc3p_e,Glycerol 3-phosphate exchange,Extracellular exchange,glyc3p[e] <=> ,
+283,EX_glyc_e,Glycerol exchange,Extracellular exchange,glyc[e] <=> ,
+284,EX_gthrd_e,Reduced glutathione exchange,Extracellular exchange,gthrd[e] <=> ,
+285,EX_h2_e,H2 exchange,Extracellular exchange,h2[e] <=> ,
+286,EX_h2co3_e,EX h2co3 LPAREN e RPAREN ,Extracellular exchange,h2co3[e] <=> ,
+287,EX_h2o_e,H2O exchange,Extracellular exchange,h2o[e] <=> ,
+288,EX_h2s_e,Hydrogen sulfide exchange,Extracellular exchange,h2s[e] <=> ,
+289,EX_h_e,H+ exchange,Extracellular exchange,h[e] <=> ,
+290,EX_hdca_e,Hexadecanoate (n-C16:0) exchange,Extracellular exchange,hdca[e] <=> ,
+291,EX_his__L_e,L-Histidine exchange,Extracellular exchange,his__L[e] <=> ,
+292,EX_id3acald_e,Indole 3 acetaldehyde exchange,Extracellular exchange,id3acald[e] <=> ,
+293,EX_ile__L_e,L-Isoleucine exchange,Extracellular exchange,ile__L[e] <=> ,
+294,EX_k_e,K+ exchange,Extracellular exchange,k[e] <=> ,
+295,EX_lac__L_e,L-Lactate exchange,Extracellular exchange,lac__L[e] <=> ,
+296,EX_lcts_e,Lactose exchange,Extracellular exchange,lcts[e] <=> ,
+297,EX_leu__L_e,L-Leucine exchange,Extracellular exchange,leu__L[e] <=> ,
+298,EX_lys__L_e,L-Lysine exchange,Extracellular exchange,lys__L[e] <=> ,
+299,EX_mal__L_e,L-Malate exchange,Extracellular exchange,mal__L[e] <=> ,
+300,EX_malt_e,Maltose exchange,Extracellular exchange,malt[e] <=> ,
+301,EX_malthp_e,EX malthp LPAREN e RPAREN ,Extracellular exchange,malthp[e] <=> ,
+302,EX_meoh_e,Methanol exchange,Extracellular exchange,meoh[e] <=> ,
+303,EX_met__L_e,L-Methionine exchange,Extracellular exchange,met__L[e] <=> ,
+304,EX_mg2_e,Mg exchange,Extracellular exchange,mg2[e] <=> ,
+305,EX_na1_e,Sodium exchange,Extracellular exchange,na1[e] <=> ,
+306,EX_nh4_e,Ammonia exchange,Extracellular exchange,nh4[e] <=> ,
+307,EX_no2_e,Nitrite exchange,Extracellular exchange,no2[e] <=> ,
+308,EX_no3_e,Nitrate exchange,Extracellular exchange,no3[e] <=> ,
+309,EX_no_e,Nitric oxide exchange,Extracellular exchange,no[e] <=> ,
+310,EX_o2_e,O2 exchange,Extracellular exchange,o2[e] <=> ,
+311,EX_ocdca_e,Octadecanoate (n-C18:0) exchange,Extracellular exchange,ocdca[e] <=> ,
+312,EX_orn_e,Ornithine exchange,Extracellular exchange,orn[e] <=> ,
+313,EX_pac_e,Phenylacetic acid exchange,Extracellular exchange,pac[e] <=> ,
+314,EX_pdima_e,EX pdima LPAREN e RPAREN ,Extracellular exchange,pdima[e] <=> ,
+315,EX_phdca_e,EX phdca LPAREN e RPAREN ,Extracellular exchange,phdca[e] <=> ,
+316,EX_phe__L_e,L-Phenylalanine exchange,Extracellular exchange,phe__L[e] <=> ,
+317,EX_pi_e,Phosphate exchange,Extracellular exchange,pi[e] <=> ,
+318,EX_ppa_e,Propionate exchange,Extracellular exchange,ppa[e] <=> ,
+319,EX_ppdima_e,EX ppdima LPAREN e RPAREN ,Extracellular exchange,ppdima[e] <=> ,
+320,EX_pro__L_e,L-Proline exchange,Extracellular exchange,pro__L[e] <=> ,
+321,EX_pyr_e,Pyruvate exchange,Extracellular exchange,pyr[e] <=> ,
+322,EX_rib__D_e,D-Ribose exchange,Extracellular exchange,rib__D[e] <=> ,
+323,EX_ser__D_e,D-Serine exchange,Extracellular exchange,ser__D[e] <=> ,
+324,EX_ser__L_e,L-Serine exchange,Extracellular exchange,ser__L[e] <=> ,
+325,EX_skm_e,Shikimate exchange,Extracellular exchange,skm[e] <=> ,
+326,EX_so4_e,Sulfate exchange,Extracellular exchange,so4[e] <=> ,
+327,EX_succ_e,Succinate exchange,Extracellular exchange,succ[e] <=> ,
+328,EX_tartr__L_e,L-tartrate exchange,Extracellular exchange,tartr__L[e] <=> ,
+329,EX_thr__L_e,L-Threonine exchange,Extracellular exchange,thr__L[e] <=> ,
+330,EX_tre_e,Trehalose exchange,Extracellular exchange,tre[e] <=> ,
+331,EX_trp__L_e,L-Tryptophan exchange,Extracellular exchange,trp__L[e] <=> ,
+332,EX_tsul_e,Thiosulfate exchange,Extracellular exchange,tsul[e] <=> ,
+333,EX_ttdca_e,Tetradecanoate (n-C14:0) exchange,Extracellular exchange,ttdca[e] <=> ,
+334,EX_tyr__L_e,L-Tyrosine exchange,Extracellular exchange,tyr__L[e] <=> ,
+335,EX_val__L_e,L-Valine exchange,Extracellular exchange,val__L[e] <=> ,
+336,EX_ac_e,Acetate exchange,Extracellular exchange,ac[e] <=> ,
+337,EX_4abz_e,4 Aminobenzoate exchange,Extracellular exchange,4abz[e] <=> ,
+338,EX_for_e,Formate exchange,Extracellular exchange,for[e] <=> ,
+339,EX_akg_e,2-Oxoglutarate exchange,Extracellular exchange,akg[e] <=> ,
+340,EX_gua_e,Guanine exchange,Extracellular exchange,gua[e] <=> ,
+341,EX_ad_e,EX ad LPAREN e RPAREN ,Extracellular exchange,ad[e] <=> ,
+342,EX_urea_e,Urea exchange,Extracellular exchange,urea[e] <=> ,
+343,EX_ni2_e,Ni2+ exchange,Extracellular exchange,ni2[e] <=> ,
+344,EX_mn2_e,Mn2+ exchange,Extracellular exchange,mn2[e] <=> ,
+345,EX_chsterol_e,Cholesterol exchange,Extracellular exchange,chsterol[e] <=> ,
+346,EX_4hba_e,4-Hydroxy-benzyl alcohol exchange,Extracellular exchange,4hba[e] <=> ,
+347,EX_pydxn_e,Pyridoxine exchange,Extracellular exchange,pydxn[e] <=> ,
+348,EX_glyclt_e,Glycolate exchange,Extracellular exchange,glyclt[e] <=> ,
+349,EX_co_e,EX co LPAREN e RPAREN ,Extracellular exchange,co[e] <=> ,
+350,EX_pheme_e,Protoheme exchange,Extracellular exchange,pheme[e] <=> ,
+351,EX_hia_e,R_EX_hia_e,Extracellular exchange,hia[e] <=> ,
+352,EX_acald_e,Acetaldehyde exchange,Extracellular exchange,acald[e] <=> ,
+353,EX_ocdcea_e,Octadecenoate (n-C18:1) exchange,Extracellular exchange,ocdcea[e] <=> ,
+354,EX_gln__L_e,L-Glutamine exchange,Extracellular exchange,gln__L[e] <=> ,
+355,EX_etoh_e,Ethanol exchange,Extracellular exchange,etoh[e] <=> ,
+356,EX_adocbl_e,Adenosylcobalamin exchange,Extracellular exchange,adocbl[e] <=> ,
+357,EX_mobd_e,Molybdate exchange,Extracellular exchange,mobd[e] <=> ,
+358,EX_btn_e,Biotin exchange,Extracellular exchange,btn[e] <=> ,
+359,EX_nodcoa_e,Nodcoa exchange,Extracellular exchange,nodcoa[e] <=> ,
+360,EX_octscoa_e,Octscoa exchange,Extracellular exchange,octscoa[e] <=> ,
+361,EX_pc_TB_e,R_EX_pc_TB_e,Extracellular exchange,pc_TB[e] <=> ,
+362,TAG,MNXR87026,Fatty acid biosynthesis,10.0 12dgr_TB[c] + arachcoa[c] + hexccoa[c] + nodcoa[c] + pentdcoa[c] + 2.0 pmtcoa[c] + 3.0 stcoa[c] --> 10.0 coa[c] + 10.0 tag_TB[c],Rv3130c or Rv3734c or Rv3234c or Rv3088 or Rv0221 or Rv0895 or Rv1425 or Rv1760 or Rv2285 or Rv2484c or Rv3087 or Rv3233c or Rv3371 or Rv3480c or Rv3740c
+363,2AGPEAT160,2-acyl-glycerophospho-ethanolamine acyltransferase (n-C16:0),Fatty Acid Metabolism,2agpe160[c] + atp[c] + hdca[c] --> amp[c] + pe160[c] + ppi[c],
+364,2AGPEAT180,2-acyl-glycerophospho-ethanolamine acyltransferase (n-C18:0),Fatty Acid Metabolism,2agpe180[c] + atp[c] + ocdca[c] --> amp[c] + pe180[c] + ppi[c],
+365,AACPS10,AACPS10,Fatty Acid Metabolism,ACP[c] + atp[c] + mocdca[c] --> amp[c] + mstrACP[c] + ppi[c],
+366,AACPS3,Acyl-[acyl-carrier-protein] synthetase  (n-C16:0),Fatty Acid Metabolism,ACP[c] + atp[c] + hdca[c] --> amp[c] + palmACP[c] + ppi[c],
+367,ACCC,Acyl-CoA Carboxylase,Fatty Acid Metabolism,co2[c] + hexccoa[c] --> chexccoa[c] + h2o[c],Rv3280 and Rv3799c and Rv3285
+368,ACChex_1,ACChex,Fatty Acid Metabolism,coa[c] + 2.0 h[c] + hexc[c] --> h2o[c] + hexccoa[c],Rv3280
+369,DESAT16,Palmitoyl CoA desaturase  n C160CoA   n C161CoA ,Fatty Acid Metabolism,h[c] + nadph[c] + o2[c] + pmtcoa[c] --> 2.0 h2o[c] + hdcoa[c] + nadp[c],Rv3229c
+370,DESAT18_1,Stearoyl CoA desaturase  n C180CoA   n C181CoA ,Fatty Acid Metabolism,h2o[c] + nadph[c] + stcoa[c] --> 4.0 h[c] + nadp[c] + odecoa[c],Rv1094 and Rv0824c and Rv3229c
+371,FACOAE140_1,Fatty-acid-CoA thioesterase (tetradecanoate),Fatty Acid Metabolism,2.0 h[c] + tdcoa[c] --> coa[c] + 2.0 h2o[c] + ttdca[c],Rv2605c or Rv0098 or Rv1618
+372,FACOAE160,Fatty-acid-CoA thioesterase (hexadecanoate),Fatty Acid Metabolism,h2o[c] + pmtcoa[c] --> coa[c] + h[c] + hdca[c],Rv0098 or Rv2605c or Rv1618
+373,FACOAE180,Fatty-acid-CoA thioesterase (octadecanoate),Fatty Acid Metabolism,h2o[c] + stcoa[c] --> coa[c] + h[c] + ocdca[c],Rv0098 or Rv2605c or Rv1618
+374,FACOAL140_1,Fatty-acid--CoA ligase (tetradecanoate),Fatty Acid Metabolism,atp[c] + coa[c] + 3.0 h2o[c] + ttdca[c] <=> amp[c] + 3.0 h[c] + ppi[c] + tdcoa[c],Rv3801c or Rv3515c or Rv3506 or Rv2950c or Rv2941 or Rv2590 or Rv2187 or Rv1750c or Rv1549 or Rv1521 or Rv1206 or Rv1185c or Rv0852 or Rv0404 or Rv0214 or Rv0119 or Rv0035 or Rv0099 or Rv0166 or Rv0270 or Rv0551c or Rv1058 or Rv1193 or Rv1427c or Rv1529 or Rv1550 or Rv1925 or Rv2505c or Rv2930 or Rv2948c or Rv3089 or Rv3513c or Rv3561 or Rv3826
+375,FACOAL160,Fatty acid  CoA ligase  hexadecanoate ,Fatty Acid Metabolism,atp[c] + coa[c] + hdca[c] <=> amp[c] + pmtcoa[c] + ppi[c],Rv3826 or Rv1529 or Rv1185c or Rv2590
+376,FACOAL161,Fatty acid  CoA ligase  hexadecenoate ,Fatty Acid Metabolism,atp[c] + coa[c] + hdcea[c] <=> amp[c] + hdcoa[c] + ppi[c],Rv0035 or Rv0099 or Rv0119 or Rv0166 or Rv0214 or Rv0270 or Rv0404 or Rv0551c or Rv0852 or Rv1058 or Rv1185c or Rv1193 or Rv1206 or Rv1427c or Rv1521 or Rv1529 or Rv1549 or Rv1550 or Rv1750c or Rv1925 or Rv2187 or Rv2505c or Rv2590 or Rv2930 or Rv2941 or Rv2948c or Rv2950c or Rv3089 or Rv3506 or Rv3513c or Rv3515c or Rv3561 or Rv3801c or Rv3826
+377,FACOAL180,Fatty acid  CoA ligase  octadecanoate ,Fatty Acid Metabolism,atp[c] + coa[c] + ocdca[c] <=> amp[c] + ppi[c] + stcoa[c],Rv0035 or Rv0099 or Rv0119 or Rv0166 or Rv0214 or Rv0270 or Rv0404 or Rv0551c or Rv0852 or Rv1058 or Rv1185c or Rv1193 or Rv1206 or Rv1427c or Rv1521 or Rv1529 or Rv1549 or Rv1550 or Rv1750c or Rv1925 or Rv2187 or Rv2505c or Rv2590 or Rv2930 or Rv2941 or Rv2948c or Rv2950c or Rv3089 or Rv3506 or Rv3513c or Rv3515c or Rv3561 or Rv3801c or Rv3826
+378,FACOAL181_2,Fatty acid  CoA ligase  octadecenoate ,Fatty Acid Metabolism,atp[c] + coa[c] + h2o[c] + ocdcea[c] <=> amp[c] + h[c] + odecoa[c] + ppi[c],Rv3826 or Rv1618 or Rv1529
+379,FACOAL80,Fatty-acid--CoA ligase (octanoate),Fatty Acid Metabolism,atp[c] + coa[c] + octa[c] <=> amp[c] + occoa[c] + ppi[c],Rv3826 or Rv1529 or Rv1185c or Rv2590 or Rv0099
+380,FAO1,Fatty acid oxidation (tetradecanoate),Fatty Acid Metabolism,atp[c] + 7.0 coa[c] + 6.0 fad[c] + 6.0 h2o[c] + 6.0 nad[c] + ttdca[c] --> 7.0 accoa[c] + amp[c] + 6.0 fadh2[c] + 6.0 h[c] + 6.0 nadh[c] + ppi[c],Rv0468 and Rv0859 and Rv0860 and Rv1144 and Rv1323
+381,FAO10,FAO10,Fatty Acid Metabolism,atp[c] + 9.0 coa[c] + 7.0 fad[c] + 8.0 h2o[c] + 8.0 nad[c] + ocdcea[c] --> 9.0 accoa[c] + amp[c] + 7.0 fadh2[c] + 8.0 h[c] + 8.0 nadh[c] + ppi[c],Rv0468 and Rv0859 and Rv0860 and Rv1144 and Rv1323
+382,FAO11,FAO11,Fatty Acid Metabolism,atp[c] + 8.0 coa[c] + 6.0 fad[c] + 7.0 h2o[c] + hdcea[c] + 7.0 nad[c] --> 8.0 accoa[c] + amp[c] + 6.0 fadh2[c] + 7.0 h[c] + 7.0 nadh[c] + ppi[c],Rv0468 and Rv0859 and Rv0860 and Rv1144 and Rv1323
+383,FAO2,Fatty acid oxidation (n-C16:0),Fatty Acid Metabolism,atp[c] + 8.0 coa[c] + 7.0 fad[c] + 7.0 h2o[c] + hdca[c] + 7.0 nad[c] --> 8.0 accoa[c] + amp[c] + 7.0 fadh2[c] + 7.0 h[c] + 7.0 nadh[c] + ppi[c],Rv0468 and Rv0859 and Rv0860 and Rv1144 and Rv1323
+384,FAO3,Fatty acid oxidation (octadecanoate),Fatty Acid Metabolism,atp[c] + 9.0 coa[c] + 8.0 fad[c] + 8.0 h2o[c] + 8.0 nad[c] + ocdca[c] --> 9.0 accoa[c] + amp[c] + 8.0 fadh2[c] + 8.0 h[c] + 8.0 nadh[c] + ppi[c],Rv0468 and Rv0859 and Rv0860 and Rv1144 and Rv1323
+385,FAS100,Fatty acid synthase  n C100 ,Fatty Acid Metabolism,3.0 h[c] + malcoa[c] + 2.0 nadph[c] + octa[c] --> co2[c] + coa[c] + dca[c] + h2o[c] + 2.0 nadp[c],Rv1350 and Rv2524c and Rv1484 and Rv2947c
+386,FAS120,Fatty acid synthase  n C120 ,Fatty Acid Metabolism,dca[c] + 3.0 h[c] + malcoa[c] + 2.0 nadph[c] --> co2[c] + coa[c] + ddca[c] + h2o[c] + 2.0 nadp[c],Rv1350 and Rv2524c and Rv1484 and Rv2947c
+387,FAS140,Fatty acid synthase  n C140 ,Fatty Acid Metabolism,ddca[c] + 3.0 h[c] + malcoa[c] + 2.0 nadph[c] --> co2[c] + coa[c] + h2o[c] + 2.0 nadp[c] + ttdca[c],Rv0533c or (Rv1350 and Rv2524c and Rv1484 and Rv2947c)
+388,FAS160,Fatty acid synthase  n C160 ,Fatty Acid Metabolism,3.0 h[c] + malcoa[c] + 2.0 nadph[c] + ttdca[c] --> co2[c] + coa[c] + h2o[c] + hdca[c] + 2.0 nadp[c],Rv1350 and Rv2524c and Rv1484 and Rv2947c
+389,FAS161,Fatty acid synthase  n C161 ,Fatty Acid Metabolism,4.0 h[c] + malcoa[c] + 3.0 nadph[c] + o2[c] + ttdca[c] --> co2[c] + coa[c] + 3.0 h2o[c] + hdcea[c] + 3.0 nadp[c],Rv1350 and Rv2524c and Rv1484 and Rv2947c
+390,FAS180,Fatty acid synthase  n C180 ,Fatty Acid Metabolism,3.0 h[c] + hdca[c] + malcoa[c] + 2.0 nadph[c] --> co2[c] + coa[c] + h2o[c] + 2.0 nadp[c] + ocdca[c],Rv1350 and Rv2524c and Rv1484 and Rv2947c
+391,FAS181,Fatty acid synthase  n C181 ,Fatty Acid Metabolism,4.0 h[c] + hdca[c] + malcoa[c] + 3.0 nadph[c] + o2[c] --> co2[c] + coa[c] + 3.0 h2o[c] + 3.0 nadp[c] + ocdcea[c],Rv1350 and Rv2524c and Rv1484 and Rv2947c
+392,FAS200,FAS200,Fatty Acid Metabolism,3.0 h[c] + malcoa[c] + 2.0 nadph[c] + ocdca[c] --> arach[c] + co2[c] + coa[c] + h2o[c] + 2.0 nadp[c],Rv1350 and Rv2524c and Rv1484 and Rv2947c
+393,FAS240_L,Fatty acid synthase  n C240   lumped reaction,Fatty Acid Metabolism,9.0 h[c] + 3.0 malcoa[c] + 6.0 nadph[c] + ocdca[c] --> 3.0 co2[c] + 3.0 coa[c] + 3.0 h2o[c] + 6.0 nadp[c] + ttc[c],Rv1350 and Rv2524c and Rv1484 and Rv2947c
+394,FAS260,Fatty acid synthase  n C260 ,Fatty Acid Metabolism,3.0 h[c] + malcoa[c] + 2.0 nadph[c] + ttc[c] --> co2[c] + coa[c] + h2o[c] + hexc[c] + 2.0 nadp[c],Rv1350 and Rv2524c and Rv1484 and Rv2947c
+395,FAS80_L,Fatty acid synthase  n C80   lumped reaction,Fatty Acid Metabolism,accoa[c] + 8.0 h[c] + 3.0 malcoa[c] + 6.0 nadph[c] --> 3.0 co2[c] + 4.0 coa[c] + 2.0 h2o[c] + 6.0 nadp[c] + octa[c],Rv1350 and Rv2524c and Rv1484 and Rv2947c
+396,FASm180,FASm180,Fatty Acid Metabolism,15.0 h[c] + 4.0 malcoa[c] + mmcoa__S[c] + 10.0 nadph[c] + octa[c] --> 5.0 co2[c] + 5.0 coa[c] + 5.0 h2o[c] + mocdca[c] + 10.0 nadp[c],Rv1663 or Rv1662
+397,FASm2002,FASm2002,Fatty Acid Metabolism,3.0 h[c] + mmcoa__S[c] + 2.0 nadph[c] + ocdca[c] --> co2[c] + coa[c] + h2o[c] + marach[c] + 2.0 nadp[c],Rv1663 or Rv1662
+398,FASm2202,FASm2202,Fatty Acid Metabolism,3.0 h[c] + marach[c] + mmcoa__S[c] + 2.0 nadph[c] --> co2[c] + coa[c] + dmbhn[c] + h2o[c] + 2.0 nadp[c],Rv2940c
+399,FASm2402,FASm2402,Fatty Acid Metabolism,dmbhn[c] + 3.0 h[c] + mmcoa__S[c] + 2.0 nadph[c] --> co2[c] + coa[c] + h2o[c] + 2.0 nadp[c] + tmlgnc[c],Rv2940c
+400,G16MTM1,"Glycolipid 1,6-alpha-D-mannosyltransferase",Fatty Acid Metabolism,gdpmann[c] + ptd1ino160190[c] --> PIM1[c] + gdp[c] + h[c],Rv2610c
+401,G16MTM10,G16MTM10,Fatty Acid Metabolism,PIM5[c] + gdpmann[c] --> PIM6[c] + gdp[c] + h[c],Rv1500
+402,G16MTM4,G16MTM4,Fatty Acid Metabolism,Ac1PIM2[c] + decdman1p_tb[c] --> Ac1PIM3[c] + decd_tb[c] + h[c],
+403,G16MTM5,G16MTM5,Fatty Acid Metabolism,Ac1PIM3[c] + decdman1p_tb[c] --> Ac1PIM4[c] + decd_tb[c] + h[c],
+404,G16MTM6,G16MTM6,Fatty Acid Metabolism,PIM1[c] + gdpmann[c] --> PIM2[c] + gdp[c] + h[c],Rv2188c
+405,G16MTM7,G16MTM7,Fatty Acid Metabolism,PIM2[c] + gdpmann[c] --> PIM3[c] + gdp[c] + h[c],
+406,G16MTM8,G16MTM8,Fatty Acid Metabolism,PIM3[c] + gdpmann[c] --> PIM4[c] + gdp[c] + h[c],
+407,G16MTM9,G16MTM9,Fatty Acid Metabolism,PIM4[c] + gdpmann[c] --> PIM5[c] + gdp[c] + h[c],Rv1159
+408,LPLIPAL2E160,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C16:0)",Fatty Acid Metabolism,2agpe160[c] + h2o[c] --> g3pe[c] + h[c] + hdca[c],Rv0183
+409,LPLIPAL2E180,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C18:0)",Fatty Acid Metabolism,2agpe180[c] + h2o[c] --> g3pe[c] + h[c] + ocdca[c],Rv0183 or Rv0215c or Rv0752c or Rv0873 or Rv2789c or Rv3274c or (Rv3563 and Rv3564)
+410,MANAT1,MANAT1,Fatty Acid Metabolism,PIM1[c] + pmtcoa[c] --> Ac1PIM1[c] + coa[c],Rv2611c
+411,MANAT2,MANAT2,Fatty Acid Metabolism,PIM2[c] + pmtcoa[c] --> Ac1PIM2[c] + coa[c],Rv2611c
+412,MANAT3,MANAT3,Fatty Acid Metabolism,Ac1PIM2[c] + pmtcoa[c] --> Ac2PIM2[c] + coa[c],
+413,MCD,Malonyl-CoA Decarboxylase cytoplasmic,Fatty Acid Metabolism,h[c] + malcoa[c] --> accoa[c] + co2[c],Rv2247 and Rv3799c and Rv3280 and Rv3281 and Rv3285
+414,MCOATA,Malonyl-CoA-ACP transacylase,Fatty Acid Metabolism,ACP[c] + malcoa[c] <=> coa[c] + malACP[c],Rv2243
+415,MMCD,Methylmalonyl-CoA decarboxylase,Fatty Acid Metabolism,h[c] + mmcoa__S[c] --> co2[c] + ppcoa[c],Rv3799c
+416,MME_1,Methylmalonyl-CoA epimerase,Fatty Acid Metabolism,mmcoa__R[c] <-- 0.001 aqcobal[c] + mmcoa__S[c],Rv1322A or Rv0855 or Rv1143
+417,MMM2r,R_MMM2r,Fatty Acid Metabolism,0.001 aqcobal[c] + succoa[c] <-- mmcoa__R[c],Rv1492 and Rv1493
+418,OCOAT1,3-oxoacid CoA-transferase (Succinyl-CoA: acetoacetate),Fatty Acid Metabolism,acac[c] + succoa[c] <=> aacoa[c] + succ[c],Rv2503c and Rv2504c
+419,PAPA160,Phosphatidate phosphatase (n-C16:0),Fatty Acid Metabolism,h2o[c] + pa160[c] --> 12dgr160[c] + pi[c],Rv1755c
+420,PATS,PATS,Fatty Acid Metabolism,5.0 h[c] + ocdca[c] + 4.0 tmlgnc[c] + tre[c] --> 5.0 h2o[c] + pat[c],
+421,PHDCATA,PHDCATA,Fatty Acid Metabolism,ACP[c] + phdcacoa[c] <=> coa[c] + phdcaACP[c],
+422,PLCD,PLCD,Fatty Acid Metabolism,h2o[c] + ptd1ino160[c] --> 12dgr160[c] + h[c] + mi1p__D[c],Rv1755c
+423,PLIPA1E160,PLIPA1E160,Fatty Acid Metabolism,h2o[c] + pe160[c] --> 2agpe160[c] + h[c] + hdca[c],
+424,PLIPA1E180,PLIPA1E180,Fatty Acid Metabolism,h2o[c] + pe180[c] --> 2agpe180[c] + h[c] + ocdca[c],
+425,TDMS1,TDMS1,Fatty Acid Metabolism,2.0 h[c] + mmycolate[c] + mycolate[c] + tre[c] --> 2.0 h2o[c] + tdm1[c],
+426,TDMS2,TDMS2,Fatty Acid Metabolism,2.0 h[c] + mmmycolate[c] + mycolate[c] + tre[c] --> 2.0 h2o[c] + tdm2[c],
+427,TDMS3,TDMS3,Fatty Acid Metabolism,2.0 h[c] + mkmycolate[c] + mycolate[c] + tre[c] --> 2.0 h2o[c] + tdm3[c],
+428,TDMS4,TDMS4,Fatty Acid Metabolism,2.0 h[c] + kmycolate[c] + mycolate[c] + tre[c] --> 2.0 h2o[c] + tdm4[c],
+429,TMHAS1,TMHAS1,Fatty Acid Metabolism,tdm1[c] + tdm2[c] + tre[c] --> 2.0 h2o[c] + tmha1[c],
+430,TMHAS2,TMHAS2,Fatty Acid Metabolism,tdm1[c] + tdm3[c] + tre[c] --> 2.0 h2o[c] + tmha2[c],
+431,TMHAS3,TMHAS3,Fatty Acid Metabolism,tdm1[c] + tdm4[c] + tre[c] --> 2.0 h2o[c] + tmha3[c],
+432,TMHAS4,TMHAS4,Fatty Acid Metabolism,tdm2[c] + tdm3[c] + tre[c] --> 2.0 h2o[c] + tmha4[c],
+433,HDECH,R_HDECH,Fatty Acid Metabolism,1hdecg3p[c] + h2o[c] <=> glyc3p[c] + 3.0 h[c] + hdcea[c],
+434,FAD_1,R_FAD_1,Fatty Acid Metabolism,coa[c] + fad[c] + nad[c] + octscoa[c] --> accoa[c] + fadh2[c] + hexscoa[c] + nadh[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+435,FAD_2,R_FAD_2,Fatty Acid Metabolism,coa[c] + fad[c] + hexscoa[c] + nad[c] --> accoa[c] + fadh2[c] + nadh[c] + tetscoa[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+436,FAD_3,R_FAD_3,Fatty Acid Metabolism,coa[c] + fad[c] + nad[c] + tetscoa[c] --> accoa[c] + doscoa[c] + fadh2[c] + nadh[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+437,FAD_4,R_FAD_4,Fatty Acid Metabolism,coa[c] + doscoa[c] + fad[c] + nad[c] --> accoa[c] + eiscoa[c] + fadh2[c] + nadh[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+438,FAD_5,R_FAD_5,Fatty Acid Metabolism,coa[c] + eiscoa[c] + fad[c] + nad[c] --> accoa[c] + fadh2[c] + nadh[c] + octdcoa[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+439,FAD_6,R_FAD_6,Fatty Acid Metabolism,coa[c] + fad[c] + nad[c] + octdcoa[c] --> accoa[c] + fadh2[c] + hexdcoa[c] + nadh[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+440,FAD_7,R_FAD_7,Fatty Acid Metabolism,coa[c] + fad[c] + hexdcoa[c] + nad[c] --> accoa[c] + fadh2[c] + nadh[c] + tdcoa[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+441,FAD_8,R_FAD_8,Fatty Acid Metabolism,coa[c] + fad[c] + nad[c] + tdcoa[c] --> accoa[c] + dodcoa[c] + fadh2[c] + nadh[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+442,FAD_9,R_FAD_9,Fatty Acid Metabolism,coa[c] + dodcoa[c] + fad[c] + nad[c] --> accoa[c] + decoa[c] + fadh2[c] + nadh[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+443,FAD_10,R_FAD_10,Fatty Acid Metabolism,coa[c] + decoa[c] + fad[c] + nad[c] --> accoa[c] + fadh2[c] + nadh[c] + occoa[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+444,FAD_11,R_FAD_11,Fatty Acid Metabolism,coa[c] + fad[c] + nad[c] + occoa[c] --> accoa[c] + fadh2[c] + hexcoa[c] + nadh[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+445,FAD_12,R_FAD_12,Fatty Acid Metabolism,coa[c] + fad[c] + hexcoa[c] + nad[c] --> accoa[c] + butcoa[c] + fadh2[c] + nadh[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+446,FAD_13,R_FAD_13,Fatty Acid Metabolism,butcoa[c] + coa[c] + fad[c] + 3.0 h2o[c] + nad[c] --> 2.0 accoa[c] + fadh2[c] + 3.0 h[c] + nadh[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+447,FAD_20,R_FAD_20,Fatty Acid Metabolism,coa[c] + fad[c] + nad[c] + nodcoa[c] --> accoa[c] + fadh2[c] + hepdcoa[c] + nadh[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+448,FAD_21,R_FAD_21,Fatty Acid Metabolism,coa[c] + fad[c] + hepdcoa[c] + nad[c] --> accoa[c] + fadh2[c] + nadh[c] + pentdcoa[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+449,FAD_22,R_FAD_22,Fatty Acid Metabolism,coa[c] + fad[c] + nad[c] + pentdcoa[c] --> accoa[c] + fadh2[c] + nadh[c] + trdcalcoa[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+450,FAD_23,R_FAD_23,Fatty Acid Metabolism,coa[c] + fad[c] + nad[c] + trdcalcoa[c] --> accoa[c] + fadh2[c] + nadh[c] + undcoa[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+451,FAD_24,R_FAD_24,Fatty Acid Metabolism,coa[c] + fad[c] + nad[c] + undcoa[c] --> accoa[c] + fadh2[c] + nadh[c] + nndccoa[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+452,FAD_25,R_FAD_25,Fatty Acid Metabolism,coa[c] + fad[c] + nad[c] + nndccoa[c] --> accoa[c] + fadh2[c] + hepcoa[c] + nadh[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+453,FAD_26,R_FAD_26,Fatty Acid Metabolism,coa[c] + fad[c] + hepcoa[c] + nad[c] --> accoa[c] + fadh2[c] + nadh[c] + ptcoa[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+454,FAD_27,R_FAD_27,Fatty Acid Metabolism,coa[c] + fad[c] + nad[c] + ptcoa[c] --> accoa[c] + fadh2[c] + nadh[c] + ppcoa[c],((Rv0131c or Rv0154c or Rv0215c or Rv0231 or Rv0244c or Rv0271c or Rv0400c or Rv0752c or Rv0873 or Rv0972c or Rv0975c or Rv1346 or Rv1467c or Rv1679 or Rv1933c or Rv1934c or Rv2724c or Rv2789c or Rv3061c or Rv3139 or Rv3140 or Rv3274c or Rv3504 or Rv3505 or Rv3543c or Rv3544c or Rv3560c or Rv3562 or Rv3563 or Rv3564 or Rv3573c or Rv3761c or Rv3797 or Rv0672 or Rv2500c) and (Rv0222 or Rv0456c or Rv0632c or Rv0673 or Rv0675 or Rv0971c or Rv1070c or Rv1071c or Rv1141c or Rv1142c or Rv1472 or Rv1935c or Rv2486 or Rv2679 or Rv2831 or Rv3039c or Rv3516 or Rv3550 or Rv3774 or Rv0905 or Rv3374 or Rv3373) and (Rv0468 or Rv1715 or Rv1912c or Rv3141) and (Rv0243 or Rv1074c or Rv3546 or Rv3556c or Rv1323 or Rv0859))
+455,ADCL,4-aminobenzoate synthase,Folate Metabolism,4adcho[c] --> 4abz[c] + h[c] + pyr[c],Rv0812
+456,ADCS,4-amino-4-deoxychorismate synthase,Folate Metabolism,chor[c] + gln__L[c] --> 4adcho[c] + glu__L[c],Rv0013 and Rv1005c
+457,DHFS,Dihydrofolate synthase,Folate Metabolism,atp[c] + dhpt[c] + glu__L[c] --> adp[c] + dhf[c] + h[c] + pi[c],Rv2447c
+458,DHNPA_1,Dihydroneopterin aldolase,Folate Metabolism,dhnpt[c] --> 2ahhmp[c] + gcald[c],Rv3607c
+459,DHNPA2r,Dihydroneopterin aldolase reversible,Folate Metabolism,dhnpt[c] --> 6hmhpt[c] + gcald[c],Rv3607c
+460,DHPS2,Dihydropteroate synthase,Folate Metabolism,4abz[c] + 6hmhptpp[c] --> dhpt[c] + ppi[c],Rv3608c or Rv1207
+461,DNMPPA,Dihydroneopterin monophosphate dephosphorylase,Folate Metabolism,dhpmp[c] + h2o[c] --> dhnpt[c] + pi[c],
+462,DNTPPA,Dihydroneopterin triphosphate pyrophosphatase,Folate Metabolism,ahdt[c] + h2o[c] --> dhpmp[c] + h[c] + ppi[c],
+463,FOLD3,Dihydropteroate synthase,Folate Metabolism,2ahhmd[c] + 4abz[c] --> dhpt[c] + ppi[c],Rv3608c or Rv1207
+464,FTHFD,Formyltetrahydrofolate deformylase,Folate Metabolism,10fthf[c] + h2o[c] --> for[c] + h[c] + thf[c],Rv2964
+465,GLYCL,Glycine Cleavage System,Folate Metabolism,gly[c] + nad[c] + thf[c] --> co2[c] + mlthf[c] + nadh[c] + nh4[c],Rv1826
+466,GTPCI,GTP cyclohydrolase I,Folate Metabolism,gtp[c] + h2o[c] --> ahdt[c] + for[c] + h[c],Rv3609c
+467,HPPK,2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase,Folate Metabolism,2ahhmp[c] + atp[c] --> 2ahhmd[c] + amp[c] + h[c],Rv3606c
+468,HPPK2,6-hydroxymethyl-dihydropterin pyrophosphokinase,Folate Metabolism,6hmhpt[c] + atp[c] --> 6hmhptpp[c] + amp[c] + h[c],Rv3606c
+469,MTHFC,Methenyltetrahydrofolate cyclohydrolase,Folate Metabolism,h2o[c] + methf[c] <=> 10fthf[c] + h[c],Rv3356c
+470,MTHFD,Methylenetetrahydrofolate dehydrogenase (NADP),Folate Metabolism,mlthf[c] + nadp[c] <=> methf[c] + nadph[c],Rv3356c
+471,MTHFR2,"5,10-methylenetetrahydrofolate reductase (NADH)",Folate Metabolism,2.0 h[c] + mlthf[c] + nadh[c] --> 5mthf[c] + nad[c],
+472,THFGLUS,TetrahydrofolateL glutamate gamma ligase  ADP forming ,Folate Metabolism,atp[c] + glu__L[c] + thf[c] <=> adp[c] + h[c] + pi[c] + thfglu[c],Rv2447c
+473,FCLPA,L-fuculose 1-phosphate aldolase,Fructose and mannose metabolism,fc1p[c] <=> dhap[c] + lald__L[c],Rv0727c
+474,GFUCS,GDP-L-fucose synthase,Fructose and mannose metabolism,gdpddman[c] + h[c] + nadph[c] --> gdpfuc[c] + nadp[c],Rv1512
+475,GMAND,GDP-D-mannose dehydratase,Fructose and mannose metabolism,gdpmann[c] --> gdpddman[c] + h2o[c],Rv0112 or Rv1511
+476,MAN1PT,Mannose 1 phosphate guanylyltransferase,Fructose and mannose metabolism,gtp[c] + h[c] + man1p[c] --> gdpmann[c] + ppi[c],Rv3264c
+477,MAN1PT2,Mannose-1-phosphate guanylyltransferase (GDP),Fructose and mannose metabolism,gdp[c] + h[c] + man1p[c] --> gdpmann[c] + pi[c],Rv3264c
+478,MAN6PI,Mannose-6-phosphate isomerase,Fructose and mannose metabolism,man6p[c] <=> f6p[c],Rv3255c
+479,PMANM,Phosphomannomutase,Fructose and mannose metabolism,man1p[c] <=> man6p[c],Rv3257c or Rv3308
+480,GLYALDDr,D-Glyceraldehyde dehydrogenase,Glycerolipid metabolism,glyald[c] + h2o[c] + nad[c] --> glyc__R[c] + 2.0 h[c] + nadh[c],Rv2858c or Rv0458
+481,ALCD19y,Alcohol dehydrogenase  glycerol  NADP ,Glycerolipid metabolism,glyald[c] + h[c] + nadph[c] <=> glyc[c] + nadp[c],Rv3045
+482,AGPAT160,1-hexadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:0),Glycerophospholipid metabolism,1hdecg3p[c] + palmACP[c] --> ACP[c] + pa160[c],Rv2182c or Rv2483c
+483,AGPAT160190,AGPAT160190,Glycerophospholipid metabolism,1hdecg3p[c] + mstrACP[c] --> ACP[c] + pa160190[c],Rv2182c or Rv2483c
+484,AGPAT190,AGPAT190,Glycerophospholipid metabolism,1msg3p[c] + mstrACP[c] --> ACP[c] + pa190190[c],Rv2483c or Rv2182c
+485,CDAPPA160,CDP-Diacylglycerol pyrophostatase (n-C16:0),Glycerophospholipid metabolism,cdpdhdecg[c] + h2o[c] --> cmp[c] + 2.0 h[c] + pa160[c],Rv2289
+486,CDAPPA160190,"CDP-Diacylglycerol pyrophostatase (C16:0, C19:0)",Glycerophospholipid metabolism,cdpc16c19g[c] + h2o[c] --> cmp[c] + 2.0 h[c] + pa160190[c],Rv2289
+487,CDAPPA190,CDAPPA190,Glycerophospholipid metabolism,cdpc19c19g[c] + h2o[c] --> cmp[c] + 2.0 h[c] + pa190190[c],Rv2289
+488,CDPPT160,CDPPT160,Glycerophospholipid metabolism,cdpdhdecg[c] + inost[c] --> cmp[c] + h[c] + ptd1ino160[c],Rv2612c
+489,CDPPT160190,CDP diacylglycerol inositon 3-phosphatidyltransferase,Glycerophospholipid metabolism,cdpc16c19g[c] + inost[c] --> cmp[c] + h[c] + ptd1ino160190[c],Rv2612c
+490,CLPNS160190,CLPNS160190,Glycerophospholipid metabolism,2.0 pg160190[c] <=> clpn160190[c] + glyc[c],Rv1822
+491,DAGK160,Diacylglycerol kinase (n-C16:0),Glycerophospholipid metabolism,12dgr160[c] + atp[c] --> adp[c] + h[c] + pa160[c],Rv0499 or Rv2252
+492,DASYN160,CDP-diacylglycerol synthetase (n-C16:0),Glycerophospholipid metabolism,ctp[c] + h[c] + pa160[c] --> cdpdhdecg[c] + ppi[c],Rv2881c
+493,DASYN160190,"CDP-diacylglycerol synthetase (C16:0, C19:0)",Glycerophospholipid metabolism,ctp[c] + h[c] + pa160190[c] --> cdpc16c19g[c] + ppi[c],Rv2881c
+494,DASYN190190,DASYN190190,Glycerophospholipid metabolism,ctp[c] + h[c] + pa190190[c] --> cdpc19c19g[c] + ppi[c],Rv2881c
+495,G16MTM2,Glycolipid 16-alpha-D-mannosyltransferase,Glycerophospholipid metabolism,Ac1PIM1[c] + gdpmann[c] --> Ac1PIM2[c] + gdp[c] + h[c],Rv2188c
+496,G3PAT160,Glycerol-3-phosphate acyltransferase (C16:0),Glycerophospholipid metabolism,glyc3p[c] + palmACP[c] --> 1hdecg3p[c] + ACP[c],Rv2482c or Rv1551
+497,G3PAT190,G3PAT190,Glycerophospholipid metabolism,glyc3p[c] + mstrACP[c] --> 1msg3p[c] + ACP[c],Rv2482c or Rv1551
+498,GPDDA2,Glycerophosphodiester phosphodiesterase (Glycerophosphoethanolamine),Glycerophospholipid metabolism,g3pe[c] + h2o[c] --> etha[c] + glyc3p[c] + h[c],Rv0317c or Rv2277c or Rv3842c
+499,PGSA160,Phosphatidylglycerol synthase (n-C16:0),Glycerophospholipid metabolism,cdpdhdecg[c] + glyc3p[c] --> cmp[c] + h[c] + pgp160[c],Rv1822 or Rv2746c
+500,PGSA160190,"Phosphatidylglycerol synthase (C16:0,C19:0)",Glycerophospholipid metabolism,cdpc16c19g[c] + glyc3p[c] --> cmp[c] + h[c] + pgp160190[c],Rv2746c
+501,PGSA190,PGSA190,Glycerophospholipid metabolism,cdpc19c19g[c] + glyc3p[c] --> cmp[c] + h[c] + pgp190[c],Rv2746c or Rv1822
+502,PSD160,Phosphatidylserine decarboxylase (n-C16:0),Glycerophospholipid metabolism,h[c] + ps160[c] --> co2[c] + pe160[c],Rv0437c
+503,PSSA160,Phosphatidylserine syntase (n-C16:0),Glycerophospholipid metabolism,cdpdhdecg[c] + ser__L[c] --> cmp[c] + h[c] + ps160[c],Rv0436c
+504,G3PD5,Glycerol-3-phosphate dehydrogenase (ubiquinone-8),Glycerophospholipid metabolism,glyc3p[c] + q8[c] --> dhap[c] + q8h2[c],Rv3302c or Rv2249c
+505,G3PD1ir,Glycerol 3 phosphate dehydrogenase  NAD ,Glycerophospholipid metabolism,dhap[c] + h[c] + nadh[c] <=> glyc3p[c] + nad[c],Rv2982c or Rv0564c
+506,G3PT,Glycerol-3-phosphatase,Glycerophospholipid metabolism,glyc3p[c] + h2o[c] --> glyc[c] + pi[c],Rv1692
+507,LIPW,MNXR84636,Glycerophospholipid metabolism,h2o[c] + h[c] + pc_TB[c] --> 12dgr_TB[c] + cholp[c],Rv0217c or Rv0220 or Rv0646c or Rv1076 or Rv1104 or Rv1105 or Rv1399c or Rv1400c or Rv1426c or Rv1497 or Rv1755c or Rv1900c or Rv1923 or Rv2045c or Rv2284 or Rv2349c or Rv2350c or Rv2351c or Rv2385 or Rv2463 or Rv2485c or Rv2970c or Rv3084 or Rv3176c or Rv3203 or Rv3487c or Rv3775
+508,CHOLK_1,Choline kinase,Glycerophospholipid metabolism,atp[c] + chol[c] + h[c] <=> adp[c] + cholp[c],Rv3817
+509,ACS,Acetyl-CoA synthetase,Glycolysis/Gluconeogenesis,ac[c] + atp[c] + coa[c] --> accoa[c] + amp[c] + ppi[c],Rv3667
+510,ALDD2x,"Aldehyde dehydrogenase (acetaldehyde, NAD)",Glycolysis/Gluconeogenesis,acald[c] + h2o[c] + nad[c] --> ac[c] + 2.0 h[c] + nadh[c],(Rv0768 and Rv3293) or Rv0147 or Rv0458
+511,ASAD,Aspartate-semialdehyde dehydrogenase,Glycolysis/Gluconeogenesis,aspsa[c] + nadp[c] + pi[c] <=> 4pasp[c] + h[c] + nadph[c],Rv3708c
+512,ASPK,Aspartate kinase,Glycolysis/Gluconeogenesis,asp__L[c] + atp[c] <=> 4pasp[c] + adp[c],Rv3709c
+513,ENO,Enolase,Glycolysis/Gluconeogenesis,2pg[c] <=> h2o[c] + pep[c],Rv1023
+514,FBA,Fructose-bisphosphate aldolase,Glycolysis/Gluconeogenesis,fdp[c] <=> dhap[c] + g3p[c],Rv0363c
+515,FBP,Fructose-bisphosphatase,Glycolysis/Gluconeogenesis,fdp[c] + h2o[c] --> f6p[c] + pi[c],Rv1099c or Rv2131c
+516,GAPD,Glyceraldehyde-3-phosphate dehydrogenase,Glycolysis/Gluconeogenesis,g3p[c] + nad[c] + pi[c] <=> 13dpg[c] + h[c] + nadh[c],Rv1436
+517,GCCa,Glycine-cleavage complex,Glycolysis/Gluconeogenesis,gly[c] + h[c] + lpro[c] --> alpro[c] + co2[c],Rv1832
+518,GCCb,Glycine cleavage complex,Glycolysis/Gluconeogenesis,alpro[c] + thf[c] --> dhlpro[c] + mlthf[c] + nh4[c],Rv2211c and Rv1826
+519,GHMT2r,"Glycine hydroxymethyltransferase, reversible",Glycolysis/Gluconeogenesis,ser__L[c] + thf[c] --> gly[c] + h2o[c] + mlthf[c],Rv1093 or Rv0070c
+520,GLYCK,Glycerate kinase,Glycolysis/Gluconeogenesis,atp[c] + glyc__R[c] --> 3pg[c] + adp[c] + h[c],Rv2205c
+521,HEX1,Hexokinase (D-glucose:ATP),Glycolysis/Gluconeogenesis,atp[c] + glc__D[c] --> adp[c] + g6p[c] + h[c],Rv2702 or Rv0650
+522,HSDy,Homoserine dehydrogenase (NADPH),Glycolysis/Gluconeogenesis,hom__L[c] + nadp[c] <-- aspsa[c] + h[c] + nadph[c],Rv1294
+523,HSK,Homoserine kinase,Glycolysis/Gluconeogenesis,atp[c] + hom__L[c] --> adp[c] + h[c] + phom[c],Rv1296
+524,LDH_L,L-lactate dehydrogenase,Glycolysis/Gluconeogenesis,lac__L[c] + nad[c] <=> h[c] + nadh[c] + pyr[c],Rv0694
+525,PDH,Pyruvate dehydrogenase,Glycolysis/Gluconeogenesis,coa[c] + nad[c] + pyr[c] --> accoa[c] + co2[c] + nadh[c],(Rv2241 and Rv2215 and (Rv0462 or Rv0843))
+526,PDHa,Pyruvate dehydrogenase (lipoamide),Glycolysis/Gluconeogenesis,h[c] + lpam[c] + pyr[c] --> adhlam[c] + co2[c],(Rv2241 and (Rv0462 or Rv0843) and Rv2215)
+527,PDHbr,Pyruvate dehydrogenase (dihydrolipoamide) reversible,Glycolysis/Gluconeogenesis,adhlam[c] + coa[c] <=> accoa[c] + dhlam[c],Rv2215 or Rv2495c
+528,PFK,Phosphofructokinase,Glycolysis/Gluconeogenesis,atp[c] + f6p[c] --> adp[c] + fdp[c] + h[c],Rv2029c and Rv3010c
+529,PGCD,Phosphoglycerate dehydrogenase,Glycolysis/Gluconeogenesis,3pg[c] + nad[c] --> 3php[c] + h[c] + nadh[c],Rv2996c and Rv0728c
+530,PGI,Glucose-6-phosphate isomerase,Glycolysis/Gluconeogenesis,g6p[c] <=> f6p[c],Rv0946c
+531,PGK,Phosphoglycerate kinase,Glycolysis/Gluconeogenesis,3pg[c] + atp[c] <=> 13dpg[c] + adp[c],Rv1437
+532,PGM,Phosphoglycerate mutase,Glycolysis/Gluconeogenesis,2pg[c] <=> 3pg[c],Rv3214 or Rv0489
+533,PGMT,Phosphoglucomutase,Glycolysis/Gluconeogenesis,g1p[c] <=> g6p[c],Rv3068c or Rv3400
+534,G6PP,Glucose-6-phosphate phosphatase,Glycolysis/Gluconeogenesis,g6p[c] + h2o[c] <=> glc__D[c] + pi[c],Rv2702
+535,PSERT,Phosphoserine transaminase,Glycolysis/Gluconeogenesis,3php[c] + glu__L[c] --> akg[c] + pser__L[c],Rv0884c
+536,PSP_L,Phosphoserine phosphatase (L-serine),Glycolysis/Gluconeogenesis,h2o[c] + pser__L[c] --> pi[c] + ser__L[c],Rv0018c and Rv3042c and Rv0505c
+537,PYK,Pyruvate kinase,Glycolysis/Gluconeogenesis,adp[c] + h[c] + pep[c] --> atp[c] + pyr[c],Rv1617
+538,PYRDC,Pyruvate decarboxylase,Glycolysis/Gluconeogenesis,h[c] + pyr[c] --> acald[c] + co2[c],Rv0853c
+539,SERD_D,D-serine deaminase,Glycolysis/Gluconeogenesis,ser__D[c] --> nh4[c] + pyr[c],Rv0069c
+540,THRS,Threonine synthase,Glycolysis/Gluconeogenesis,h2o[c] + phom[c] --> pi[c] + thr__L[c],Rv1295
+541,TPI,Triose-phosphate isomerase,Glycolysis/Gluconeogenesis,dhap[c] <=> g3p[c],Rv1438
+542,ALCD2ir,Alcohol dehydrogenase  reverse rxn  acetaldehyde   ethanol ,Glycolysis/Gluconeogenesis,acald[c] + h[c] + nadh[c] <=> etoh[c] + nad[c],Rv3045 or Rv1530 or Rv0761c or Rv0162c or Rv1862 or Rv3086
+543,THRD,L-threonine dehydrogenase,Glycolysis/Gluconeogenesis,nad[c] + thr__L[c] --> 2aobut[c] + h[c] + nadh[c],Rv2259
+544,GLXO1,Glyoxylate oxidase,Glyoxylate Metabolism,glx[c] + h2o[c] + nad[c] --> 2.0 h[c] + nadh[c] + oxa[c],
+545,GLYCTO1,Glycolate oxidase,Glyoxylate Metabolism,glyclt[c] + o2[c] --> glx[c] + h2o2[c],Rv1257c
+546,GLYCTO2,Glycolate oxidase,Glyoxylate Metabolism,glyclt[c] + q8[c] --> glx[c] + q8h2[c],Rv1257c
+547,GLYCTO3,Glycolate oxidase,Glyoxylate Metabolism,glyclt[c] + mqn8[c] --> glx[c] + mql8[c],Rv1257c
+548,GLYCTO4,Glycolate oxidase,Glyoxylate Metabolism,2dmmq8[c] + glyclt[c] --> 2dmmql8[c] + glx[c],Rv1257c
+549,ICL,Isocitrate lyase,Glyoxylate Metabolism,icit[c] --> glx[c] + succ[c],Rv0467 or (Rv1915 and Rv1916)
+550,OXACOAL,OXACOAL,Glyoxylate Metabolism,atp[c] + coa[c] + oxa[c] <=> amp[c] + oxalcoa[c] + ppi[c],
+551,OXCDC,Oxalyl-CoA decarboxylase,Glyoxylate Metabolism,h[c] + oxalcoa[c] --> co2[c] + forcoa[c],Rv0118c
+552,PGLYCP,Phosphoglycolate phosphatase,Glyoxylate Metabolism,2pglyc[c] + h2o[c] --> glyclt[c] + pi[c],Rv2233
+553,GCALDD,Glycolaldehyde dehydrogenase,Glyoxylate Metabolism,gcald[c] + h2o[c] + nad[c] --> glyclt[c] + 2.0 h[c] + nadh[c],
+554,GLYDHDA_copy1,R_GLYDHDA_copy1,Glyoxylate Metabolism,gly[c] + h2o[c] + nad[c] <-- glx[c] + h[c] + nadh[c] + nh4[c],
+555,GLYDHDA_copy2,R_GLYDHDA_copy2,Glyoxylate Metabolism,gly[c] + h2o[c] + nad[c] <-- glx[c] + h[c] + nadh[c] + nh4[c],Rv2780
+556,ATPPRT,ATP phosphoribosyltransferase,Histidine Metabolism,atp[c] + prpp[c] --> ppi[c] + prbatp[c],Rv2121c
+557,HISTD,Histidinol dehydrogenase,Histidine Metabolism,h2o[c] + histd[c] + 2.0 nad[c] --> 3.0 h[c] + his__L[c] + 2.0 nadh[c],Rv1599
+558,HISTP,Histidinol-phosphatase,Histidine Metabolism,h2o[c] + hisp[c] --> histd[c] + pi[c],Rv1601
+559,HSTPT,Histidinol-phosphate transaminase,Histidine Metabolism,glu__L[c] + imacp[c] --> akg[c] + hisp[c],Rv3772 or Rv1600
+560,IG3PS,Imidazole-glycerol-3-phosphate synthase,Histidine Metabolism,gln__L[c] + prlp[c] --> aicar[c] + eig3p[c] + glu__L[c] + h[c],Rv1602 and Rv1605
+561,IGPDH,Imidazoleglycerol-phosphate dehydratase,Histidine Metabolism,eig3p[c] --> h2o[c] + imacp[c],Rv1601
+562,PRAIi,Phosphoribosylanthranilate isomerase (irreversible),Histidine Metabolism,pran[c] --> 2cpr5p[c],Rv1603
+563,PRAMPC,Phosphoribosyl-AMP cyclohydrolase,Histidine Metabolism,h2o[c] + prbamp[c] --> prfp[c],Rv1606
+564,PRATPP,Phosphoribosyl-ATP pyrophosphatase,Histidine Metabolism,h2o[c] + prbatp[c] --> h[c] + ppi[c] + prbamp[c],Rv2122c
+565,PRMICI,1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase,Histidine Metabolism,prfp[c] --> prlp[c],Rv1603
+566,MI1PP,Myo-inositol 1-phosphatase,Inositol phosphate metabolism,h2o[c] + mi1p__D[c] --> inost[c] + pi[c],Rv1604 or Rv2131c or Rv2701c
+567,MI1PS,Myo Inositol 1 phosphate synthase,Inositol phosphate metabolism,g6p[c] --> mi1p__D[c],Rv0046c
+568,MI3PP,1D-myo-Inositol 3-phosphate phosphohydrolase,Inositol phosphate metabolism,h2o[c] + mi3p__D[c] --> inost[c] + pi[c],Rv1604 or Rv2131c or Rv2701c
+569,MI3PS,1D-myo-inositol-3-phosphate lyase (isomerizing),Inositol phosphate metabolism,g6p[c] <=> mi3p__D[c],Rv0046c
+570,NAGINSP,MNXR61204,Inositol phosphate metabolism,h[c] + mi3p__D[c] + uacgam[c] --> iacgam3p[c] + udp[c],Rv0486
+571,DM_ergoth_c,Ergoth c Demand reaction,Intracellular demand,ergoth[c] <=> ,
+572,DM_tbsinol_c,Tbsinol c Demand reaction,Intracellular demand,tbsinol[c] <=> ,
+573,DM_isotbsinol_13S_c,Isotbsinol  13S c Demand reaction,Intracellular demand,isotbsinol_13S[c] <=> ,
+574,DM_isotbsinol_13R_c,Isotbsinol  13R c Demand reaction,Intracellular demand,isotbsinol_13R[c] <=> ,
+575,DM_psd5p_c,Psd5p c Demand reaction,Intracellular demand,psd5p[c] <=> ,
+576,DM_cpppg1_c,Cpppg1 c Demand reaction,Intracellular demand,cpppg1[c] <=> ,
+577,DM_scys__L_c,Scys  L c Demand reaction,Intracellular demand,scys__L[c] <=> ,
+578,DM_gmhep1p_c,Gmhep1p c Demand reaction,Intracellular demand,gmhep1p[c] <=> ,
+579,LAT,R00457,L-alpha-aminoadipic acid (L-AAA) biosynthesis,akg[c] + lys__L[c] <=> L2aadp6sa[c] + glu__L[c],Rv3290c
+580,TMHAS5,TMHAS5,Lipid metabolism,tdm2[c] + tdm4[c] + tre[c] --> 2.0 h2o[c] + tmha5[c],
+581,TMHAS6,TMHAS6,Lipid metabolism,tdm3[c] + tdm4[c] + tre[c] --> 2.0 h2o[c] + tmha6[c],
+582,FADE233,R02661,Lipid metabolism,fad[c] + ibcoa[c] --> 2mp2coa[c] + fadh2[c],Rv3140
+583,BKDC,BKDC,Lipid metabolism,2mpdhl[c] + coa[c] + h[c] <=> dhlam[c] + ibcoa[c],Rv2495c
+584,BKDA2,BKDA2,Lipid metabolism,3mob[c] + lpam[c] --> 2mpdhl[c] + co2[c],Rv2497c and Rv2496c
+585,PKS2,PKS2,Lipid metabolism,23.0 h[c] + hdcaMAS[c] + malcoa[c] + 7.0 mmcoa__S[c] + 15.0 nadph[c] --> 8.0 co2[c] + 7.0 coa[c] + 7.0 h2o[c] + hphthiocnylcoa[c] + mas[c] + 15.0 nadp[c],Rv3825c
+586,MAS3,MAS3,Lipid metabolism,mas[c] + pmtcoa[c] --> coa[c] + hdcaMAS[c],Rv2940c
+587,PKS122,PKS122,Lipid metabolism,coa[c] + pmtri[c] --> h2o[c] + pmtricoa[c],Rv2048c
+588,PKS121,PKS121,Lipid metabolism,29.0 h[c] + hexcoa[c] + 5.0 malcoa[c] + 5.0 mmcoa__S[c] + 20.0 nadph[c] --> 10.0 co2[c] + 11.0 coa[c] + 8.0 h2o[c] + 20.0 nadp[c] + pmtri[c],Rv2048c
+589,ACOADH1,2-oxoisovalerate dehydrogenase (acylating; 3-methyl-2-oxopentanoate),Lipid metabolism,2mbcoa[c] + fad[c] --> 2mb2coa[c] + fadh2[c],Rv3140
+590,BKDC1,BKDC1,Lipid metabolism,2mbdhl[c] + coa[c] <=> 2mbcoa[c] + dhlam[c],Rv2495c
+591,3M2OPLOXRD,3-Methyl-2-oxopentanoate:lipoamide oxidoreductase(decarboxylating and acceptor-2-methylpropanoylating),Lipid metabolism,3mop[c] + h[c] + lpam[c] --> 2mbdhl[c] + co2[c],Rv2497c and Rv2496c
+592,PTA2,Phosphate acetyltransferase,Lipid metabolism,pi[c] + ppcoa[c] <=> coa[c] + ppap[c],Rv0408
+593,OPP,R05611,Lipid metabolism,hepdp[c] + ipdp[c] --> octdp[c] + ppi[c],
+594,HEXTT,Trans-hexaprenyltranstransferase,Lipid metabolism,hexdp[c] + ipdp[c] --> hepdp[c] + ppi[c],Rv0562
+595,PPTT,Trans pentaprenyltranstransferase,Lipid metabolism,ipdp[c] + pendp[c] --> hexdp[c] + ppi[c],
+596,GGTT,Geranylgeranyltranstransferase,Lipid metabolism,ggdp[c] + ipdp[c] --> pendp[c] + ppi[c],Rv3398c
+597,LIPY,LIPY,Lipid metabolism,10.0 h2o[c] + 9.0 tag_TB[c] --> 9.0 12dgr_TB[c] + arach[c] + 2.0 hdca[c] + 2.0 hexc[c] + 4.0 ocdca[c],Rv3097c
+598,GMHEPPA,"D-glycero-D-manno-heptose 1,7-bisphosphate phosphatase",Lipopolysaccharide Biosynthesis / Recycling,gmhep17bp[c] + h2o[c] --> gmhep1p[c] + pi[c],Rv0114
+599,AACPS11,AACPS11,Membrane Metabolism,4hbz[c] + ACP[c] + atp[c] --> 4hbzACP[c] + amp[c] + ppi[c],
+600,ALAALAD,D-alanine-D-alanine dipeptidase,Membrane Metabolism,alaala[c] + h2o[c] --> 2.0 ala__D[c],Rv3330 or Rv2911
+601,ARACHTA,ARACHTA,Membrane Metabolism,ACP[c] + arachcoa[c] <=> arachACP[c] + coa[c],
+602,CHRPL,Chorismate pyruvate lyase,Membrane Metabolism,chor[c] --> 4hbz[c] + pyr[c],Rv2949c
+603,FACOAL200,Fatty-acid--CoA ligase,Membrane Metabolism,arach[c] + atp[c] + coa[c] <=> amp[c] + arachcoa[c] + ppi[c],Rv0035 or Rv0099 or Rv0119 or Rv0166 or Rv0214 or Rv0270 or Rv0404 or Rv0551c or Rv0852 or Rv1058 or Rv1185c or Rv1193 or Rv1206 or Rv1427c or Rv1521 or Rv1529 or Rv1549 or Rv1550 or Rv1750c or Rv1925 or Rv2187 or Rv2505c or Rv2590 or Rv2930 or Rv2941 or Rv2948c or Rv2950c or Rv3089 or Rv3506 or Rv3513c or Rv3515c or Rv3561 or Rv3801c or Rv3826
+604,FACOALPHDCA,FACOALPHDCA,Membrane Metabolism,atp[c] + coa[c] + phdca[c] <=> amp[c] + phdcacoa[c] + ppi[c],
+605,FACOALPREPH,FACOALPREPH,Membrane Metabolism,atp[c] + coa[c] + prephth[c] <=> amp[c] + ppi[c] + prephthcoa[c],Rv2930
+606,FAH4,FAH4,Membrane Metabolism,h[c] + nadph[c] + o2[c] + omtta[c] --> h2o[c] + homtta[c] + nadp[c],
+607,FASPHDCA,FASPHDCA,Membrane Metabolism,4hbzACP[c] + 24.0 h[c] + 8.0 malACP[c] + 16.0 nadph[c] --> 8.0 ACP[c] + 8.0 co2[c] + 8.0 h2o[c] + 16.0 nadp[c] + phdcaACP[c],
+608,FASm1601,FASm1601,Membrane Metabolism,3.0 h[c] + hdca[c] + mmcoa__S[c] + 2.0 nadph[c] --> co2[c] + coa[c] + h2o[c] + m1ocdca[c] + 2.0 nadp[c],Rv1663 or Rv1662
+609,FASm1801,FASm1801,Membrane Metabolism,3.0 h[c] + m1ocdca[c] + mmcoa__S[c] + 2.0 nadph[c] --> co2[c] + coa[c] + dmarach[c] + h2o[c] + 2.0 nadp[c],Rv1663 or Rv1662
+610,FASm2001,FASm2001,Membrane Metabolism,dmarach[c] + 3.0 h[c] + mmcoa__S[c] + 2.0 nadph[c] --> co2[c] + coa[c] + h2o[c] + 2.0 nadp[c] + tmbhn[c],Rv1663 or Rv1662
+611,FASm220,FASm220,Membrane Metabolism,arach[c] + 3.0 h[c] + mmcoa__S[c] + 2.0 nadph[c] --> co2[c] + coa[c] + h2o[c] + mbhn[c] + 2.0 nadp[c],Rv2940c
+612,FASm2201,FASm2201,Membrane Metabolism,3.0 h[c] + mmcoa__S[c] + 2.0 nadph[c] + tmbhn[c] --> co2[c] + coa[c] + h2o[c] + 2.0 nadp[c] + tamlgnc[c],Rv2940c
+613,FASm240,FASm240,Membrane Metabolism,3.0 h[c] + mbhn[c] + mmcoa__S[c] + 2.0 nadph[c] --> co2[c] + coa[c] + dmlgnc[c] + h2o[c] + 2.0 nadp[c],Rv2940c
+614,FASm2401,FASm2401,Membrane Metabolism,3.0 h[c] + mmcoa__S[c] + 2.0 nadph[c] + tamlgnc[c] --> co2[c] + coa[c] + h2o[c] + 2.0 nadp[c] + pmhexc[c],Rv2940c
+615,FASm260,FASm260,Membrane Metabolism,dmlgnc[c] + 3.0 h[c] + mmcoa__S[c] + 2.0 nadph[c] --> co2[c] + coa[c] + h2o[c] + 2.0 nadp[c] + tmhexc[c],Rv2940c
+616,FASm2601,FASm2601,Membrane Metabolism,3.0 h[c] + mmcoa__S[c] + 2.0 nadph[c] + pmhexc[c] --> co2[c] + coa[c] + h2o[c] + hmocta[c] + 2.0 nadp[c],Rv2940c
+617,FASm2602,FASm2602,Membrane Metabolism,3.0 h[c] + mmcoa__S[c] + 2.0 nadph[c] + tmlgnc[c] --> co2[c] + coa[c] + h2o[c] + 2.0 nadp[c] + tamhexc[c],Rv2940c
+618,FASm280,FASm280,Membrane Metabolism,3.0 h[c] + mmcoa__S[c] + 2.0 nadph[c] + tmhexc[c] --> co2[c] + coa[c] + h2o[c] + 2.0 nadp[c] + tamocta[c],Rv2940c
+619,FASm2801,FASm2801,Membrane Metabolism,3.0 h[c] + hmocta[c] + mmcoa__S[c] + 2.0 nadph[c] --> co2[c] + coa[c] + h2o[c] + hpmtria[c] + 2.0 nadp[c],Rv2940c
+620,FASm2802,FASm2802,Membrane Metabolism,3.0 h[c] + mmcoa__S[c] + 2.0 nadph[c] + tamhexc[c] --> co2[c] + coa[c] + h2o[c] + 2.0 nadp[c] + pmocta[c],Rv2940c
+621,FASm300,FASm300,Membrane Metabolism,3.0 h[c] + mmcoa__S[c] + 2.0 nadph[c] + pmocta[c] --> co2[c] + coa[c] + h2o[c] + hmtria[c] + 2.0 nadp[c],Rv2940c
+622,FASm3001,FASm3001,Membrane Metabolism,3.0 h[c] + hpmtria[c] + mmcoa__S[c] + 2.0 nadph[c] --> co2[c] + coa[c] + h2o[c] + 2.0 nadp[c] + omdtria[c],Rv2940c
+623,FASm320,FASm320,Membrane Metabolism,3.0 h[c] + hmtria[c] + mmcoa__S[c] + 2.0 nadph[c] --> co2[c] + coa[c] + h2o[c] + hpmdtria[c] + 2.0 nadp[c],Rv2940c
+624,FASm340,FASm340,Membrane Metabolism,3.0 h[c] + hpmdtria[c] + mmcoa__S[c] + 2.0 nadph[c] --> co2[c] + coa[c] + h2o[c] + 2.0 nadp[c] + omtta[c],Rv2940c
+625,GGLUCT2,GGLUCT2,Membrane Metabolism,gluala[c] --> 5oxpro[c] + ala__L[c],
+626,GMT1,GMT1,Membrane Metabolism,decd_tb[c] + gdpmann[c] --> decdman1p_tb[c] + gdp[c],Rv2051c
+627,MCBTS_1,MCBTS,Membrane Metabolism,atp[c] + bhb[c] + 2.0 h[c] + 2.0 lys__L[c] + 2.0 o2[c] + odecoa[c] + salc[c] + thr__L[c] --> adp[c] + co2[c] + coa[c] + 6.0 h2o[c] + mcbts[c] + pi[c],Rv2383c and Rv2381c and Rv2379c and Rv2378c and Rv2380c and Rv2382c and Rv2384
+628,MCBTS2_1,MCBTS2,Membrane Metabolism,atp[c] + bhb[c] + 2.0 h[c] + 2.0 lys__L[c] + 2.0 o2[c] + odecoa[c] + salc[c] + ser__L[c] --> adp[c] + co2[c] + coa[c] + 6.0 h2o[c] + mcbtt[c] + pi[c],Rv2383c and Rv2381c and Rv2379c and Rv2378c and Rv2380c and Rv2382c and Rv2384
+629,MCBTS3,MCBTS3,Membrane Metabolism,atp[c] + bhb[c] + 2.0 lys__L[c] + 2.0 nadp[c] + 3.5 o2[c] + occoa[c] + salc[c] + ser__L[c] --> adp[c] + cmcbtt[c] + co2[c] + coa[c] + 5.0 h2o[c] + 2.0 h[c] + 2.0 nadph[c] + pi[c],Rv2378c and Rv2379c and Rv2380c and Rv2381c and Rv2382c and Rv2383c and Rv2384
+630,PDIMAS,PDIMAS,Membrane Metabolism,2.0 h[c] + phthiocerol[c] + 2.0 tamocta[c] --> 2.0 h2o[c] + pdima[c],Rv2941 and Rv2939
+631,PGLS,PGLS,Membrane Metabolism,4.0 amet[c] + frrppdima[c] --> 4.0 ahcys[c] + 4.0 h[c] + mfrrppdima[c],
+632,PGPP160,Phosphatidylglycerol phosphate phosphatase (n-C16:0),Membrane Metabolism,h2o[c] + pgp160[c] --> pg160[c] + pi[c],
+633,PGPP160190,"Phosphatidylglycerol phosphate phosphatase (C16:0, C19:0)",Membrane Metabolism,h2o[c] + pgp160190[c] --> pg160190[c] + pi[c],
+634,PGPP190,PGPP190,Membrane Metabolism,h2o[c] + pgp190[c] --> pg190[c] + pi[c],
+635,PHTHDLS,PHTHDLS,Membrane Metabolism,h[c] + prephth[c] --> co2[c] + phthdl[c],
+636,PHTHDLS2,PHTHDLS2,Membrane Metabolism,h[c] + prepphth[c] --> co2[c] + pphthdl[c],
+637,PHTHS,PHTHS,Membrane Metabolism,amet[c] + nadph[c] + phthdl[c] --> ahcys[c] + nadp[c] + phthiocerol[c],Rv2951c and Rv2952
+638,PHTHS2,PHTHS2,Membrane Metabolism,amet[c] + nadph[c] + pphthdl[c] --> ahcys[c] + nadp[c] + pphthiocerol[c],Rv2951c and Rv2952
+639,PPDIMAS,PPDIMAS,Membrane Metabolism,2.0 h[c] + pphthiocerol[c] + 2.0 tamocta[c] --> 2.0 h2o[c] + ppdima[c],Rv2941 and Rv2939
+640,PREPHACPH,PREPHACPH,Membrane Metabolism,h2o[c] + prephthACP[c] --> ACP[c] + h[c] + prephth[c],Rv2928
+641,PREPPACPH,PREPPACPH,Membrane Metabolism,h2o[c] + prepphthACP[c] --> ACP[c] + h[c] + prepphth[c],Rv2928
+642,PREPTHS,PREPTHS,Membrane Metabolism,arachACP[c] + 14.0 h[c] + 2.0 malcoa[c] + 2.0 mmcoa__S[c] + 10.0 nadph[c] --> 2.0 co2[c] + 4.0 coa[c] + 5.0 h2o[c] + 10.0 nadp[c] + prephthACP[c],Rv2931 or Rv2932 or Rv2933 or Rv2934 or Rv2935
+643,PREPTHS2,PREPTHS2,Membrane Metabolism,14.0 h[c] + 2.0 malcoa[c] + 2.0 mmcoa__S[c] + 10.0 nadph[c] + phdcaACP[c] --> 2.0 co2[c] + 4.0 coa[c] + 5.0 h2o[c] + 10.0 nadp[c] + prepphthACP[c],Rv2931 or Rv2932 or Rv2933 or Rv2934 or Rv2935
+644,PREPTTA,PREPTTA,Membrane Metabolism,ACP[c] + prephthcoa[c] <=> coa[c] + prephthACP[c],
+645,TATS,TATS,Membrane Metabolism,4.0 h[c] + hdca[c] + hpmtria[c] + 2.0 omtta[c] + tre[c] --> 4.0 h2o[c] + tat[c],
+646,TRE6PP,Trehalose-phosphatase,Membrane Metabolism,h2o[c] + tre6p[c] --> pi[c] + tre[c],Rv2006 or Rv3372
+647,TRE6PS,"Alpha,alpha-trehalose-phosphate synthase (UDP-forming)",Membrane Metabolism,g6p[c] + udpg[c] --> h[c] + tre6p[c] + udp[c],Rv3490
+648,TRESULT,Trehalose sulfotransferase,Membrane Metabolism,paps[c] + tre[c] --> h[c] + pap[c] + tres[c],Rv1373 or Rv0295c or Rv3529c or Rv2267c
+649,TRIATS,TRIATS,Membrane Metabolism,3.0 h[c] + 2.0 ocdca[c] + tmlgnc[c] + tre[c] --> 3.0 h2o[c] + triat[c],
+650,UAMRH,UDP-MurNAc Hydroxylase,Membrane Metabolism,h[c] + nadph[c] + o2[c] + uamr[c] --> h2o[c] + nadp[c] + ugmr[c],Rv3818
+651,S7PI,Sedoheptulose 7-phosphate isomerase,Membrane Metabolism,s7p[c] --> gmhep7p[c],Rv0113
+652,GMHEPK,D-glycero-D-manno-heptose 7-phosphate kinase,Membrane Metabolism,atp[c] + gmhep7p[c] --> adp[c] + gmhep17bp[c] + h[c],Rv0115
+653,CMLDC,4 carboxymuconolactone decarboxylase,Miscellaneous,4cml[c] --> 5odhf2a[c] + co2[c] + h[c],Rv0771 or Rv0464c
+654,H2CO3D,Carboxylic acid dissociation,Miscellaneous,co2[c] + h2o[c] <=> h2co3[c],Rv3273 or Rv3588c or Rv1284
+655,HCO3E,HCO3 equilibration reaction,Miscellaneous,co2[c] + h2o[c] <=> h[c] + hco3[c],Rv3588c or Rv1284 or Rv3273
+656,NTP3,Nucleoside-triphosphatase (GTP),Miscellaneous,gtp[c] + h2o[c] --> gdp[c] + h[c] + pi[c],Rv0684
+657,MBTK3,MBTK3,Mycobactin biosynthesis,h[c] + malACP[c] + n6hlys[c] --> ACP[c] + n6hlysmal[c],Rv1347c
+658,MBTG,MNXR6565,Mycobactin biosynthesis,lys__L[c] + nadph[c] + o2[c] <=> h2o[c] + n6hlys[c] + nadp[c],Rv2378c
+659,MBTA3,MBTA3,Mycobactin biosynthesis,acac[c] + 3.0 h[c] + n6hlys[c] + n6hlysmal[c] + nadh[c] + salc[c] + thr__L[c] --> 6.0 h2o[c] + mcbtm[c] + nad[c],Rv2384 and Rv2383c and Rv2382c and Rv2381c and Rv2380c and Rv2379c and Rv2377c
+660,MBTA1,MBTA1,Mycobactin biosynthesis,acac[c] + h[c] + n6hlys[c] + n6hlysmal[c] + nadh[c] + salc[c] + thr__L[c] --> 6.0 h2o[c] + mcbtt[c] + nad[c],Rv2384 and Rv2383c and Rv2382c and Rv2381c and Rv2380c and Rv2379c and Rv2377c
+661,SALSYN,Salicylate synthase,Mycobactin biosynthesis,ichor[c] --> pyr[c] + salc[c],Rv2386c
+662,FAMPL1,Fatty Acid Ligase AMP (mycolic acid),Mycolic Acid Biosynthesis,amp[c] + h[c] + meroacidcyc2ACP[c] --> ACP[c] + meroacidcyc2AMP[c],Rv3801c
+663,FAMPL2,FAMPL2,Mycolic Acid Biosynthesis,amp[c] + h[c] + mmeroacidcyc2ACP[c] --> ACP[c] + mmeroacidcyc2AMP[c],Rv3801c
+664,FAMPL3,FAMPL3,Mycolic Acid Biosynthesis,amp[c] + h[c] + kmeroacidcyc2ACP[c] --> ACP[c] + kmeroacidcyc2AMP[c],Rv3801c
+665,FAMPL4,FAMPL4,Mycolic Acid Biosynthesis,amp[c] + h[c] + mmmeroacidcyc1ACP[c] --> ACP[c] + mmmeroacidcyc1AMP[c],Rv3801c
+666,FAMPL5,Fatty Acid Ligase AMP (mycolic acid),Mycolic Acid Biosynthesis,amp[c] + h[c] + mkmeroacidcyc1ACP[c] --> ACP[c] + mkmeroacidcyc1AMP[c],Rv3801c
+667,MYC1CYC1,MYC1CYC1,Mycolic Acid Biosynthesis,amet[c] + meroacidACP[c] --> ahcys[c] + h[c] + meroacidcyc1ACP[c],Rv0470c
+668,MYC1CYC2,MYC1CYC2,Mycolic Acid Biosynthesis,amet[c] + mmeroacidACP[c] --> ahcys[c] + h[c] + mmeroacidcyc1ACP[c],Rv0470c
+669,MYC1CYC3,MYC1CYC3,Mycolic Acid Biosynthesis,amet[c] + kmeroacidACP[c] --> ahcys[c] + h[c] + kmeroacidcyc1ACP[c],Rv0470c
+670,MYC1CYC4,MYC1CYC4,Mycolic Acid Biosynthesis,amet[c] + mmmeroacidACP[c] --> ahcys[c] + h[c] + mmmeroacidcyc1ACP[c],Rv0503c or Rv0644c
+671,MYC1CYC5,Mycolic Acid Cyclopropanation,Mycolic Acid Biosynthesis,amet[c] + mkmeroacidACP[c] --> ahcys[c] + h[c] + mkmeroacidcyc1ACP[c],Rv0644c
+672,MYC1M1,MYC1M1,Mycolic Acid Biosynthesis,amet[c] + h2o[c] + mmeroacidACP[c] --> ahcys[c] + h[c] + mmmeroacidACP[c],Rv0644c or Rv0642c or Rv0645c or Rv0503c
+673,MYC1M2,MYC1M2,Mycolic Acid Biosynthesis,amet[c] + h2o[c] + kmeroacidACP[c] --> ahcys[c] + h[c] + mkmeroacidACP[c],Rv0644c or Rv0642c or Rv0503c or Rv0645c
+674,MYC2CYC1,MYC2CYC1,Mycolic Acid Biosynthesis,amet[c] + meroacidcyc1ACP[c] --> ahcys[c] + h[c] + meroacidcyc2ACP[c],Rv0644c
+675,MYC2CYC2,MYC2CYC2,Mycolic Acid Biosynthesis,amet[c] + mmeroacidcyc1ACP[c] --> ahcys[c] + h[c] + mmeroacidcyc2ACP[c],Rv0644c
+676,MYC2CYC3,MYC2CYC3,Mycolic Acid Biosynthesis,amet[c] + kmeroacidcyc1ACP[c] --> ahcys[c] + h[c] + kmeroacidcyc2ACP[c],Rv0644c
+677,MYCON1,Mycolic Acid Condensation,Mycolic Acid Biosynthesis,chexccoa[c] + 2.0 h2o[c] + meroacidcyc2AMP[c] --> amp[c] + co2[c] + coa[c] + 2.0 h[c] + mycolate[c],Rv3800c
+678,MYCON2,MYCON2,Mycolic Acid Biosynthesis,chexccoa[c] + 2.0 h2o[c] + mmeroacidcyc2AMP[c] --> amp[c] + co2[c] + coa[c] + 2.0 h[c] + mmycolate[c],Rv3800c
+679,MYCON3,MYCON3,Mycolic Acid Biosynthesis,chexccoa[c] + 2.0 h2o[c] + kmeroacidcyc2AMP[c] --> amp[c] + co2[c] + coa[c] + 2.0 h[c] + kmycolate[c],Rv3800c
+680,MYCON4,MYCON4,Mycolic Acid Biosynthesis,chexccoa[c] + 2.0 h2o[c] + mmmeroacidcyc1AMP[c] --> amp[c] + co2[c] + coa[c] + 2.0 h[c] + mmmycolate[c],Rv3800c
+681,MYCON5,Mycolic Acid Condensation,Mycolic Acid Biosynthesis,chexccoa[c] + 2.0 h2o[c] + mkmeroacidcyc1AMP[c] --> amp[c] + co2[c] + coa[c] + 2.0 h[c] + mkmycolate[c],Rv3800c
+682,MYCSacp50,MYCSacp50,Mycolic Acid Biosynthesis,33.0 h[c] + hexc[c] + 12.0 malACP[c] + 24.0 nadph[c] --> 11.0 ACP[c] + 12.0 co2[c] + 13.0 h2o[c] + meroacidACP[c] + 24.0 nadp[c],(Rv1483 and Rv2245 and Rv2246) or (Rv0098 and Rv2245 and Rv2246)
+683,MYCSacp56,MYCSacp56,Mycolic Acid Biosynthesis,42.0 h[c] + hexc[c] + 15.0 malACP[c] + 30.0 nadph[c] --> 14.0 ACP[c] + 15.0 co2[c] + 16.0 h2o[c] + mmeroacidACP[c] + 30.0 nadp[c],(Rv1483 and Rv2245 and Rv2246) or (Rv0098 and Rv2245 and Rv2246)
+684,MYCSacp58,MYCSacp58,Mycolic Acid Biosynthesis,47.0 h[c] + hexc[c] + 16.0 malACP[c] + 30.0 nadph[c] --> 15.0 ACP[c] + 16.0 co2[c] + 17.0 h2o[c] + kmeroacidACP[c] + 30.0 nadp[c],(Rv1483 and Rv2245 and Rv2246) or (Rv0098 and Rv2245 and Rv2246)
+685,OTSB1,MNXR90564,Mycolic acid pathway,h2o[c] + tre6mmp[c] --> h[c] + pi[c] + tre6mm[c],Rv3400 or Rv2006
+686,MYCOPP,MNXR90581,Mycolic acid pathway,c78mycolateACP[c] + ppm[c] --> ACP[c] + c78mycolatepp[c],Rv3802c
+687,TMMYCO,TMMYCO,Mycolic acid pathway,c78mycolatepp[c] + tre6p[c] --> ppm[c] + tre6mmp[c],Rv1288 or Rv0519c or Rv0774c
+688,MYCOE,MYCOE,Mycolic acid pathway,ACP[c] + 1.75 h2o[c] + 0.25 kmycolate[c] + 0.25 mkmycolate[c] + 0.25 mmycolate[c] + 0.25 mycolate[c] --> c78mycolateACP[c] + 1.5 co2[c] + 6.0 h[c],
+689,PPM1,MNXR76028,Mycolic acid pathway,gdpmann[c] + udcpp[c] --> gdp[c] + ppm[c],Rv2051c
+690,FBPA,MNXR90624,Mycolic acid pathway,h2o[c] + 2.0 tre6mm[c] --> 2.0 h[c] + tdm3[c] + tre[c],Rv3804c and Rv1886c and Rv0129c and Rv3803c
+691,BIRA,BIRA,Mycolic acid pathway,accb[c] + atp[c] + h2o[c] --> amp[c] + bccp[c] + h[c] + ppi[c],Rv3279c
+692,ACCD3,ACCD3,Mycolic acid pathway,accoa[c] + bccpco2[c] --> accb[c] + h[c] + malcoa[c],Rv0904c
+693,ACCA3,ACCA3,Mycolic acid pathway,atp[c] + bccp[c] + hco3[c] --> adp[c] + bccpco2[c] + pi[c],Rv3285
+694,NADDP_1,NAD diphosphatase,Nicotinate and nicotinamide metabolism,h2o[c] + nad[c] --> amp[c] + h[c] + nmn[c],Rv3199c
+695,NMNAT_1,Nicotinamide-nucleotide adenylyltransferase,Nicotinate and nicotinamide metabolism,atp[c] + nmn[c] --> nad[c] + ppi[c],Rv2421c
+696,ADNK1,Adenosine kinase,Nucleotide Salvage Pathway,adn[c] + atp[c] --> adp[c] + amp[c] + h[c],Rv2202c
+697,ADNK3,Adenosine kinase,Nucleotide Salvage Pathway,adn[c] + gtp[c] --> amp[c] + gdp[c] + h[c],Rv2202c
+698,ADNK4,Adenosine kinase,Nucleotide Salvage Pathway,adn[c] + dgtp[c] --> amp[c] + dgdp[c] + h[c],Rv2202c
+699,CYTDK2,Cytidine kinase (GTP),Nucleotide Salvage Pathway,cytd[c] + gtp[c] --> cmp[c] + gdp[c] + h[c],
+700,DADA,Deoxyadenosine deaminase,Nucleotide Salvage Pathway,dad_2[c] + h2o[c] + h[c] --> din[c] + nh4[c],
+701,DADK,Deoxyadenylate kinase,Nucleotide Salvage Pathway,atp[c] + damp[c] <=> adp[c] + dadp[c],
+702,GALT,Galactose 1 phosphate uridylyltransferase,Nucleotide Salvage Pathway,gal1p[c] + h[c] + utp[c] <=> ppi[c] + udpgal[c],Rv0619 or Rv0618
+703,GSNK,Guanosine kinase,Nucleotide Salvage Pathway,atp[c] + gsn[c] --> adp[c] + gmp[c] + h[c],
+704,GUAD,Guanine deaminase,Nucleotide Salvage Pathway,gua[c] + h2o[c] + h[c] --> nh4[c] + xan[c],
+705,GUAPRT,Guanine phosphoribosyltransferase,Nucleotide Salvage Pathway,gua[c] + prpp[c] --> gmp[c] + ppi[c],Rv3624c
+706,INSK,Insosine kinase,Nucleotide Salvage Pathway,atp[c] + ins[c] --> adp[c] + h[c] + imp[c],
+707,NTD10,5'-nucleotidase (XMP),Nucleotide Salvage Pathway,h2o[c] + xmp[c] --> pi[c] + xtsn[c],
+708,NTD11,5'-nucleotidase (IMP),Nucleotide Salvage Pathway,h2o[c] + imp[c] --> ins[c] + pi[c],
+709,NTD3,5'-nucleotidase (dCMP),Nucleotide Salvage Pathway,dcmp[c] + h2o[c] --> dcyt[c] + pi[c],
+710,NTD5,5'-nucleotidase (dTMP),Nucleotide Salvage Pathway,dtmp[c] + h2o[c] --> pi[c] + thymd[c],
+711,NTD6,5'-nucleotidase (dAMP),Nucleotide Salvage Pathway,damp[c] + h2o[c] --> dad_2[c] + pi[c],
+712,NTD7,5'-nucleotidase (AMP),Nucleotide Salvage Pathway,amp[c] + h2o[c] --> adn[c] + pi[c],
+713,NTD8,5'-nucleotidase (dGMP),Nucleotide Salvage Pathway,dgmp[c] + h2o[c] --> dgsn[c] + pi[c],
+714,NTD9,5'-nucleotidase (GMP),Nucleotide Salvage Pathway,gmp[c] + h2o[c] --> gsn[c] + pi[c],
+715,NTPP2,Nucleoside triphosphate pyrophosphorylase (gtp),Nucleotide Salvage Pathway,gtp[c] + h2o[c] --> gmp[c] + h[c] + ppi[c],
+716,NTPP3,Nucleoside triphosphate pyrophosphorylase (dctp),Nucleotide Salvage Pathway,dctp[c] + h2o[c] --> dcmp[c] + h[c] + ppi[c],
+717,NTPP5,Nucleoside triphosphate pyrophosphorylase (datp),Nucleotide Salvage Pathway,datp[c] + h2o[c] --> damp[c] + h[c] + ppi[c],
+718,NTPP7,Nucleoside triphosphate pyrophosphorylase (dttp),Nucleotide Salvage Pathway,dttp[c] + h2o[c] --> dtmp[c] + h[c] + ppi[c],
+719,NTPP8,Nucleoside triphosphate pyrophosphorylase (utp),Nucleotide Salvage Pathway,h2o[c] + utp[c] --> h[c] + ppi[c] + ump[c],
+720,TMDK1,Thymidine kinase (ATP:thymidine),Nucleotide Salvage Pathway,atp[c] + thymd[c] --> adp[c] + dtmp[c] + h[c],
+721,UDPG4E,UDPglucose 4-epimerase,Nucleotide Salvage Pathway,udpg[c] <=> udpgal[c],Rv3634c or Rv0501 or Rv0536
+722,UDPGD,UDPglucose 6-dehydrogenase,Nucleotide Salvage Pathway,h2o[c] + 2.0 nad[c] + udpg[c] --> 3.0 h[c] + 2.0 nadh[c] + udpglcur[c],Rv0322
+723,XPPT,Xanthine phosphoribosyltransferase,Nucleotide Salvage Pathway,prpp[c] + xan[c] --> ppi[c] + xmp[c],Rv3624c
+724,ACODA,Acetylornithine deacetylase,Other Amino Acid Metabolism,acorn[c] + h2o[c] --> ac[c] + orn[c],
+725,AMID4,AMID4,Other Amino Acid Metabolism,ad[c] + h2o[c] --> ac[c] + nh4[c],Rv2888c or Rv1263 or Rv3375 or Rv2363 or Rv3175
+726,AMPTASECG,Alanyl aminopeptidase (cys-gly),Other Amino Acid Metabolism,cgly[c] + h2o[c] --> cys__L[c] + gly[c],Rv2467
+727,BETALDHx,Betaine-aldehyde dehydrogenase,Other Amino Acid Metabolism,betald[c] + h2o[c] + nad[c] --> glyb[c] + 2.0 h[c] + nadh[c],Rv0223c
+728,BPNT,"3',5'-bisphosphate nucleotidase",Other Amino Acid Metabolism,h2o[c] + pap[c] --> amp[c] + pi[c],Rv2131c
+729,CHOLD,Choline dehydrogenase,Other Amino Acid Metabolism,chol[c] + nad[c] --> betald[c] + h[c] + nadh[c],
+730,DALAOX,D amino acid oxidase,Other Amino Acid Metabolism,ala__D[c] + h2o[c] + o2[c] --> h2o2[c] + nh4[c] + pyr[c],Rv1905c
+731,FDH,Formate dehydrogenase,Other Amino Acid Metabolism,for[c] + nad[c] --> co2[c] + nadh[c],(Rv2899c and Rv2900c) or Rv0087
+732,GTMLT,G glutamyltransferase,Other Amino Acid Metabolism,ala__L[c] + gthrd[c] --> cgly[c] + gluala[c],Rv0773c and Rv2394
+733,HSST,Homoserine O-succinyltransferase,Other Amino Acid Metabolism,hom__L[c] + succoa[c] --> coa[c] + suchms[c],
+734,METSOXR1,L-methionine-S-oxide reductase,Other Amino Acid Metabolism,metsox_S__L[c] + trdrd[c] --> h2o[c] + met__L[c] + trdox[c],Rv0137c
+735,METSOXR2,L-methionine-R-sulfoxide reductase,Other Amino Acid Metabolism,metsox_R__L[c] + trdrd[c] --> h2o[c] + met__L[c] + trdox[c],Rv2674
+736,NH4OHDs,NH4OH dissociation,Other Amino Acid Metabolism,h[c] + nh4oh[c] <=> h2o[c] + nh4[c],
+737,PAPSR,Phosphoadenylyl-sulfate reductase (thioredoxin),Other Amino Acid Metabolism,paps[c] + trdrd[c] <=> 2.0 h[c] + pap[c] + so3[c] + trdox[c],Rv2392
+738,PGAMT,Phosphoglucosamine mutase,Other Amino Acid Metabolism,gam1p[c] <=> gam6p[c],Rv3441c
+739,PHETA1,Phenylalanine transaminase,Other Amino Acid Metabolism,akg[c] + phe__L[c] <=> glu__L[c] + phpyr[c],Rv3565 or Rv0337c
+740,TARTD,L(+)-tartrate dehydratase,Other Amino Acid Metabolism,tartr__L[c] --> h2o[c] + oaa[c],
+741,TRPTA,Tryptophan transaminase,Other Amino Acid Metabolism,akg[c] + trp__L[c] <=> glu__L[c] + indpyr[c],
+742,TYRTA,Tyrosine transaminase,Other Amino Acid Metabolism,akg[c] + tyr__L[c] <=> 34hpp[c] + glu__L[c],Rv3565 or Rv0337c
+743,ROSFE,RXN-12540,Other,fe2[c] + h2o2[c] + h[c] --> fe3[c] + h2o[c] + oh1[c],
+744,MAK,RXN-12960,Other,atp[c] + malt[c] <=> adp[c] + h[c] + malt1p[c],Rv0127
+745,TBSYNLDPS,"Halima-5(6),13-dien-15-yl-diphosphate lyase (cyclizing)",Other,ggdp[c] --> tbsinyldp[c],Rv3377c
+746,TBSNLS1,Tuberculosinyl diphosphate diphosphohydrolase (tuberculosinol forming),Other,h2o[c] + tbsinyldp[c] --> ppi[c] + tbsinol[c],Rv3378c
+747,TBSNLS2,Tuberculosinyl diphosphate diphosphohydrolase (isotuberculosinol forming),Other,h2o[c] + tbsinyldp[c] --> isotbsinol_13S[c] + ppi[c],Rv3378c
+748,TBSNLS3,RXN-14039,Other,h2o[c] + tbsinyldp[c] --> isotbsinol_13R[c] + ppi[c],Rv3378c
+749,AMMQT8_2,S-adenosylmethione:2-demethylmenaquinone methyltransferase,Oxidative Phosphorylation,2dmmq8[c] + amet[c] --> ahcys[c] + h[c] + mqn8[c],
+750,ATPS4r,ATP synthase (four protons for one ATP),Oxidative Phosphorylation,adp[c] + 4.0 h[e] + pi[c] <=> atp[c] + h2o[c] + 3.0 h[c],Rv1308 and Rv1304 and Rv1311 and Rv1310 and Rv1305 and Rv1306 and Rv1309 and Rv1307
+751,CYO1a,CYO1a,Oxidative Phosphorylation,2.0 ficytc[c] + 2.0 h[c] + qh2[c] --> 2.0 focytc[c] + 2.0 h[e] + q[c],Rv2195 and Rv2196 and Rv2194
+752,CYO1b,CYO1b,Oxidative Phosphorylation,2.0 focytc[c] + 0.5 o2[c] --> 2.0 ficytc[c] + h2o[c],Rv2193 and Rv1451 and Rv3043c and Rv2200c
+753,ICHORS,Isochorismate synthase,Oxidative Phosphorylation,chor[c] --> ichor[c],Rv3215
+754,MNDNS1,MNDNS1,Oxidative Phosphorylation,dhna[c] + 3.0 h[c] + 2.0 nadph[c] --> 2.0 h2o[c] + mndn[c] + 2.0 nadp[c],
+755,MNDNS2,MNDNS2,Oxidative Phosphorylation,dhna[c] + 3.0 h[c] + 2.0 nadh[c] --> 2.0 h2o[c] + mndn[c] + 2.0 nad[c],
+756,NADH10,NADH dehydrogenase (menaquinone-8 & 0 protons),Oxidative Phosphorylation,h[c] + mqn8[c] + nadh[c] --> mql8[c] + nad[c],Rv0082 and Rv3145 and Rv3146 and Rv3147 and Rv3148 and Rv3149 and Rv3150 and Rv3151 and Rv3152 and Rv3153 and Rv3154 and Rv3155 and Rv3156 and Rv3157 and Rv3158
+757,NADH5,NADH dehydrogenase (ubiquinone-8 ),Oxidative Phosphorylation,h[c] + nadh[c] + q8[c] --> nad[c] + q8h2[c],Rv0392c or Rv1854c
+758,NADH9,NADH dehydrogenase (demethylmenaquinone-8 & 0 protons),Oxidative Phosphorylation,2dmmq8[c] + h[c] + nadh[c] --> 2dmmql8[c] + nad[c],Rv0082 and Rv3145 and Rv3146 and Rv3147 and Rv3148 and Rv3149 and Rv3150 and Rv3151 and Rv3152 and Rv3153 and Rv3154 and Rv3155 and Rv3156 and Rv3157 and Rv3158
+759,PPA,Inorganic diphosphatase,Oxidative Phosphorylation,h2o[c] + ppi[c] --> h[c] + 2.0 pi[c],Rv3628
+760,5DGLCNR,5-dehydro-D-gluconate reductase,Pantothenate and CoA Metabolism,5dglcn[c] + h[c] + nadph[c] <=> glcn[c] + nadp[c],Rv2573
+761,ACPS1,Acyl-carrier protein synthase,Pantothenate and CoA Metabolism,apoACP[c] + coa[c] --> ACP[c] + h[c] + pap[c],Rv2523c
+762,DPCOAK,Dephospho-CoA kinase,Pantothenate and CoA Metabolism,atp[c] + dpcoa[c] --> adp[c] + coa[c] + h[c],Rv1631
+763,DPR,2-dehydropantoate 2-reductase,Pantothenate and CoA Metabolism,2dhp[c] + h[c] + nadph[c] --> nadp[c] + pant__R[c],Rv2573
+764,MOHMT,3-methyl-2-oxobutanoate hydroxymethyltransferase,Pantothenate and CoA Metabolism,3mob[c] + h2o[c] + mlthf[c] --> 2dhp[c] + thf[c],Rv2225
+765,NADK,NAD kinase,Pantothenate and CoA Metabolism,atp[c] + nad[c] --> adp[c] + h[c] + nadp[c],Rv1695
+766,NAPRT,NAPRTase (rev),Pantothenate and CoA Metabolism,h[c] + nac[c] + prpp[c] <=> nicrnt[c] + ppi[c],Rv0573c or Rv1330c
+767,NNAM,Nicotinamidase,Pantothenate and CoA Metabolism,h2o[c] + ncam[c] <=> nac[c] + nh4[c],Rv2043c
+768,NNATr,Nicotinate-nucleotide adenylyltransferase,Pantothenate and CoA Metabolism,atp[c] + h[c] + nicrnt[c] --> dnad[c] + ppi[c],Rv2421c
+769,NNDPR,Nicotinate-nucleotide diphosphorylase (carboxylating),Pantothenate and CoA Metabolism,2.0 h[c] + prpp[c] + quln[c] --> co2[c] + nicrnt[c] + ppi[c],Rv1596
+770,PANTS,Pantothenate synthase,Pantothenate and CoA Metabolism,ala_B[c] + atp[c] + pant__R[c] --> amp[c] + h[c] + pnto__R[c] + ppi[c],Rv3602c
+771,PDX5POi,Pyridoxine 5'-phosphate oxidase,Pantothenate and CoA Metabolism,o2[c] + pdx5p[c] <=> h2o2[c] + pydx5p[c],Rv2607
+772,PNTK,Pantothenate kinase,Pantothenate and CoA Metabolism,atp[c] + pnto__R[c] --> 4ppan[c] + adp[c] + h[c],Rv1092c
+773,PPCDC,Phosphopantothenoylcysteine decarboxylase,Pantothenate and CoA Metabolism,4ppcys[c] + h[c] --> co2[c] + pan4p[c],Rv1391
+774,PTPATi,Pantetheine-phosphate adenylyltransferase,Pantothenate and CoA Metabolism,atp[c] + h[c] + pan4p[c] --> dpcoa[c] + ppi[c],Rv2965c
+775,PYAM5PO,Pyridoxamine 5'-phosphate oxidase,Pantothenate and CoA Metabolism,h2o[c] + o2[c] + pyam5p[c] --> h2o2[c] + nh4[c] + pydx5p[c],Rv2607 or Rv1155 or Rv2074
+776,QULNS,Quinolinate synthase,Pantothenate and CoA Metabolism,dhap[c] + iasp[c] --> 2.0 h2o[c] + pi[c] + quln[c],Rv1594
+777,DRPA,Deoxyribose-phosphate aldolase,Pentose Phosphate Pathway,2dr5p[c] --> acald[c] + g3p[c],Rv0478
+778,G6PDH2r,Glucose 6-phosphate dehydrogenase,Pentose Phosphate Pathway,g6p[c] + nadp[c] --> 6pgl[c] + h[c] + nadph[c],Rv1447c or Rv1121
+779,GND,Phosphogluconate dehydrogenase,Pentose Phosphate Pathway,6pgc[c] + nadp[c] --> co2[c] + nadph[c] + ru5p__D[c],Rv1122 or Rv1844c
+780,PGL,6-phosphogluconolactonase,Pentose Phosphate Pathway,6pgl[c] + h2o[c] --> 6pgc[c] + h[c],Rv1445c
+781,PRPPS,Phosphoribosylpyrophosphate synthetase,Pentose Phosphate Pathway,atp[c] + r5p[c] <=> amp[c] + h[c] + prpp[c],Rv1017c
+782,RBK,Ribokinase,Pentose Phosphate Pathway,atp[c] + rib__D[c] --> adp[c] + h[c] + r5p[c],Rv2436
+783,RPE,Ribulose 5-phosphate 3-epimerase,Pentose Phosphate Pathway,ru5p__D[c] <=> xu5p__D[c],Rv1408
+784,RPI,Ribose-5-phosphate isomerase,Pentose Phosphate Pathway,r5p[c] <=> ru5p__D[c],Rv2465c
+785,TALA,Transaldolase,Pentose Phosphate Pathway,g3p[c] + s7p[c] <=> e4p[c] + f6p[c],Rv1448c
+786,TKT1,Transketolase,Pentose Phosphate Pathway,r5p[c] + xu5p__D[c] <=> g3p[c] + s7p[c],Rv1449c
+787,TKT2,Transketolase,Pentose Phosphate Pathway,e4p[c] + xu5p__D[c] <=> f6p[c] + g3p[c],Rv1449c
+788,G6PDH3,G6PDH3,Pentose Phosphate Pathway,f420_2[c] + g6p[c] --> 6pgl[c] + f420_2h2[c],Rv0407 and Rv0132c
+789,DRBK,Deoxyribokinase,Pentose Phosphate Pathway,atp[c] + drib[c] <=> 2dr5p[c] + adp[c] + h[c],
+790,5DOAN_1,5'-deoxyadenosine nuclosidase,Pentose Phosphate Pathway,dad_5[c] + h2o[c] <=> ade[c] + drib[c],
+791,GLNSP1,GLNSP1,Peptidoglycan Metabolism,atp[c] + nh4[c] + uaaAgla[c] --> adp[c] + h[c] + pi[c] + uaaAgtla[c],Rv1878 and Rv2220 and Rv2222c and Rv2860c
+792,GLNSP2,Glutamine synthetase (uaaGgla),Peptidoglycan Metabolism,atp[c] + nh4[c] + uaaGgla[c] --> adp[c] + h[c] + pi[c] + uaaGgtla[c],Rv1878 and Rv2220 and Rv2222c and Rv2860c
+793,GLNSP3,GLNSP3,Peptidoglycan Metabolism,atp[c] + nh4[c] + uaagmda[c] --> adp[c] + h[c] + pi[c] + uaagtmda[c],Rv1878 and Rv2220 and Rv2222c and Rv2860c
+794,PAPPT1,Phospho N acetylmuramoyl pentapeptide transferase alpha glutamate ,Peptidoglycan Metabolism,uAgla[c] + udcpp[c] --> uaAgla[c] + ump[c],Rv2156c
+795,PAPPT2,Phospho-N-acetylmuramoyl-pentapeptide-transferase (gamma-glutamate),Peptidoglycan Metabolism,uGgla[c] + udcpp[c] --> uaGgla[c] + ump[c],Rv2156c
+796,PAPPT3,"Phospho-N-acetylmuramoyl-pentapeptide-transferase (meso-2,6-diaminopimelate)",Peptidoglycan Metabolism,udcpp[c] + ugmda[c] --> uagmda[c] + ump[c],Rv2156c
+797,PGPPT3,PGPPT3,Peptidoglycan Metabolism,udcpp[c] + uggmda[c] --> ugggmda[c] + ump[c],Rv2156c
+798,PPTGS,Peptidoglycan subunit synthesis,Peptidoglycan Metabolism,uaagmda[c] --> h[c] + peptido_EC[c] + udcpdp[c],Rv2163c and Rv3627c
+799,PPTGS_TB1,PPTGS TB1,Peptidoglycan Metabolism,uaaAgla[c] --> h[c] + peptido_TB1[c] + udcpdp[c],Rv2163c and Rv3627c
+800,PPTGS_TB2,PPTGS TB2,Peptidoglycan Metabolism,uaaGgla[c] --> h[c] + peptido_TB2[c] + udcpdp[c],Rv2163c and Rv3627c
+801,UAAGDS,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelate synthetase",Peptidoglycan Metabolism,26dap__M[c] + atp[c] + uamag[c] --> adp[c] + h[c] + pi[c] + ugmd[c],Rv2158c
+802,UAAGLS1,UAAGLS1,Peptidoglycan Metabolism,atp[c] + lys__L[c] + uamag[c] --> adp[c] + h[c] + pi[c] + uAgl[c],
+803,UAAGLS2,UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysine synthetase (gamma-glutamate),Peptidoglycan Metabolism,atp[c] + lys__L[c] + uamag[c] --> adp[c] + h[c] + pi[c] + uGgl[c],
+804,UAGPT1,UDP N acetylglucosamine N acetylmuramyl pentapeptide pyrophosphoryl undecaprenol N acetylglucosamine transferase,Peptidoglycan Metabolism,uaAgla[c] + uacgam[c] --> h[c] + uaaAgla[c] + udp[c],Rv2153c
+805,UAGPT2,UDP-N-acetylglucosamine-N-acetylmuramyl-(pentapeptide)pyrophosphoryl-undecaprenol N-acetylglucosamine transferase,Peptidoglycan Metabolism,uaGgla[c] + uacgam[c] --> h[c] + uaaGgla[c] + udp[c],Rv2153c
+806,UAGPT3,UDP-N-acetylglucosamine-N-acetylmuramyl-(pentapeptide)pyrophosphoryl-undecaprenol N-acetylglucosamine transferase,Peptidoglycan Metabolism,uacgam[c] + uagmda[c] --> h[c] + uaagmda[c] + udp[c],Rv2153c
+807,UAMAGS,UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase,Peptidoglycan Metabolism,atp[c] + glu__D[c] + uama[c] --> adp[c] + h[c] + pi[c] + uamag[c],Rv2155c
+808,UAMAS,UDP-N-acetylmuramoyl-L-alanine synthetase,Peptidoglycan Metabolism,ala__L[c] + atp[c] + uamr[c] --> adp[c] + h[c] + pi[c] + uama[c],Rv2152c
+809,UGAGDS,UGAGDS,Peptidoglycan Metabolism,26dap__M[c] + atp[c] + ugmag[c] --> adp[c] + h[c] + pi[c] + uggmd[c],Rv2158c
+810,UGGPT3,UGGPT3,Peptidoglycan Metabolism,uacgam[c] + ugggmda[c] --> h[c] + udp[c] + ugagmda[c],Rv2153c
+811,UGLDDS1_1,UGLDDS1,Peptidoglycan Metabolism,alaala[c] + atp[c] + uAgl[c] --> adp[c] + h[c] + pi[c] + uAgla[c],Rv2157c
+812,UGLDDS2_2,UGLDDS2,Peptidoglycan Metabolism,alaala[c] + atp[c] + uGgl[c] --> adp[c] + h[c] + pi[c] + uGgla[c],Rv2157c
+813,UGMAGS,UGMAGS,Peptidoglycan Metabolism,atp[c] + glu__D[c] + ugma[c] --> adp[c] + h[c] + pi[c] + ugmag[c],Rv2155c
+814,UGMAS,UGMAS,Peptidoglycan Metabolism,ala__L[c] + atp[c] + ugmr[c] --> adp[c] + h[c] + pi[c] + ugma[c],Rv2152c
+815,UGMDDS,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine synthetase",Peptidoglycan Metabolism,alaala[c] + atp[c] + ugmd[c] --> adp[c] + h[c] + pi[c] + ugmda[c],Rv2157c
+816,UGMDDS2,UGMDDS2,Peptidoglycan Metabolism,alaala[c] + atp[c] + uggmd[c] --> adp[c] + h[c] + pi[c] + uggmda[c],Rv2157c
+817,PHBADA,PHBADA,p-HBAD biosynthesis,4hbz[c] + dtdprmn[c] --> dtdp[c] + rbzn[c],Rv2962c
+818,PHBADB,PHBADB,p-HBAD biosynthesis,amet[c] + rbzn[c] --> ahcys[c] + phbz1[c],Rv2959c
+819,PHBADC,PHBADC,p-HBAD biosynthesis,dtdprmn[c] + gdpfuc[c] + h[c] + phbz1[c] --> dtdp[c] + gdp[c] + phbz1g[c],Rv2957 and Rv2958c
+820,PHBADD,PHBADD,p-HBAD biosynthesis,3.0 amet[c] + phbz1g[c] --> 3.0 ahcys[c] + 3.0 h[c] + phbz2[c],
+821,FRRPPDIMAS,FRRPPDIMAS,Phenolic glycolipid biosynthesis,gdpfuc[c] + rrppdima[c] --> frrppdima[c] + gdp[c] + h[c],Rv2957
+822,RPPDIMAS,RPPDIMAS,Phenolic glycolipid biosynthesis,dtdprmn[c] + ppdima[c] --> dtdp[c] + h[c] + rppdima[c],Rv2962c
+823,RRPPDIMAS,RRPPDIMAS,Phenolic glycolipid biosynthesis,dtdprmn[c] + rppdima[c] --> dtdp[c] + h[c] + rrppdima[c],Rv2958c
+824,CDPMEK,4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase,Polyprenyl Metabolism,4c2me[c] + atp[c] --> 2p4c2me[c] + adp[c] + h[c],Rv1011
+825,DCPDP,Decaprenyl-diphosphatase,Polyprenyl Metabolism,decdp_tb[c] + h2o[c] --> decd_tb[c] + h[c] + pi[c],Rv2136c
+826,DCPDPS,DCPDPS,Polyprenyl Metabolism,frdp[c] + 7.0 ipdp[c] --> decdp_tb[c] + 7.0 ppi[c],
+827,DPPS,Decaprenyl synthase,Polyprenyl Metabolism,frdp[c] + 7.0 ipdp[c] --> decdp[c] + 7.0 ppi[c],
+828,DXPRIi,1-deoxy-D-xylulose reductoisomerase,Polyprenyl Metabolism,dxyl5p[c] + h[c] + nadph[c] --> 2me4p[c] + nadp[c],Rv2870c
+829,DXPS,1-deoxy-D-xylulose 5-phosphate synthase,Polyprenyl Metabolism,g3p[c] + h[c] + pyr[c] --> co2[c] + dxyl5p[c],Rv3379c or Rv2682c
+830,GRTT,Geranyltranstransferase,Polyprenyl Metabolism,grdp[c] + ipdp[c] --> frdp[c] + ppi[c],Rv1086
+831,IPDDI,Isopentenyl-diphosphate D-isomerase,Polyprenyl Metabolism,ipdp[c] <=> dmpp[c],Rv1745c
+832,IPDPS,1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase (ipdp),Polyprenyl Metabolism,h2mb4p[c] + h[c] + nadh[c] --> h2o[c] + ipdp[c] + nad[c],Rv3382c
+833,MECDPDH,"2C-methyl-D-erythritol 2,4 cyclodiphosphate dehydratase",Polyprenyl Metabolism,2mecdp[c] + h[c] --> h2mb4p[c] + h2o[c],
+834,MECDPS,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase",Polyprenyl Metabolism,2p4c2me[c] --> 2mecdp[c] + cmp[c],Rv3581c
+835,MEPCT,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase,Polyprenyl Metabolism,2me4p[c] + ctp[c] + h[c] --> 4c2me[c] + ppi[c],Rv3582c
+836,UDPDPS,Undecaprenyl-diphosphate synthase,Polyprenyl Metabolism,decdp[c] + ipdp[c] --> ppi[c] + udcpdp[c],Rv2361c
+837,UDPDPS2,UDPDPS2,Polyprenyl Metabolism,decdp_tb[c] + ipdp[c] --> ppi[c] + udcpdp[c],Rv2361c
+838,HMEDS,R_HMEDS,Polyprenyl Metabolism,2mecdp[c] + 2.0 fdxrd[c] --> 2.0 fdxox[c] + h2o[c] + hmbpp[c],Rv2868c
+839,HMEDR,R_HMEDR,Polyprenyl Metabolism,2.0 h[c] + hmbpp[c] + nadh[c] --> h2o[c] + ipdp[c] + nad[c],Rv1110 or Rv3382c
+840,FRTT,Farnesyltranstransferase,Polyprenyl Metabolism,frdp[c] + ipdp[c] --> ggdp[c] + ppi[c],Rv3398c or Rv2173
+841,IPDPUDCT,R_IPDPUDCT,Polyprenyl Metabolism,ggdp[c] + 7.0 ipdp[c] --> 7.0 ppi[c] + udcpdp[c],Rv2361c
+842,PPCOAC,Propionyl-CoA carboxylase,Propanoate metabolism,atp[c] + hco3[c] + ppcoa[c] --> adp[c] + h[c] + mmcoa__S[c] + pi[c],Rv3285 and Rv3280 and Rv3281
+843,MCITD,2-methylcitrate dehydratase,Propanoate Metabolism,2mcit[c] --> 2mcacn[c] + h2o[c],Rv1130
+844,MCITS,2-methylcitrate synthase,Propanoate Metabolism,h2o[c] + oaa[c] + ppcoa[c] --> 2mcit[c] + coa[c] + h[c],Rv1131
+845,MICITDr,2-methylisocitrate dehydratase,Propanoate Metabolism,2mcacn[c] + h2o[c] --> micit[c],Rv1475c
+846,MCITL2,Methylisocitrate lyase,Propanoate Metabolism,micit[c] --> pyr[c] + succ[c],Rv0467
+847,PPAKr,Propionate kinase,Propanoate Metabolism,adp[c] + ppap[c] <-- atp[c] + ppa[c],Rv0409
+848,ADA,Adenosine deaminase,Purine and Pyrimidine Biosynthesis,adn[c] + h2o[c] + h[c] --> ins[c] + nh4[c],Rv3313c
+849,ADK1,Adenylate kinase,Purine and Pyrimidine Biosynthesis,amp[c] + atp[c] <=> 2.0 adp[c],Rv0733
+850,ADNCYC,Adenylate cyclase,Purine and Pyrimidine Biosynthesis,atp[c] --> camp[c] + ppi[c],(Rv1318c and Rv1319c and Rv1320c) or Rv1625c or Rv1647 or Rv1264 or Rv2212 or Rv2435c or Rv1120c or Rv1900c or Rv3645 or Rv0386
+851,ADPT,Adenine phosphoribosyltransferase,Purine and Pyrimidine Biosynthesis,ade[c] + prpp[c] --> amp[c] + ppi[c],Rv2584c
+852,ADSL1r,Adenylsuccinate lyase,Purine and Pyrimidine Biosynthesis,dcamp[c] <=> amp[c] + fum[c],Rv0777
+853,ADSL2r,Adenylosuccinate lyase,Purine and Pyrimidine Biosynthesis,25aics[c] <=> aicar[c] + fum[c],Rv0777
+854,ADSS,Adenylosuccinate synthase,Purine and Pyrimidine Biosynthesis,asp__L[c] + gtp[c] + imp[c] --> dcamp[c] + gdp[c] + 2.0 h[c] + pi[c],Rv0357c
+855,AICART,Phosphoribosylaminoimidazolecarboxamide formyltransferase,Purine and Pyrimidine Biosynthesis,10fthf[c] + aicar[c] <=> fprica[c] + thf[c],Rv0957
+856,AIRCr,Phosphoribosylaminoimidazole carboxylase,Purine and Pyrimidine Biosynthesis,air[c] + co2[c] --> 5aizc[c] + h[c],Rv3275c and Rv3276c
+857,ASPCT,Aspartate carbamoyltransferase,Purine and Pyrimidine Biosynthesis,asp__L[c] + cbp[c] --> cbasp[c] + h[c] + pi[c],Rv1380
+858,CBPS,Carbamoyl-phosphate synthase (glutamine-hydrolysing),Purine and Pyrimidine Biosynthesis,2.0 atp[c] + gln__L[c] + h2o[c] + hco3[c] --> 2.0 adp[c] + cbp[c] + glu__L[c] + 2.0 h[c] + pi[c],Rv1383 and Rv1384
+859,CTPS1,CTP synthase  NH3 ,Purine and Pyrimidine Biosynthesis,atp[c] + nh4[c] + utp[c] --> adp[c] + ctp[c] + 2.0 h[c] + pi[c],Rv1699
+860,CTPS2,CTP synthase (glutamine),Purine and Pyrimidine Biosynthesis,atp[c] + gln__L[c] + h2o[c] + utp[c] --> adp[c] + ctp[c] + glu__L[c] + 2.0 h[c] + pi[c],Rv1699
+861,CYTD,Cytidine deaminase,Purine and Pyrimidine Biosynthesis,cytd[c] + h2o[c] + h[c] --> nh4[c] + uri[c],Rv3315c
+862,CYTK1,Cytidylate kinase (CMP),Purine and Pyrimidine Biosynthesis,atp[c] + cmp[c] <=> adp[c] + cdp[c],Rv1712
+863,CYTK2,Cytidylate kinase (dCMP),Purine and Pyrimidine Biosynthesis,atp[c] + dcmp[c] <=> adp[c] + dcdp[c],Rv1712
+864,DCTPD,DCTP deaminase,Purine and Pyrimidine Biosynthesis,dctp[c] + h2o[c] + h[c] --> dutp[c] + nh4[c],Rv0321
+865,DCTPD2,DCTP deaminase,Purine and Pyrimidine Biosynthesis,ctp[c] + h2o[c] + h[c] --> nh4[c] + utp[c],Rv0321
+866,DCYTD,Deoxycytidine deaminase,Purine and Pyrimidine Biosynthesis,dcyt[c] + h2o[c] + h[c] --> duri[c] + nh4[c],
+867,DGK1,Deoxyguanylate kinase (dGMP:ATP),Purine and Pyrimidine Biosynthesis,atp[c] + dgmp[c] <=> adp[c] + dgdp[c],Rv1389
+868,DHORTS,Dihydroorotase,Purine and Pyrimidine Biosynthesis,dhor__S[c] + h2o[c] <=> cbasp[c] + h[c],Rv1381
+869,DTMPK,DTMP kinase,Purine and Pyrimidine Biosynthesis,atp[c] + dtmp[c] <=> adp[c] + dtdp[c],Rv3247c
+870,DURIK1,Deoxyuridine kinase (ATP:Deoxyuridine),Purine and Pyrimidine Biosynthesis,atp[c] + duri[c] --> adp[c] + dump[c] + h[c],
+871,DURIPP,Deoxyuridine phosphorylase,Purine and Pyrimidine Biosynthesis,duri[c] + pi[c] <=> 2dr1p[c] + ura[c],
+872,DUTPDP,DUTP diphosphatase,Purine and Pyrimidine Biosynthesis,dutp[c] + h2o[c] --> dump[c] + h[c] + ppi[c],Rv2697c
+873,GARFT,Phosphoribosylglycinamide formyltransferase,Purine and Pyrimidine Biosynthesis,10fthf[c] + gar[c] --> fgam[c] + h[c] + thf[c],Rv0956
+874,GK1,Guanylate kinase (GMP:ATP),Purine and Pyrimidine Biosynthesis,atp[c] + gmp[c] <=> adp[c] + gdp[c],Rv1389
+875,GLUPRT,Glutamine phosphoribosyldiphosphate amidotransferase,Purine and Pyrimidine Biosynthesis,gln__L[c] + h2o[c] + prpp[c] --> glu__L[c] + ppi[c] + pram[c],Rv0808
+876,GMPS2,GMP synthase,Purine and Pyrimidine Biosynthesis,atp[c] + gln__L[c] + h2o[c] + xmp[c] --> amp[c] + glu__L[c] + gmp[c] + 2.0 h[c] + ppi[c],Rv3396c
+877,GTPDPK,GTP diphosphokinase,Purine and Pyrimidine Biosynthesis,atp[c] + gtp[c] --> amp[c] + gdptp[c] + h[c],Rv2583c
+878,GTPH1,GTP diphosphohydrolase,Purine and Pyrimidine Biosynthesis,gtp[c] + 2.0 h2o[c] --> gmp[c] + 2.0 h[c] + 2.0 pi[c],Rv2583c
+879,GUACYC,Guanylate cyclase,Purine and Pyrimidine Biosynthesis,gtp[c] --> 35cgmp[c] + ppi[c],Rv2435c
+880,HXPRT,Hypoxanthine phosphoribosyltransferase (Hypoxanthine),Purine and Pyrimidine Biosynthesis,hxan[c] + prpp[c] --> imp[c] + ppi[c],Rv3624c
+881,IMPC,IMP cyclohydrolase,Purine and Pyrimidine Biosynthesis,h2o[c] + imp[c] <=> fprica[c],Rv0957
+882,IMPD,IMP dehydrogenase,Purine and Pyrimidine Biosynthesis,h2o[c] + imp[c] + nad[c] --> h[c] + nadh[c] + xmp[c],Rv3411c and Rv3410c and Rv1843c
+883,INSH,Inosine hydrolase,Purine and Pyrimidine Biosynthesis,h2o[c] + ins[c] --> hxan[c] + rib__D[c],Rv3393
+884,NDPK1,Nucleoside-diphosphate kinase (ATP:GDP),Purine and Pyrimidine Biosynthesis,atp[c] + gdp[c] <=> adp[c] + gtp[c],Rv2445c
+885,NDPK2,Nucleoside-diphosphate kinase (ATP:UDP),Purine and Pyrimidine Biosynthesis,atp[c] + udp[c] <=> adp[c] + utp[c],Rv2445c
+886,NDPK3,Nucleoside-diphosphate kinase (ATP:CDP),Purine and Pyrimidine Biosynthesis,atp[c] + cdp[c] <=> adp[c] + ctp[c],Rv2445c
+887,NDPK4,Nucleoside-diphosphate kinase (ATP:dTDP),Purine and Pyrimidine Biosynthesis,atp[c] + dtdp[c] <=> adp[c] + dttp[c],Rv2445c
+888,NDPK5,Nucleoside-diphosphate kinase (ATP:dGDP),Purine and Pyrimidine Biosynthesis,atp[c] + dgdp[c] <=> adp[c] + dgtp[c],Rv2445c
+889,NDPK6,Nucleoside-diphosphate kinase (ATP:dUDP),Purine and Pyrimidine Biosynthesis,atp[c] + dudp[c] <=> adp[c] + dutp[c],Rv2445c
+890,NDPK7,Nucleoside-diphosphate kinase (ATP:dCDP),Purine and Pyrimidine Biosynthesis,atp[c] + dcdp[c] <=> adp[c] + dctp[c],Rv2445c
+891,NDPK8,Nucleoside-diphosphate kinase (ATP:dADP),Purine and Pyrimidine Biosynthesis,atp[c] + dadp[c] <=> adp[c] + datp[c],Rv2445c
+892,NTD1,5'-nucleotidase (dUMP),Purine and Pyrimidine Biosynthesis,dump[c] + h2o[c] --> duri[c] + pi[c],
+893,NTD2,5'-nucleotidase (UMP),Purine and Pyrimidine Biosynthesis,h2o[c] + ump[c] --> pi[c] + uri[c],
+894,NTD4,5'-nucleotidase (CMP),Purine and Pyrimidine Biosynthesis,cmp[c] + h2o[c] --> cytd[c] + pi[c],
+895,NTPP4,Nucleoside triphosphate pyrophosphorylase (ctp),Purine and Pyrimidine Biosynthesis,ctp[c] + h2o[c] --> cmp[c] + h[c] + ppi[c],Rv1160
+896,NTPTP1,Nucleoside triphosphate tripolyhydrolase,Purine and Pyrimidine Biosynthesis,dgtp[c] + h2o[c] --> dgsn[c] + pppi[c],Rv2344c
+897,NTPTP2,Nucleoside triphosphate tripolyhydrolase,Purine and Pyrimidine Biosynthesis,gtp[c] + h2o[c] --> gsn[c] + pppi[c],Rv2344c
+898,OMPDC,Orotidine-5'-phosphate decarboxylase,Purine and Pyrimidine Biosynthesis,h[c] + orot5p[c] --> co2[c] + ump[c],Rv1385
+899,ORPT,Orotate phosphoribosyltransferase,Purine and Pyrimidine Biosynthesis,orot5p[c] + ppi[c] <=> orot[c] + prpp[c],Rv0382c
+900,PDE1,"3',5'-cyclic-nucleotide phosphodiesterase",Purine and Pyrimidine Biosynthesis,camp[c] + h2o[c] --> amp[c] + h[c],Rv0805
+901,PDE4,"3',5'-cyclic-nucleotide phosphodiesterase",Purine and Pyrimidine Biosynthesis,35cgmp[c] + h2o[c] --> gmp[c] + h[c],Rv0805
+902,PPK2,Polyphosphate kinase,Purine and Pyrimidine Biosynthesis,atp[c] + ppi[c] --> adp[c] + pppi[c],Rv2984
+903,PRAGSr,Phosphoribosylglycinamide synthase,Purine and Pyrimidine Biosynthesis,atp[c] + gly[c] + pram[c] <=> adp[c] + gar[c] + h[c] + pi[c],Rv0772
+904,PRAIS,Phosphoribosylaminoimidazole synthase,Purine and Pyrimidine Biosynthesis,atp[c] + fpram[c] --> adp[c] + air[c] + 2.0 h[c] + pi[c],Rv0809
+905,PRASCSi,Phosphoribosylaminoimidazolesuccinocarboxamide synthase,Purine and Pyrimidine Biosynthesis,5aizc[c] + asp__L[c] + atp[c] --> 25aics[c] + adp[c] + h[c] + pi[c],Rv0780
+906,PRFGS,Phosphoribosylformylglycinamidine synthase,Purine and Pyrimidine Biosynthesis,atp[c] + fgam[c] + gln__L[c] + h2o[c] --> adp[c] + fpram[c] + glu__L[c] + h[c] + pi[c],Rv0803 and Rv0788
+907,PUNP1,Purine-nucleoside phosphorylase (Adenosine),Purine and Pyrimidine Biosynthesis,adn[c] + pi[c] <=> ade[c] + r1p[c],Rv3307
+908,PUNP2,Purine-nucleoside phosphorylase (Deoxyadenosine),Purine and Pyrimidine Biosynthesis,dad_2[c] + pi[c] <=> 2dr1p[c] + ade[c],Rv3307
+909,PUNP3,Purine-nucleoside phosphorylase (Guanosine),Purine and Pyrimidine Biosynthesis,gsn[c] + pi[c] <=> gua[c] + r1p[c],Rv3307
+910,PUNP4,Purine-nucleoside phosphorylase (Deoxyguanosine),Purine and Pyrimidine Biosynthesis,dgsn[c] + pi[c] <=> 2dr1p[c] + gua[c],
+911,PUNP5,Purine-nucleoside phosphorylase (Inosine),Purine and Pyrimidine Biosynthesis,ins[c] + pi[c] <=> hxan[c] + r1p[c],Rv3307
+912,PUNP6,Purine-nucleoside phosphorylase (Deoxyinosine),Purine and Pyrimidine Biosynthesis,din[c] + pi[c] <=> 2dr1p[c] + hxan[c],Rv3307
+913,PUNP7,Purine-nucleoside phosphorylase (Xanthosine),Purine and Pyrimidine Biosynthesis,pi[c] + xtsn[c] <=> r1p[c] + xan[c],Rv3307
+914,RNDR1,Ribonucleoside-diphosphate reductase (ADP),Purine and Pyrimidine Biosynthesis,adp[c] + trdrd[c] --> dadp[c] + h2o[c] + trdox[c],(Rv3051c and Rv3048c) or (Rv0570 and Rv1981c)
+915,RNDR2,Ribonucleoside-diphosphate reductase (GDP),Purine and Pyrimidine Biosynthesis,gdp[c] + trdrd[c] --> dgdp[c] + h2o[c] + trdox[c],Rv3051c and Rv3048c
+916,RNDR3,Ribonucleoside-diphosphate reductase (CDP),Purine and Pyrimidine Biosynthesis,cdp[c] + trdrd[c] --> dcdp[c] + h2o[c] + trdox[c],Rv3051c and Rv3048c
+917,RNDR4,Ribonucleoside-diphosphate reductase (UDP),Purine and Pyrimidine Biosynthesis,trdrd[c] + udp[c] --> dudp[c] + h2o[c] + trdox[c],(Rv3051c and Rv3048c) or (Rv0570 and Rv1981c)
+918,RNTR4,Ribonucleoside triphosphate reductase  UTP ,Purine and Pyrimidine Biosynthesis,trdrd[c] + utp[c] --> dutp[c] + h2o[c] + trdox[c],
+919,SADT,Sulfate adenylyltransferase,Purine and Pyrimidine Biosynthesis,atp[c] + h[c] + so4[c] --> aps[c] + ppi[c],Rv1285 and Rv1286
+920,TMDPP,Thymidine phosphorylase,Purine and Pyrimidine Biosynthesis,pi[c] + thymd[c] <=> 2dr1p[c] + thym[c],Rv3314c
+921,TMDS,Thymidylate synthase,Purine and Pyrimidine Biosynthesis,dump[c] + mlthf[c] --> dhf[c] + dtmp[c],Rv2764c
+922,TRDR,Thioredoxin reductase (NADPH),Purine and Pyrimidine Biosynthesis,h[c] + nadph[c] + trdox[c] --> nadp[c] + trdrd[c],Rv3913
+923,UMPK,UMP kinase,Purine and Pyrimidine Biosynthesis,atp[c] + ump[c] <=> adp[c] + udp[c],Rv1712 and Rv2883c
+924,UPPRT,Uracil phosphoribosyltransferase,Purine and Pyrimidine Biosynthesis,prpp[c] + ura[c] --> ppi[c] + ump[c],Rv3309c
+925,UREA,Urease,Purine and Pyrimidine Biosynthesis,h2o[c] + 2.0 h[c] + urea[c] --> co2[c] + 2.0 nh4[c],Rv1850 and Rv1849 and Rv1848 and Rv1853 and Rv1851 and Rv1852
+926,URIDK2r,Uridylate kinase (dUMP),Purine and Pyrimidine Biosynthesis,atp[c] + dump[c] <=> adp[c] + dudp[c],
+927,URIK2,Uridine kinase (GTP:Uridine),Purine and Pyrimidine Biosynthesis,gtp[c] + uri[c] --> gdp[c] + h[c] + ump[c],
+928,YUMPS,YUMP synthetase,Purine and Pyrimidine Biosynthesis,r5p[c] + ura[c] <=> h2o[c] + psd5p[c],Rv2793c or Rv3300c
+929,DHORDi,Dihydoorotic acid dehydrogenase  irreversible ,Purine and Pyrimidine Biosynthesis,dhor__S[c] + o2[c] --> h2o2[c] + orot[c],Rv2139
+930,BARB,MNXR70450,Purine and Pyrimidine Biosynthesis,h2o[c] + nad[c] + ura[c] <=> barb[c] + h[c] + nadh[c],
+931,DHORD2,Dihydoorotic acid dehydrogenase (quinone8),Purine and Pyrimidine Biosynthesis,dhor__S[c] + q8[c] --> orot[c] + q8h2[c],Rv2139
+932,GTPDPDP,"Guanosine-5'-triphosphate,3'-diphosphate diphosphatase",Purine and Pyrimidine Biosynthesis,gdptp[c] + h2o[c] <=> h[c] + pi[c] + ppgpp[c],
+933,PPGPPDP,"Guanosine-3',5'-bis(diphosphate) 3'-diphosphatase",Purine and Pyrimidine Biosynthesis,h2o[c] + ppgpp[c] --> gdp[c] + ppi[c],
+934,TMDS3,Thymidylate synthase (FAD dependent),Purine and Pyrimidine Biosynthesis,dump[c] + h[c] + mlthf[c] + nadph[c] --> dtmp[c] + nadp[c] + thf[c],Rv2754c
+935,ACACT1r,Acetyl-CoA C-acetyltransferase,Pyruvate Metabolism,2.0 accoa[c] <=> aacoa[c] + coa[c],Rv1323 or Rv3556c or Rv1135A
+936,ACALD,Acetaldehyde dehydrogenase (acetylating),Pyruvate Metabolism,acald[c] + coa[c] + nad[c] --> accoa[c] + h[c] + nadh[c],Rv3535c
+937,ACKr,Acetate kinase,Pyruvate Metabolism,ac[c] + atp[c] <=> actp[c] + adp[c],Rv0409
+938,BDH,BDH,Pyruvate Metabolism,bhb[c] + nad[c] <=> acac[c] + h[c] + nadh[c],
+939,HOPNTAL,4-hydroxy-2-oxopentanoate aldolase,Pyruvate Metabolism,4h2opntn[c] --> acald[c] + pyr[c],Rv3469c or Rv3534c
+940,INDPYRD,Indole 3 pyruvate decarboxylase,Pyruvate Metabolism,h[c] + indpyr[c] <=> co2[c] + id3acald[c],Rv0853c
+941,LO,LO,Pyruvate Metabolism,lac__L[c] + o2[c] --> ac[c] + co2[c] + h2o[c],
+942,L_LACD,L LACD,Pyruvate Metabolism,2.0 ficytc[c] + lac__L[c] --> 2.0 focytc[c] + pyr[c],Rv1872c or Rv0694
+943,L_LACD2,L-Lactate dehydrogenase (ubiquinone),Pyruvate Metabolism,lac__L[c] + q8[c] --> pyr[c] + q8h2[c],Rv1872c
+944,L_LACD3,L-Lactate dehydrogenase (menaquinone),Pyruvate Metabolism,lac__L[c] + mqn8[c] --> mql8[c] + pyr[c],Rv1872c
+945,MALS,Malate synthase,Pyruvate Metabolism,accoa[c] + glx[c] + h2o[c] --> coa[c] + h[c] + mal__L[c],Rv1837c
+946,ME1,Malic enzyme (NAD),Pyruvate Metabolism,mal__L[c] + nad[c] --> co2[c] + nadh[c] + pyr[c],Rv2332
+947,PFL,Pyruvate formate lyase,Pyruvate Metabolism,coa[c] + pyr[c] --> accoa[c] + for[c],
+948,PPDK,"Pyruvate,phosphate dikinase.",Pyruvate Metabolism,atp[c] + pi[c] + pyr[c] --> amp[c] + h[c] + pep[c] + ppi[c],Rv1127c
+949,PTAr,Phosphotransacetylase,Pyruvate Metabolism,accoa[c] + pi[c] <-- actp[c] + coa[c],Rv0408
+950,2O4EH,R_2O4EH,Pyruvate Metabolism,2h24pdn[c] + h2o[c] --> 4h2opntn[c],Rv3536c
+951,MGSA,Methylglyoxal synthase,Pyruvate Metabolism,dhap[c] --> mthgxl[c] + pi[c],
+952,ALCD22_L,Alcohol dehydrogenase (L-lactaldehyde),Pyruvate Metabolism,lald__L[c] + nad[c] <-- h[c] + mthgxl[c] + nadh[c],Rv2298
+953,GLYCS_I,R_GLYCS_I,Pyruvate Metabolism,gthrd[c] + mthgxl[c] --> lgt_s[c],Rv2581c or Rv0634c or Rv2641
+954,GLYCS_II,R_GLYCS_II,Pyruvate Metabolism,h2o[c] + lgt_s[c] --> gthrd[c] + h[c] + lac__L[c],Rv0577 or Rv0911
+955,LCADi,Lactaldehyde dehydrogenase,Pyruvate Metabolism,h2o[c] + lald__L[c] + nad[c] --> 2.0 h[c] + lac__L[c] + nadh[c],
+956,ACCOAC,Acetyl-CoA carboxylase,Pyruvate Metabolism,accoa[c] + atp[c] + hco3[c] <=> adp[c] + h[c] + malcoa[c] + pi[c],Rv3285 and Rv2247
+957,L_LACDcm_1,L  LACDcm,Pyruvate Metabolism,fmn[c] + lac__L[c] <=> fmnh2[c] + pyr[c],Rv1872c or Rv0694
+958,ACYP_2,Acylphosphatase (2),Pyruvate Metabolism,actp[c] + h2o[c] --> ac[c] + h[c] + pi[c],Rv2922A
+959,ALDD1,Aldehyde dehydrogenase  formaldehyde  NAD ,Redox Metabolism,fald[c] + h2o[c] + nad[c] --> for[c] + 2.0 h[c] + nadh[c],Rv2259 or Rv1895 or Rv3045
+960,BMNMSHS,BMNMSHS,Redox Metabolism,bmn[c] + msh[c] --> bmnmsh[c] + 2.0 h[c],
+961,CAT,Catalase,Redox Metabolism,2.0 h2o2[c] --> 2.0 h2o[c] + o2[c],Rv1908c
+962,CIGAMS,Cys-1D-myo-inositol 2-deoxy-D-glucopyranoside synthase,Redox Metabolism,atp[c] + cys__L[c] + igam[c] --> amp[c] + cigam[c] + 2.0 h[c] + ppi[c],Rv2130c
+963,CMCBTFL,CMCBTFL,Redox Metabolism,cmcbtt[c] + fe3[e] --> fcmcbtt[c],Rv2895c and Rv1348 and Rv1349
+964,CMCBTFU,CMCBTFU,Redox Metabolism,fcmcbtt[c] --> cmcbtt[c] + fe3[c],Rv2895c and Rv1348 and Rv1349
+965,CYTBD,Cytochrome oxidase bd (ubiquinol-8: 2 protons),Redox Metabolism,2.0 h[c] + 0.5 o2[c] + q8h2[c] --> h2o[c] + 2.0 h[e] + q8[c],(Rv1622c and Rv1620c) or (Rv1622c and Rv1621c)
+966,CYTBD2,CYTBD2,Redox Metabolism,2.0 h[c] + mql8[c] + 0.5 o2[c] --> h2o[c] + 2.0 h[e] + mqn8[c],Rv1620c and Rv1621c and Rv1622c and Rv1623c
+967,FCOAH2,Formyl coa hydrolase,Redox Metabolism,forcoa[c] + h2o[c] --> coa[c] + for[c] + h[c],Rv0098 or Rv2605c or Rv1618
+968,FE3Ri,Fe(III) reduction,Redox Metabolism,fadh2[c] + 2.0 fe3[c] --> fad[c] + 2.0 fe2[c] + 2.0 h[c],
+969,FETRANS,FETRANS,Redox Metabolism,fmcbtt[c] <=> fe2[c] + mcbtt[c],
+970,FHL,Formate-hydrogen lyase,Redox Metabolism,for[c] + h[c] --> co2[c] + h2[c],Rv0084
+971,FORMCOAL,FORMCOAL,Redox Metabolism,atp[c] + coa[c] + for[c] <=> amp[c] + forcoa[c] + ppi[c],
+972,GTHS,Glutathione synthetase,Redox Metabolism,atp[c] + glucys[c] + gly[c] --> adp[c] + gthrd[c] + h[c] + pi[c],
+973,MSHOXH,MSHOXH,Redox Metabolism,h2o[c] + mshfaldox[c] --> for[c] + h[c] + msh[c],
+974,MYCTR,MYCTR,Redox Metabolism,2.0 msh[c] + nadp[c] <=> h[c] + mssg[c] + nadph[c],Rv2855
+975,MYCTR2,MYCTR2,Redox Metabolism,gthox[c] + 2.0 msh[c] --> 2.0 gthrd[c] + mssg[c],Rv2855
+976,NO,NO,Redox Metabolism,no[c] + o2s[c] --> no3[c],
+977,NTRIR2x,Nitrite Reductase (NADH),Redox Metabolism,5.0 h[c] + 3.0 nadh[c] + no2[c] --> 2.0 h2o[c] + 3.0 nad[c] + nh4[c],Rv0252 and Rv0253
+978,NTRIRy,Nitrite reductase (NADPH),Redox Metabolism,4.0 h[c] + 3.0 nadph[c] + no2[c] --> h2o[c] + 3.0 nadp[c] + nh4oh[c],Rv0252 and Rv0253
+979,PRDX,Peroxidase (multiple substrates),Redox Metabolism,h2o2[c] + meoh[c] --> fald[c] + 2.0 h2o[c],
+980,NAGINS,MNXR21171,Redox Metabolism,h2o[c] + iacgam3p[c] <=> 2.0 h[c] + iacgam[c] + pi[c],
+981,NMO,Nitronate Monooxygenase,Redox Metabolism,etha[c] + fmnh2[c] + o2[c] --> acald[c] + fmn[c] + no2[c],Rv0021c or Rv1533 or Rv1894c or Rv2781c or Rv3553
+982,SIRA2,MNXR84814,Redox Metabolism,6.0 fdxox[c] + 3.0 h2o[c] + h2s[c] <=> 6.0 fdxrd[c] + 8.0 h[c] + so3[c],Rv2391
+983,ACP1_FMN,Acid phosphatase (FMN),Riboflavin Metabolism,fmn[c] + h2o[c] --> pi[c] + ribflv[c],Rv3310
+984,APRAUR,5-amino-6-(5-phosphoribosylamino)uracil reductase,Riboflavin Metabolism,5apru[c] + h[c] + nadph[c] --> 5aprbu[c] + nadp[c],Rv2671 or Rv1409
+985,DHPPDA,Diaminohydroxyphosphoribosylaminopyrimidine deaminase,Riboflavin Metabolism,25dhpp[c] + h2o[c] + h[c] --> 5apru[c] + nh4[c],Rv1409
+986,DHPPDA2,Diaminohydroxyphosphoribosylaminopryrimidine deaminase (25drapp),Riboflavin Metabolism,25drapp[c] + h2o[c] + h[c] --> 5apru[c] + nh4[c],Rv2671 or Rv1409
+987,FMNAT,FMN adenylyltransferase,Riboflavin Metabolism,atp[c] + fmn[c] + h[c] --> fad[c] + ppi[c],Rv2786c
+988,GTPCII,GTP cyclohydrolase II,Riboflavin Metabolism,gtp[c] + 3.0 h2o[c] --> 25dhpp[c] + for[c] + 2.0 h[c] + ppi[c],Rv1415 or Rv1940
+989,NNDMBRT,Nicotinate-nucleotide dimethylbenzimidazole phosphoribosyltransferase,Riboflavin Metabolism,dmbzid[c] + nicrnt[c] --> 5prdmbz[c] + h[c] + nac[c],Rv2207
+990,RBFK,Riboflavin kinase,Riboflavin Metabolism,atp[c] + ribflv[c] --> adp[c] + fmn[c] + h[c],Rv2786c
+991,RBFSa,Riboflavin synthase,Riboflavin Metabolism,4r5au[c] + db4p[c] --> dmlz[c] + 2.0 h2o[c] + pi[c],Rv1416
+992,RBFSb,Riboflavin synthase,Riboflavin Metabolism,2.0 dmlz[c] --> 4r5au[c] + ribflv[c],Rv1412
+993,ORNDC,Ornithine Decarboxylase,Spermidine biosynthesis,h[c] + orn[c] --> co2[c] + ptrc[c],Rv2531c
+994,GLGE,GLGE,Starch and sucrose metabolism,malt1p[c] --> 2.0 14glucan[c] + pi[c],Rv1327c
+995,TREY,MNXR86764,Starch and sucrose metabolism,2.0 14glucan[c] + h2o[c] --> tre[c],Rv1564c and Rv1563c and Rv1562c
+996,GLGB,MNXR80417,Starch and sucrose metabolism,14glucan[c] --> glycogen[c],Rv1326c and Rv3031
+997,GLGP,GLGP,Starch and sucrose metabolism,14glucan[c] + glycogen[c] + 2.0 pi[c] --> 2.0 g1p[c],Rv1328
+998,AMYL2,MNXR87084,Starch and sucrose metabolism,adpglc[c] <=> 14glucan[c] + adp[c] + h[c],Rv3032 or Rv1212c
+999,PEPA,MNXR86162,Starch and sucrose metabolism,malt[c] + pi[c] --> h2o[c] + malt6p[c],Rv0125
+1000,ADSK,Adenylyl-sulfate kinase,Sulfur metabolism,aps[c] + atp[c] --> adp[c] + h[c] + paps[c],Rv1286
+1001,IGAMD,1D-myo-inositol 2-Acetamido-2-deoxy-D-glucopyranoside deacetylase,Sulfur metabolism,h2o[c] + iacgam[c] --> ac[c] + igam[c],Rv1170
+1002,MDFDH,MDFDH,Sulfur metabolism,mshfald[c] + nad[c] <=> h[c] + mshfaldox[c] + nadh[c],Rv2259
+1003,MSHAMID,MSHAMID,Sulfur metabolism,bmnmsh[c] + h2o[c] --> acysbmn[c] + igam[c],Rv1082
+1004,MSHS,Mycothiol synthase,Sulfur metabolism,accoa[c] + cigam[c] --> coa[c] + msh[c],Rv0819
+1005,PAPA1,PAPA1,Sulfur metabolism,hphthiocnylcoa[c] + sl659[c] --> coa[c] + sl1278[c],Rv3824c
+1006,PAPA2,PAPA2,Sulfur metabolism,h[c] + pmtcoa[c] + tres[c] --> coa[c] + sl659[c],Rv3820c
+1007,MMPL8,MMPL8,Sulfur metabolism,2.0 hphthiocnylcoa[c] + sl1278[c] --> 2.0 coa[c] + sl1[c],Rv3823c
+1008,APSR,Adenosine 5'-phosphosulfate reductase;,Sulfur metabolism,aps[c] + trdrd[c] --> amp[c] + 2.0 h[c] + so3[c] + trdox[c],Rv2392
+1009,BPNT2,3'-Phospho-5'-adenylyl sulfate 3'-phosphohydrolase,Sulfur metabolism,h2o[c] + paps[c] --> aps[c] + pi[c],Rv2131c
+1010,PMPK,Phosphomethylpyrimidine kinase,Thiamine Metabolism,4ampm[c] + atp[c] --> 2mahmp[c] + adp[c],Rv0422c
+1011,TMPK,Thiamine-phosphate kinase,Thiamine Metabolism,atp[c] + thmmp[c] <=> adp[c] + thmpp[c],Rv2977c
+1012,TMPPP,Thiamine-phosphate diphosphorylase,Thiamine Metabolism,2mahmp[c] + 4mpetz[c] + h[c] --> ppi[c] + thmmp[c],Rv0414c
+1013,DAPDC,Diaminopimelate decarboxylase,Threonine and Lysine Metabolism,26dap__M[c] + h[c] --> co2[c] + lys__L[c],Rv1293
+1014,DAPE,Diaminopimelate epimerase,Threonine and Lysine Metabolism,26dap_LL[c] <=> 26dap__M[c],Rv2726c
+1015,DHDPRy,Dihydrodipicolinate reductase (NADPH),Threonine and Lysine Metabolism,23dhdp[c] + h[c] + nadph[c] --> nadp[c] + thdp[c],Rv2773c
+1016,DHDPS,Dihydrodipicolinate synthase,Threonine and Lysine Metabolism,aspsa[c] + pyr[c] --> 23dhdp[c] + 2.0 h2o[c] + h[c],Rv2753c
+1017,SDPDS,Succinyl-diaminopimelate desuccinylase,Threonine and Lysine Metabolism,h2o[c] + sl26da[c] --> 26dap_LL[c] + succ[c],Rv1202
+1018,SDPTA,Succinyldiaminopimelate transaminase,Threonine and Lysine Metabolism,akg[c] + sl26da[c] <=> glu__L[c] + sl2a6o[c],Rv1655 or Rv0858c
+1019,THDPS,Tetrahydrodipicolinate succinylase,Threonine and Lysine Metabolism,h2o[c] + succoa[c] + thdp[c] --> coa[c] + sl2a6o[c],Rv1201c
+1020,ACYSBMNt,ACYSBMNt,Transpor,acysbmn[c] <=> acysbmn[e],
+1021,ALAt2r,L alanine reversible transport via proton symport,Transpor,ala__L[e] + h[e] <=> ala__L[c] + h[c],
+1022,ARB_Dabc,ARB Dabc,Transpor,arab__D[e] + atp[c] + h2o[c] --> adp[c] + arab__D[c] + h[c] + pi[c],
+1023,ARBabc,L-arabinose transport via ABC system,Transpor,arab__L[e] + atp[c] + h2o[c] --> adp[c] + arab__L[c] + h[c] + pi[c],
+1024,ARBt2r,L-arabinose transport via proton symport,Transpor,arab__L[e] + h[e] <=> arab__L[c] + h[c],
+1025,ARGt5r,ARGtiDF,Transpor,arg__L[e] <=> arg__L[c],Rv2320c
+1026,ASNt2r,L asparagine reversible transport via proton symport,Transpor,asn__L[e] + h[e] <=> asn__L[c] + h[c],Rv2127 or Rv0346c
+1027,ASPt2r,L aspartate reversible transport via proton symport,Transpor,asp__L[e] + h[e] <=> asp__L[c] + h[c],Rv0346c or Rv2127
+1028,BALAt2r,Beta Alanine transport in via proton symport,Transpor,ala_B[e] + h[e] <=> ala_B[c] + h[c],Rv0522
+1029,BMNt,BMNt,Transpor,bmn[c] <=> bmn[e],
+1030,CAATPS,CAATPS,Transpor,atp[c] + 2.0 ca2[c] + h2o[c] --> adp[c] + 2.0 ca2[e] + h[e] + pi[c],Rv0107c
+1031,CAt4,Calcium transport inout via proton antiporter,Transpor,ca2[c] + h[e] <=> ca2[e] + h[c],Rv1607
+1032,CHLabc,Choline transport via ABC system,Transpor,atp[c] + chol[e] + h2o[c] --> adp[c] + chol[c] + h[c] + pi[c],Rv3756c and Rv3757c and Rv3758c and Rv3759c
+1033,CITabc,Citrate transport via ABC system,Transpor,atp[c] + cit[e] + h2o[c] --> adp[c] + cit[c] + h[c] + pi[c],
+1034,CO2t,CO2 transporter via diffusion,Transpor,co2[e] <=> co2[c],
+1035,COAt,COAt,Transpor,coa[e] <=> coa[c],
+1036,COBALTt5,COBALTt5,Transpor,cobalt2[c] <=> cobalt2[e],Rv1239c
+1037,COt,CO transporter via diffusion,Transpor,co[c] <=> co[e],
+1038,CRNabc,L-carnitine transport via ABC system,Transpor,atp[c] + crn[e] + h2o[c] --> adp[c] + crn[c] + h[c] + pi[c],Rv3756c and Rv3757c and Rv3758c and Rv3759c
+1039,CYTDt2,Cytidine transport in via proton symport,Transpor,cytd[e] + h[e] <=> cytd[c] + h[c],
+1040,Clt,Major Facilitator(MFS) TCDB:2.A.1.14.6,Transpor,cl[e] <=> cl[c],Rv0143c
+1041,Cuabc,Copper transport via ABC system,Transpor,atp[c] + cu2[e] + h2o[c] --> adp[c] + cu2[c] + h[c] + pi[c],Rv0092 or Rv0103c
+1042,Cut1,Copper export via ATPase,Transpor,atp[c] + cu2[c] + h2o[c] --> adp[c] + cu2[e] + h[c] + pi[c],Rv0092 or Rv0103c
+1043,DALAt2r,D-alanine transport via proton symport,Transpor,ala__D[e] + h[e] <=> ala__D[c] + h[c],Rv1704c
+1044,DSERt2,D-serine transport via proton symport,Transpor,h[e] + ser__D[e] <=> h[c] + ser__D[c],Rv1704c
+1045,ETHAt,Ethanolamine transport via diffusion  extracellular ,Transpor,etha[e] <=> etha[c],
+1046,ADtr,"Acetamide transport, extracellular ",Transpor,ad[e] <=> ad[c],
+1047,FUMt2r,Fumarate reversible transport via symport,Transpor,fum[e] + h[e] <=> fum[c] + h[c],Rv2443
+1048,GALt2,D galactose transport in via proton symport,Transpor,gal[e] + h[e] --> gal[c] + h[c],Rv3331
+1049,GLCabc,D-glucose transport via ABC system,Transpor,atp[c] + glc__D[e] + h2o[c] --> adp[c] + glc__D[c] + h[c] + pi[c],(Rv2316 and Rv2317 and Rv2318) or (Rv1235 and Rv1236 and Rv1237 and Rv1238) or (Rv2038c and Rv2039c and Rv2040c and Rv2041c)
+1050,GLUt2r,L glutamate transport via proton symport  reversible,Transpor,glu__L[e] + h[e] <=> glu__L[c] + h[c],
+1051,GLYBabc,Glycine betaine transport via ABC system,Transpor,atp[c] + glyb[e] + h2o[c] --> adp[c] + glyb[c] + h[c] + pi[c],Rv3757c and Rv3759c and Rv3756c and Rv3758c
+1052,GLYC3Pabc,Sn-Glycerol 3-phosphate transport via ABC system,Transpor,atp[c] + glyc3p[e] + h2o[c] --> adp[c] + glyc3p[c] + h[c] + pi[c],Rv2832c and Rv2833c and Rv2834c and Rv2835c
+1053,GLYCt,Glycerol transport via channel,Transpor,glyc[c] <=> glyc[e],
+1054,GLYt2r,Glycine reversible transport via proton symport,Transpor,gly[e] + h[e] <=> gly[c] + h[c],Rv1704c
+1055,GTHRDt2_1,Glutathione transport,Transpor,atp[c] + gthrd[e] + h2o[c] --> adp[c] + gthrd[c] + h[c] + pi[c],Rv1280c and Rv1281c and Rv1282c and Rv1283c
+1056,H2CO3TP,H2CO3TP,Transpor,h2co3[e] <=> h2co3[c],
+1057,H2Ot,H2O transport via diffusion,Transpor,h2o[e] <=> h2o[c],
+1058,H2St1,H2s transport (diffusion),Transpor,h2s[c] --> h2s[e],
+1059,H2td,Hydrogen transport,Transpor,h2[c] <=> h2[e],
+1060,HDCAt2,Hexadecanoate transport via proton symport,Transpor,h[e] + hdca[e] --> h[c] + hdca[c],
+1061,HISt2r,L histidine reversible transport via proton symport,Transpor,h[e] + his__L[e] <=> h[c] + his__L[c],
+1062,ID3ACALDt,Indoleacetaldehyde transport  extracellular ,Transpor,id3acald[c] <=> id3acald[e],
+1063,ILEt2r,L isoleucine reversible transport via proton symport,Transpor,h[e] + ile__L[e] <=> h[c] + ile__L[c],
+1064,Kabc,Potassium ABC transporter,Transpor,atp[c] + h2o[c] + k[e] --> adp[c] + h[c] + k[c] + pi[c],(Rv1029 and Rv1030 and Rv1031) or Rv1373 or Rv2267c or Rv3529c
+1065,Kt1,Potassium transport via uniport (facilitated diffusion),Transpor,k[e] --> k[c],Rv2691 and Rv2692
+1066,LCTSabc,Lactose transport via ABC system (import),Transpor,atp[c] + h2o[c] + lcts[e] --> adp[c] + h[c] + lcts[c] + pi[c],Rv2316 and Rv2317 and Rv2318
+1067,LEUt2r,L leucine reversible transport via proton symport,Transpor,h[e] + leu__L[e] <=> h[c] + leu__L[c],
+1068,LYSt5r,LYStiDF,Transpor,lys__L[e] <=> lys__L[c],Rv2320c
+1069,L_LACt2r,L lactate reversible transport via proton symport,Transpor,h[e] + lac__L[e] <=> h[c] + lac__L[c],Rv0191
+1070,L_LACt3,L LACt3,Transpor,h[e] + lac__L[c] --> h[c] + lac__L[e],Rv0191
+1071,MALTHPabc,MALTHPabc,Transpor,atp[c] + h2o[c] + malthp[e] --> adp[c] + h[c] + malthp[c] + pi[c],Rv1236 and Rv1237 and Rv1238
+1072,MALTabc,Maltose transport via ABC system,Transpor,atp[c] + h2o[c] + malt[e] --> adp[c] + h[c] + malt[c] + pi[c],(Rv2316 and Rv2317 and Rv2318) or (Rv1235 and Rv1236 and Rv1237 and Rv1238) or (Rv2038c and Rv2039c and Rv2040c and Rv2041c)
+1073,MALt2r,L malate reversible transport via proton symport,Transpor,h[e] + mal__L[e] <=> h[c] + mal__L[c],Rv2443
+1074,MEOHt2,Methanol diffusion,Transpor,meoh[e] <=> meoh[c],
+1075,METabc,L-methionine transport via ABC system,Transpor,atp[c] + h2o[c] + met__L[e] --> adp[c] + h[c] + met__L[c] + pi[c],
+1076,MGt5,Magnesium transport in/out via permease (no H+),Transpor,mg2[c] <=> mg2[e],Rv1239c
+1077,NAKtr,NAKtr,Transpor,k[c] + na1[e] --> k[e] + na1[c],Rv3236c
+1078,NARK,"Nitrite transport, extracellular",Transpor,no2[c] --> no2[e],(Rv1737c and Rv2329c and Rv0261c) or Rv0267
+1079,NAt,Sodium transport (uniport),Transpor,na1[e] <=> na1[c],Rv2287
+1080,NH4t,Ammonia reversible transport,Transpor,nh4[e] <=> nh4[c],Rv2920c
+1081,NOt,NO transport (diffusion),Transpor,no[e] <=> no[c],
+1082,O2t,O2 transport  diffusion ,Transpor,o2[e] <=> o2[c],
+1083,OCDCAt2,Octadecanoate transport via proton symport,Transpor,h[e] + ocdca[e] --> h[c] + ocdca[c],
+1084,ORNt,Ornithine transport via diffusion,Transpor,orn[e] <=> orn[c],Rv2320c
+1085,PACt2r,PACt2r,Transpor,h[e] + pac[e] <=> h[c] + pac[c],
+1086,PDIMAT,Pdima translocase,Transpor,pdima[c] --> pdima[e],Rv2942 and Rv2936 and Rv2937 and Rv2938 and Rv2945c
+1087,PHDCAt,PHDCAt,Transpor,phdca[e] <=> phdca[c],
+1088,PHEt2r,L phenylalanine reversible transport via proton symport,Transpor,h[e] + phe__L[e] <=> h[c] + phe__L[c],
+1089,PIabc,Phosphate transport via ABC system,Transpor,atp[c] + h2o[c] + pi[e] --> adp[c] + h[c] + 2.0 pi[c],(Rv0934 and Rv0936 and Rv0935 and Rv0933) or (Rv0932c and Rv0930 and Rv0929 and Rv0933) or (Rv0928 and Rv0930 and Rv0933) or Rv0545c or Rv2281 or Rv0820 or (Rv0935 and Rv0930 and Rv0933 and Rv0936 and Rv0929)
+1090,PPAtr,"Propionate transport, diffusion",Transpor,ppa[e] <=> ppa[c],
+1091,PPDIMAT,Ppdima translocase,Transpor,ppdima[c] --> ppdima[e],Rv2942 and Rv2936 and Rv2937 and Rv2938 and Rv2945c
+1092,PROabc,L-proline transport via ABC system,Transpor,atp[c] + h2o[c] + pro__L[e] --> adp[c] + h[c] + pi[c] + pro__L[c],Rv3756c and Rv3757c and Rv3758c and Rv3759c
+1093,PROt2r,L proline reversible transport via proton symport,Transpor,h[e] + pro__L[e] <=> h[c] + pro__L[c],
+1094,PYRt2,Pyruvate transport in via proton symport,Transpor,h[e] + pyr[e] <=> h[c] + pyr[c],Rv1902c
+1095,RIBabc,D-ribose transport via ABC system,Transpor,atp[c] + h2o[c] + rib__D[e] --> adp[c] + h[c] + pi[c] + rib__D[c],(Rv2316 and Rv2317 and Rv2318) or (Rv1235 and Rv1236 and Rv1237 and Rv1238) or (Rv2038c and Rv2039c and Rv2040c and Rv2041c)
+1096,SERt2r,L serine reversible transport via proton symport,Transpor,h[e] + ser__L[e] <=> h[c] + ser__L[c],Rv1704c
+1097,SKMt2,SKMt2,Transpor,h[e] + skm[e] <=> h[c] + skm[c],Rv1200
+1098,SUCCt2r,Succinate transport via proton symport,Transpor,h[e] + succ[e] <=> h[c] + succ[c],Rv2443
+1099,SULabc,Sulfate transport via ABC system,Transpor,atp[c] + h2o[c] + so4[e] --> adp[c] + h[c] + pi[c] + so4[c],Rv2397c and Rv2398c and Rv2399c and Rv2400c and Rv1739c
+1100,TARTRt7,Tartrate/succinate antiporter,Transpor,succ[c] + tartr__L[e] <=> succ[e] + tartr__L[c],Rv1672c
+1101,THRt2r,L threonine reversible transport via proton symport,Transpor,h[e] + thr__L[e] <=> h[c] + thr__L[c],Rv3737
+1102,TREabc,Trehalose  transport via ABC system,Transpor,atp[c] + h2o[c] + tre[e] --> adp[c] + h[c] + pi[c] + tre[c],Rv1236 and Rv1237 and Rv1238
+1103,TRPt2r,L tryptophan reversible transport via proton symport,Transpor,h[e] + trp__L[e] <=> h[c] + trp__L[c],
+1104,TSULabc,Thiosulfate transport via ABC system,Transpor,atp[c] + h2o[c] + tsul[e] --> adp[c] + h[c] + pi[c] + tsul[c],Rv2397c and Rv2398c and Rv2399c and Rv2400c and Rv1739c
+1105,TTDCAt2,Tetradecanoate transport via proton symport,Transpor,h[e] + ttdca[e] --> h[c] + ttdca[c],
+1106,TYRt2r,L tyrosine reversible transport via proton symport,Transpor,h[e] + tyr__L[e] <=> h[c] + tyr__L[c],
+1107,VALt2r,L valine reversible transport via proton symport,Transpor,h[e] + val__L[e] <=> h[c] + val__L[c],
+1108,GLNabc,L-glutamine transport via ABC system,Transpor,atp[c] + gln__L[e] + h2o[c] --> adp[c] + gln__L[c] + h[c] + pi[c],(Rv0072 and Rv0073) or (Rv0411c and Rv2564)
+1109,NIt5,NIt5,Transpor,ni2[c] <=> ni2[e],Rv2856
+1110,Mn2t,R_Mn2t,Transpor,2.0 h[c] + mn2[e] <=> 2.0 h[e] + mn2[c],Rv0924c
+1111,HIAt,THIA Transport,Transpor,hia[e] <=> hia[c],
+1112,CHSTEROLt_1,MNXR1163,Transpor,atp[c] + chsterol[e] + h2o[c] --> adp[c] + chsterol[c] + h[c] + pi[c],Rv3499c and Rv3498c and Rv3497c and Rv3496c and Rv3495c and Rv3494c and Rv3500c and Rv3501c
+1113,MOBDabc,Molybdate transport via ABC system,Transpor,atp[c] + h2o[c] + mobd[e] --> adp[c] + h[c] + mobd[c] + pi[c],Rv1857 and Rv1858 and Rv1859
+1114,MOBDabc_rev,T06232b,Transpor,atp[c] + h2o[c] + mobd[c] --> adp[c] + h[c] + mobd[e] + pi[c],Rv1857 and Rv1858 and Rv1859
+1115,ACt2r_1,Acetate reversible transport via proton symport,Transpor,ac[e] + h[c] <=> ac[c] + h[e],
+1116,4HBAt,MNXR68734,Transpor,4hba[e] <=> 4hba[c],
+1117,4ABZt,4 Aminobenzoate mitochondrial transport via diffusion,Transpor,4abz[c] <=> 4abz[e],
+1118,CHLabc_rev,T00114b,Transpor,atp[c] + chol[c] + h2o[c] --> adp[c] + chol[e] + h[c] + pi[c],Rv3756c and Rv3757c and Rv3758c and Rv3759c
+1119,PYDXNtr,Pyridoxine transport via diffusion,Transpor,pydxn[e] <=> pydxn[c],
+1120,FORt,Formate transport via diffusion,Transpor,for[e] <=> for[c],
+1121,GLYCLTt,Glycolate transport via diffusion,Transpor,glyclt[e] <=> glyclt[c],
+1122,NO3t3,Nitrate transport in via proton symport,Transpor,h[e] + no3[c] <=> h[c] + no3[e],
+1123,MNabc_rev,T0034b,Transpor,atp[c] + h2o[c] + mn2[c] --> adp[c] + h[c] + mn2[e] + pi[c],Rv2059 and Rv2060 and Rv2061c
+1124,ADOCBLabc,MNXR81564,Transpor,adocbl[e] + atp[c] + h2o[c] <=> adocbl[c] + adp[c] + h[c] + pi[c],Rv1819c
+1125,AKGt2r_1,2-oxoglutarate reversible transport via symport,Transpor,akg[e] + h[c] <=> akg[c] + h[e],
+1126,ACALDt,Acetaldehyde reversible transport,Transpor,acald[e] <=> acald[c],
+1127,OCDCEAt,Octadecenoate  n C181  transport in via uniport,Transpor,ocdcea[e] <=> ocdcea[c],
+1128,UREAt_2,Urea transport via facilitate diffusion,Transpor,h[e] + urea[e] <=> h[c] + urea[c],
+1129,VIUB,VIUB,Transpor,atp[c] + fe3[e] + h2o[c] + 0.0005 mcbts[c] + 0.0005 mcbtt[c] --> adp[c] + fe3[c] + pi[c],Rv2895c and Rv1348 and Rv1349
+1130,ETOHt3,Ethanol transport out via proton antiport,Transpor,etoh[c] + h[e] <=> etoh[e] + h[c],
+1131,BTNTe,Release of biotin across the basolatral membrane,Transpor,btn[c] <=> btn[e],
+1132,NODCOAt,NODCOA IN,Transpor,nodcoa[e] --> nodcoa[c],
+1133,OCTSCOAt,OCTSCOA IN,Transpor,octscoa[e] --> octscoa[c],
+1134,PC_TBt,T00157,Transpor,pc_TB[e] <=> pc_TB[c],
+1135,GLYTRS,Glycyl-tRNA synthetase,tRNA Charging,atp[c] + gly[c] + trnagly[c] --> amp[c] + glytrna[c] + ppi[c],Rv2357c
+1136,SELCYSS,Selenocysteine synthase,tRNA Charging,selnp[c] + sertrna_sec[c] --> h[c] + pi[c] + sectrna[c],
+1137,TYRTRS,Tyrosyl-tRNA synthetase,tRNA Charging,atp[c] + trnatyr[c] + tyr__L[c] --> amp[c] + ppi[c] + tyrtrna[c],Rv1689
+1138,ALDD19xr,"Aldehyde dehydrogenase (phenylacetaldehyde, NAD)","Tyrosine, Tryptophan, and Phenylalanine Metabolism",h2o[c] + nad[c] + pacald[c] --> 2.0 h[c] + nadh[c] + pac[c],Rv2858c
+1139,ANPRT,Anthranilate phosphoribosyltransferase,"Tyrosine, Tryptophan, and Phenylalanine Metabolism",anth[c] + prpp[c] --> ppi[c] + pran[c],Rv2192c
+1140,ANS,Anthranilate synthase,"Tyrosine, Tryptophan, and Phenylalanine Metabolism",chor[c] + gln__L[c] --> anth[c] + glu__L[c] + h[c] + pyr[c],Rv1609
+1141,CHORM,Chorismate mutase,"Tyrosine, Tryptophan, and Phenylalanine Metabolism",chor[c] --> pphn[c],Rv1885c or Rv0948c
+1142,CHORS,Chorismate synthase,"Tyrosine, Tryptophan, and Phenylalanine Metabolism",3psme[c] --> chor[c] + pi[c],Rv2540c
+1143,DDPA,3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase,"Tyrosine, Tryptophan, and Phenylalanine Metabolism",e4p[c] + h2o[c] + pep[c] --> 2dda7p[c] + pi[c],Rv2178c
+1144,DHQTi,"3-dehydroquinate dehydratase, irreversible","Tyrosine, Tryptophan, and Phenylalanine Metabolism",3dhq[c] <=> 3dhsk[c] + h2o[c],Rv2537c
+1145,DHQS,3-dehydroquinate synthase,"Tyrosine, Tryptophan, and Phenylalanine Metabolism",2dda7p[c] --> 3dhq[c] + pi[c],Rv2538c
+1146,IGPS,Indole-3-glycerol-phosphate synthase,"Tyrosine, Tryptophan, and Phenylalanine Metabolism",2cpr5p[c] + h[c] --> 3ig3p[c] + co2[c] + h2o[c],Rv1611
+1147,PEAMNO,Phenethylamine oxidase,"Tyrosine, Tryptophan, and Phenylalanine Metabolism",h2o[c] + o2[c] + peamn[c] --> h2o2[c] + nh4[c] + pacald[c],
+1148,PHYCBOXL,L-Phenylalanine carboxy-lyase,"Tyrosine, Tryptophan, and Phenylalanine Metabolism",h[c] + phe__L[c] --> co2[c] + peamn[c],Rv2531c
+1149,PPND,Prephenate dehydrogenase,"Tyrosine, Tryptophan, and Phenylalanine Metabolism",nad[c] + pphn[c] --> 34hpp[c] + co2[c] + nadh[c],Rv3754
+1150,PPNDH,Prephenate dehydratase,"Tyrosine, Tryptophan, and Phenylalanine Metabolism",h[c] + pphn[c] --> co2[c] + h2o[c] + phpyr[c],Rv3838c
+1151,PSCVT,3-phosphoshikimate 1-carboxyvinyltransferase,"Tyrosine, Tryptophan, and Phenylalanine Metabolism",pep[c] + skm5p[c] --> 3psme[c] + pi[c],Rv3227
+1152,SHK3Dr,Shikimate dehydrogenase,"Tyrosine, Tryptophan, and Phenylalanine Metabolism",3dhsk[c] + h[c] + nadph[c] <=> nadp[c] + skm[c],Rv2552c
+1153,SHKK,Shikimate kinase,"Tyrosine, Tryptophan, and Phenylalanine Metabolism",atp[c] + skm[c] --> adp[c] + h[c] + skm5p[c],Rv2539c
+1154,TRPS1,Tryptophan synthase (indoleglycerol phosphate),"Tyrosine, Tryptophan, and Phenylalanine Metabolism",3ig3p[c] + ser__L[c] --> g3p[c] + h2o[c] + trp__L[c],Rv1613 and Rv1612
+1155,TRPS2,Tryptophan synthase (indole),"Tyrosine, Tryptophan, and Phenylalanine Metabolism",indole[c] + ser__L[c] --> h2o[c] + trp__L[c],Rv1612 and Rv1613
+1156,TRPS3,Tryptophan synthase (indoleglycerol phosphate),"Tyrosine, Tryptophan, and Phenylalanine Metabolism",3ig3p[c] --> g3p[c] + indole[c],Rv1612 and Rv1613
+1157,ACONMT,Trans-aconitate methyltransferase,Unassigned,acon_T[c] + amet[c] --> aconm[c] + ahcys[c],Rv0294
+1158,ACGS,N-acetylglutamate synthase,Urea Cycle,accoa[c] + glu__L[c] --> acglu[c] + coa[c] + h[c],Rv2747
+1159,G5SD,Glutamate-5-semialdehyde dehydrogenase,Urea Cycle,glu5p[c] + h[c] + nadph[c] --> glu5sa[c] + nadp[c] + pi[c],Rv2427c
+1160,G5SD2,Glutamate 5 semialdehyde dehydrogenase,Urea Cycle,glu5p[c] + h[c] + nadh[c] --> glu5sa[c] + nad[c] + pi[c],Rv2427c
+1161,GLU5K,Glutamate 5-kinase,Urea Cycle,atp[c] + glu__L[c] --> adp[c] + glu5p[c],Rv2439c
+1162,SPMS,Spermidine synthase,Urea Cycle,ametam[c] + ptrc[c] --> 5mta[c] + h[c] + spmd[c],Rv2601
+1163,ACHBS,2-aceto-2-hydroxybutanoate synthase,"Valine, Leucine, and Isoleucine Metabolism",2obut[c] + h[c] + pyr[c] --> 2ahbut[c] + co2[c],Rv3003c or (Rv3470c and Rv3002c)
+1164,ACLS,Acetolactate synthase,"Valine, Leucine, and Isoleucine Metabolism",h[c] + 2.0 pyr[c] --> alac__S[c] + co2[c],(Rv3002c and Rv3003c) or Rv1820 or Rv3509c
+1165,DHAD1,"Dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate)","Valine, Leucine, and Isoleucine Metabolism",23dhmb[c] --> 3mob[c] + h2o[c],Rv0189c
+1166,DHAD2,"Dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)","Valine, Leucine, and Isoleucine Metabolism",23dhmp[c] --> 3mop[c] + h2o[c],Rv0189c
+1167,ILETA,Isoleucine transaminase,"Valine, Leucine, and Isoleucine Metabolism",akg[c] + ile__L[c] <=> 3mop[c] + glu__L[c],Rv2210c
+1168,IPMD,3-isopropylmalate dehydrogenase,"Valine, Leucine, and Isoleucine Metabolism",3c2hmp[c] + nad[c] --> 3c4mop[c] + h[c] + nadh[c],Rv2995c
+1169,IPPMIa,3-isopropylmalate dehydratase,"Valine, Leucine, and Isoleucine Metabolism",3c2hmp[c] <=> 2ippm[c] + h2o[c],Rv2988c and Rv2987c
+1170,IPPMIb,2-isopropylmalate hydratase,"Valine, Leucine, and Isoleucine Metabolism",2ippm[c] + h2o[c] <=> 3c3hmp[c],Rv2988c and Rv2987c
+1171,IPPS,2-isopropylmalate synthase,"Valine, Leucine, and Isoleucine Metabolism",3mob[c] + accoa[c] + h2o[c] --> 3c3hmp[c] + coa[c] + h[c],Rv3710
+1172,KARA1,"Ketol-acid reductoisomerase (2,3-dihydroxy-3-methylbutanoate)","Valine, Leucine, and Isoleucine Metabolism",23dhmb[c] + nadp[c] <-- alac__S[c] + h[c] + nadph[c],Rv3001c
+1173,KARA2,Ketol-acid reductoisomerase (2-Acetolactate),"Valine, Leucine, and Isoleucine Metabolism",2ahbut[c] + h[c] + nadph[c] --> 23dhmp[c] + nadp[c],Rv3001c
+1174,LEUTA,Leucine transaminase,"Valine, Leucine, and Isoleucine Metabolism",akg[c] + leu__L[c] <=> 4mop[c] + glu__L[c],Rv2210c
+1175,OMCDC,2-Oxo-4-methyl-3-carboxypentanoate decarboxylation,"Valine, Leucine, and Isoleucine Metabolism",3c4mop[c] + h[c] --> 4mop[c] + co2[c],
+1176,VALTA,Valine transaminase,"Valine, Leucine, and Isoleucine Metabolism",akg[c] + val__L[c] <=> 3mob[c] + glu__L[c],Rv2210c
+1177,MACCOAT,2-Methylacetyl-CoA thiolase,"Valine, Leucine, and Isoleucine Metabolism",2maacoa[c] + coa[c] <=> accoa[c] + ppcoa[c],Rv1135A or Rv0243 or Rv1323 or Rv3556c or Rv1074c or Rv0859
+1178,ECOAH12,3-hydroxyacyl-CoA dehydratase (3-hydroxyisobutyryl-CoA) (mitochondria),"Valine, Leucine, and Isoleucine Metabolism",2mp2coa[c] + h2o[c] --> 3hibutcoa[c],Rv1070c or Rv0905 or Rv2486 or Rv1472 or Rv3774
+1179,3HBCOAHL,3-hydroxyisobutyryl-CoA hydrolase,"Valine, Leucine, and Isoleucine Metabolism",3hibutcoa[c] + h2o[c] --> 3hmp[c] + coa[c] + h[c],Rv1071c
+1180,HACD9,3 hydroxyacyl CoA dehydrogenase  2 Methylacetoacetyl CoA ,"Valine, Leucine, and Isoleucine Metabolism",3hmbcoa[c] + nad[c] --> 2maacoa[c] + h[c] + nadh[c],Rv3774 or Rv1144
+1181,ECOAH9ir,2 Methylprop 2 enoyl CoA  2 Methylbut 2 enoyl CoA ,"Valine, Leucine, and Isoleucine Metabolism",2mb2coa[c] + h2o[c] --> 3hmbcoa[c],Rv1070c or Rv0905 or Rv2486 or Rv1472 or Rv3774
+1182,VPAMTr,Valine-pyruvate aminotransferase,"Valine, Leucine, and Isoleucine Metabolism",3mob[c] + ala__L[c] <=> pyr[c] + val__L[c],Rv3565
+1183,EGTD,S-adenosyl-L-methionine:L-histidine Nalpha-methyltransferase,,3.0 amet[c] + his__L[c] --> 3.0 ahcys[c] + 3.0 h[c] + hercyn[c],Rv3701c
+1184,DGTP8DETOX,8-oxo-dGTP diphosphohydrolase,,8oxdgtp[c] + h2o[c] --> 8oxdgmp[c] + h[c] + ppi[c],Rv0413 or Rv1160
+1185,DGTP8OXO,RXN-11410,,dgtp[c] + 2.0 oh1[c] --> 8oxdgtp[c] + h2o[c],
+1186,GTP8OXO,RXN-11409,,gtp[c] + 2.0 oh1[c] --> 8oxgtp[c] + h2o[c],
+1187,MMSAD2,Methylmalonate-semialdehyde dehydrogenase (propanol),Cholesterol degradation,coa[c] + nad[c] + ppal[c] --> h[c] + nadh[c] + ppcoa[c],Rv3535c
+1188,ECHA20,MNXR84970,Cholesterol degradation,h2o[c] + hipecoa[c] --> hipohcoa[c],Rv3550
+1189,CHOL1,MNXR19104,Cholesterol degradation,chsterol[c] + nad[c] --> chol4en3one[c] + h[c] + nadh[c],Rv1106c
+1190,FADE282,MNXR87738,Cholesterol degradation,cholc3coa[c] + fad[c] --> cholenec3coa[c] + fadh2[c],Rv3544c and Rv3543c
+1191,HOPNTAL2_1,4-hydroxy-2-oxopentanoate aldolase(p-xylene),Cholesterol degradation,4hoxoh[c] --> h[c] + ppal[c] + pyr[c],
+1192,ECHA192,ECHA192,Cholesterol degradation,cholenec5coa[c] + h2o[c] <=> hcholc5coa[c],Rv3516 or Rv3538
+1193,HSA,MNXR75761,Cholesterol degradation,3hsa[c] + fmnh2[c] + o2[c] --> 34dhsa[c] + fmn[c] + h2o[c],Rv3570c and Rv3567c
+1194,FADB3,FADB3,Cholesterol degradation,hcholc5coa[c] + nad[c] --> h[c] + nadh[c] + ocholc5coa[c],Rv3502c
+1195,FADB2,FADB2,Cholesterol degradation,hcholc8coa[c] + nad[c] --> h[c] + nadh[c] + ocholc8coa[c],Rv3502c
+1196,CHCD,MNXR22345,Cholesterol degradation,hipohcoa[c] + nad[c] --> h[c] + hipocoa[c] + nadh[c],
+1197,HDAD,MNXR76953,Cholesterol degradation,49dsha[c] + h2o[c] --> hhd[c] + hip[c],Rv3569c
+1198,CHOD,MNXR6103,Cholesterol degradation,chsterol[c] + o2[c] --> chol4en3one[c] + h2o2[c],Rv3409c
+1199,3HSA,MNXR19078,Cholesterol degradation,9ohadd[c] --> 3hsa[c],
+1200,HSAC,R04597,Cholesterol degradation,34dhsa[c] + o2[c] --> 49dsha[c],Rv3568c
+1201,HSAE,R09960,Cholesterol degradation,h2o[c] + hhd[c] --> 4hoxoh[c],Rv3536c
+1202,HIAA,HIAA,Cholesterol degradation,h2o[c] + hipocoa[c] --> accoa[c] + hia[c],
+1203,IPDAB,IPDAB,Cholesterol degradation,5ohhip[c] + atp[c] + coa[c] + 3.0 h[c] --> 5ohhipcoa[c] + amp[c] + ppi[c],Rv3551 and Rv3552
+1204,KSH,R09860,Cholesterol degradation,andrs14dn317dn[c] + h[c] + nadh[c] + o2[c] --> 9ohadd[c] + h2o[c] + nad[c],Rv3526 and Rv3571
+1205,ECHA193,ECHA193,Cholesterol degradation,cholenec3coa[c] + h2o[c] <=> hcholc3coa[c],Rv3541c and Rv3541c
+1206,CYP1,MNXR19061,Cholesterol degradation,chol4en3one[c] + h[c] + nadh[c] + o2[c] --> h2o[c] + hchol[c] + nad[c],Rv3518c or Rv3545c
+1207,IPDF,IPDF,Cholesterol degradation,h[c] + hipcoa[c] + nadh[c] --> 5ohhipcoa[c] + nad[c],
+1208,HIPA,HIPA,Cholesterol degradation,h[c] + hip[c] + nadh[c] --> 5ohhip[c] + nad[c],
+1209,CHOLCOA,MNXR87732,Cholesterol degradation,cholc5coa[c] + fad[c] --> cholenec5coa[c] + fadh2[c],Rv3573c
+1210,ECHA191,ECHA191,Cholesterol degradation,cholenec8coa[c] + h2o[c] <=> hcholc8coa[c],Rv3516 or Rv3538
+1211,FADE30,MNXR87739,Cholesterol degradation,5ohhipcoa[c] + fad[c] --> fadh2[c] + hipecoa[c],Rv3560c
+1212,CYP3,CYP3,Cholesterol degradation,h[c] + nadh[c] + o2[c] + ochol[c] --> cchol[c] + h2o[c] + nad[c],Rv3518c or Rv3545c
+1213,CYP2,CYP2,Cholesterol degradation,hchol[c] + nad[c] --> h[c] + nadh[c] + ochol[c],Rv3518c or Rv3545c
+1214,PRCOA1,MNXR76960,Cholesterol degradation,hcholc3coa[c] --> andrstndn[c] + 4.0 h[c] + ppcoa[c],Rv3540c
+1215,FADE281,MNXR87732,Cholesterol degradation,cholc8coa[c] + fad[c] --> cholenec8coa[c] + fadh2[c],Rv3504 or Rv3505
+1216,FADD3,MNXR22341,Cholesterol degradation,atp[c] + coa[c] + 3.0 h[c] + hip[c] --> amp[c] + hipcoa[c] + ppi[c],(Rv3551 and Rv3552) or Rv3561
+1217,KSTD,MNXR85993,Cholesterol degradation,andrstndn[c] + nad[c] --> andrs14dn317dn[c] + h[c] + nadh[c],Rv3537
+1218,FADD17,MNXR86378,Cholesterol degradation,atp[c] + cchol[c] + coa[c] + 3.0 h[c] --> adp[c] + cholc8coa[c] + pi[c],Rv3506 or Rv3515c
+1219,FADE51,MNXR76950,Cholesterol degradation,coa[c] + ocholc8coa[c] --> cholc5coa[c] + ppcoa[c],Rv3546 or Rv3523
+1220,FADE52,MNXR22325,Cholesterol degradation,coa[c] + ocholc5coa[c] --> accoa[c] + cholc3coa[c],Rv3546 or Rv3522
+1221,HIPEOX,HIPEOX,Cholesterol degradation,coa[c] + h2o[c] + hipecoa[c] + nad[c] --> 5ohhiccoa[c] + accoa[c] + h[c] + nadh[c],
+1222,IPDCF,IPDCF,Cholesterol degradation,5ohhiccoa[c] + 2.0 nad[c] --> 2.0 h[c] + hieccoa[c] + 2.0 nadh[c],Rv3553 and Rv3559c
+1223,ECHA20_2,ECHA20_2,Cholesterol degradation,h2o[c] + h[c] + hieccoa[c] --> cocheacoa[c],Rv3550
+1224,FADA6,FADA6,Cholesterol degradation,coa[c] + cocheacoa[c] + h2o[c] --> accoa[c] + moodacoa[c],Rv3551 and Rv3552 and Rv3556c
+1225,FADE31,FADE31,Cholesterol degradation,coa[c] + fad[c] + h2o[c] + moodacoa[c] + nad[c] --> accoa[c] + fadh2[c] + h[c] + mbkacoa[c] + nadh[c],Rv3562 or Rv3563
+1226,MBKTHIO,MBKTHIO,Cholesterol degradation,coa[c] + mbkacoa[c] --> h2o[c] + h[c] + ppcoa[c] + succoa[c],
+1227,EX_cbi_e,Cobinamide exchange,Extracellular exchange,cbi[e] <=> ,
+1228,BACA,Transport cobinamide,Transpor,atp[c] + cbi[e] + h2o[c] --> adp[c] + cbi[c] + pi[c],
+1229,SDH1,Succinate dehydrogenase,Citric Acid Cycle,mqn8[c] + succ[c] --> fum[c] + mql8[c],Rv0247c and Rv0248c and Rv0249c
+1230,ATPM,ATP maintenance requirement,Biomass and maintenance functions,atp[c] + h2o[c] --> adp[c] + h[c] + pi[c],
+1231,DHFR_copy1,R_DHFR_copy1,Folate Metabolism,dhf[c] + h[c] + nadph[c] <=> nadp[c] + thf[c],Rv2763c
+1232,BiomassGrowth_sMtb,BiomassGrowth_sMtb,Biomass and maintenance functions,0.2352 14glucan[c] + 0.0024 Ac1PIM1[c] + 0.0014 Ac1PIM2[c] + 0.0024 Ac1PIM3[c] + 0.0024 Ac1PIM4[c] + 0.0024 Ac2PIM2[c] + 0.1625 acser[c] + 0.2184 ala__D[c] + 0.0347 amet[c] + 0.1148 arg__L[c] + 0.0351 asn__L[c] + 0.0886 asp__L[c] + 57.03 atp[c] + 0.0295 c78mycolatepp[c] + 0.0091 clpn160190[c] + 0.0397 cmcbtt[c] + 0.0132 coa[c] + 0.0168 ctp[c] + 0.0155 cys__L[c] + 0.0102 datp[c] + 0.0194 dctp[c] + 0.0388 decda_tb[c] + 0.0194 dgtp[c] + 0.001 dttp[c] + 0.0129 fad[c] + 0.0003 fcmcbtt[c] + 0.0008 fdxox[c] + 0.0008 fdxrd[c] + 0.0008 fe2[c] + 0.0102 fe3[c] + 0.0222 fmn[c] + 0.0002 frrppdima[c] + 0.0008 gdpfuc[c] + 0.024 gdpmann[c] + 0.0036 gdptp[c] + 0.4661 glc__D[c] + 0.1384 gln__L[c] + 0.0001 gly[c] + 0.1373 glyb[c] + 0.0184 glyc[c] + 0.2352 glycogen[c] + 0.0168 gtp[c] + 57.0 h2o[c] + 0.0008 hemeA[c] + 0.158 hemeO[c] + 0.0008 his__L[c] + 0.0003 hmocta[c] + 0.003 hphthiocnylcoa[c] + 0.0642 ile__L[c] + 0.1483 leu__L[c] + 0.0317 lys__L[c] + 0.0343 man[c] + 0.0003 mcbtm[c] + 0.0285 met__L[c] + 0.1752 mpt[c] + 0.0118 mqn8[c] + 0.0131 msh[c] + 0.0152 nad[c] + 0.0136 nadp[c] + 0.0001 pdima[c] + 0.0035 pe160[c] + 0.0017 peptido_TB1[c] + 0.0001 phe__L[c] + 0.0008 pmtricoa[c] + 0.0004 ppdima[c] + 0.0218 ppm[c] + 0.0429 pro__L[c] + 0.0008 rib__D[c] + 0.0008 rrppdima[c] + 0.0924 ser__L[c] + 0.0511 sheme[c] + 0.0008 sl1[c] + 0.0713 tag_TB[c] + 0.0088 tamocta[c] + 0.0892 thf[c] + 0.0008 thmpp[c] + 0.0917 thr__L[c] + 0.0256 tmhexc[c] + 0.0295 tre6mm[c] + 0.0183 tre6p[c] + 0.0035 trp__L[c] + 0.0308 tyr__L[c] + 0.0008 uamr[c] + 0.0008 utp[c] --> 57.0 adp[c] + 0.0347 ahcys[c] + 57.0 pi[c],
+1233,BIOMASS__2,R_BIOMASS__2,Biomass and maintenance functions,0.2352 14glucan[c] + 0.001681 Ac1PIM1[c] + 0.001488 Ac1PIM2[c] + 0.001335 Ac1PIM3[c] + 0.001211 Ac1PIM4[c] + 0.001274 Ac2PIM2[c] + 0.001573 PIM3[c] + 0.001403 PIM4[c] + 0.001266 PIM5[c] + 0.001154 PIM6[c] + 0.23018 acgam1p[c] + 0.40596 ala__L[c] + 0.0347 amet[c] + 0.000731 arabinanagalfragund[c] + 0.015676 arach[c] + 0.12042 arg__L[c] + 0.047699 asn__L[c] + 0.12031 asp__L[c] + 60.0 atp[c] + 0.0295 c78mycolatepp[c] + 0.005859 clpn160190[c] + 0.25095 cmp[c] + 0.0132 coa[c] + 0.0168 ctp[c] + 0.022 cys__L[c] + 0.003492 damp[c] + 0.0102 datp[c] + 0.0194 dctp[c] + 0.0194 dgtp[c] + 0.0102 dttp[c] + 0.0129 fad[c] + 0.0008 fdxox[c] + 0.0008 fdxrd[c] + 0.0008 fe2[c] + 0.0008 fe3[c] + 0.0222 fmn[c] + 0.0001 gdpmann[c] + 0.16315 glc__D[c] + 0.05812 gln__L[c] + 0.090007 glu__L[c] + 0.33581 gly[c] + 0.0184 glyc[c] + 0.2352 glycogen[c] + 0.24365 gmp[c] + 0.0168 gtp[c] + 60.0 h2o[c] + 0.23515 hdca[c] + 0.01094 hdcea[c] + 0.0008 hemeA[c] + 0.0008 hemeO[c] + 0.058352 hexc[c] + 0.074917 his__L[c] + 0.0064 hphthiocnylcoa[c] + 0.087731 ile__L[c] + 0.20471 leu__L[c] + 0.03909 lys__L[c] + 0.095065 man[c] + 0.00784 mbhn[c] + 0.034889 met__L[c] + 0.095802 mocdca[c] + 0.0118 mql8[c] + 0.0131 msh[c] + 0.0152 nad[c] + 0.0136 nadp[c] + 0.034837 ocdca[c] + 0.009849 ocdcea[c] + 0.006798 pa160190[c] + 0.00724 pa160[c] + 0.006407 pa190190[c] + 0.001251 pat[c] + 0.004061 pe160[c] + 0.01885 peptido_TB1[c] + 0.01885 peptido_TB2[c] + 0.00613 pg160190[c] + 0.006487 pg160[c] + 0.00581 pg190[c] + 0.006453 phdca[c] + 0.048102 phe__L[c] + 0.13803 pro__L[c] + 0.021723 rib__D[c] + 0.2326 ser__L[c] + 0.0008 sheme[c] + 0.001176 tat[c] + 0.0008 thf[c] + 0.0008 thmpp[c] + 0.13571 thr__L[c] + 0.001106 tmha1[c] + 0.0011 tmha2[c] + 0.001104 tmha3[c] + 0.001097 tmha4[c] + 0.006491 tre6p[c] + 0.00797 tre[c] + 0.006474 tres[c] + 0.020124 trp__L[c] + 0.012193 ttdca[c] + 0.031756 tyr__L[c] + 0.001008 uaaAgla[c] + 0.001008 uaaGgla[c] + 0.000986 uaagmda[c] + 0.002793 uamr[c] + 0.000977 ugagmda[c] + 0.0088 utp[c] + 0.20583 val__L[c] --> 60.0 adp[c] + 60.0 h[c] + 60.0 pi[c],
+1234,BIOMASS__2.1,"BIOMASS_2 Including Universal Cofactors (Xavier et al., 2017)",Biomass and maintenance functions,0.2352 14glucan[c] + 1e-06 5fthf[c] + 0.001681 Ac1PIM1[c] + 0.001488 Ac1PIM2[c] + 0.001335 Ac1PIM3[c] + 0.001211 Ac1PIM4[c] + 0.001274 Ac2PIM2[c] + 0.001573 PIM3[c] + 0.001403 PIM4[c] + 0.001266 PIM5[c] + 0.001154 PIM6[c] + 0.23018 acgam1p[c] + 1e-06 adocbl[c] + 0.40596 ala__L[c] + 0.0347 amet[c] + 0.13903 amp[c] + 0.000731 arabinanagalfragund[c] + 0.015676 arach[c] + 0.12042 arg__L[c] + 0.047699 asn__L[c] + 0.12031 asp__L[c] + 60.0 atp[c] + 2e-06 btn[c] + 0.0295 c78mycolatepp[c] + 0.005859 clpn160190[c] + 0.25095 cmp[c] + 0.0132 coa[c] + 0.0168 ctp[c] + 0.022 cys__L[c] + 0.003492 damp[c] + 0.0102 datp[c] + 0.0194 dctp[c] + 0.0194 dgtp[c] + 1e-06 dhf[c] + 0.0102 dttp[c] + 0.0129 fad[c] + 0.0008 fdxox[c] + 0.0008 fdxrd[c] + 0.0008 fe2[c] + 0.0008 fe3[c] + 0.0222 fmn[c] + 0.0001 gdpmann[c] + 0.16315 glc__D[c] + 0.05812 gln__L[c] + 0.090007 glu__L[c] + 0.33581 gly[c] + 0.0184 glyc[c] + 0.2352 glycogen[c] + 0.24365 gmp[c] + 0.0168 gtp[c] + 60.0 h2o[c] + 0.23515 hdca[c] + 0.01094 hdcea[c] + 0.0008 hemeA[c] + 0.0008 hemeO[c] + 0.058352 hexc[c] + 0.074917 his__L[c] + 0.0064 hphthiocnylcoa[c] + 0.087731 ile__L[c] + 1e-06 k[c] + 0.20471 leu__L[c] + 0.03909 lys__L[c] + 0.095065 man[c] + 0.00784 mbhn[c] + 0.034889 met__L[c] + 0.095802 mocdca[c] + 0.0118 mql8[c] + 0.0131 msh[c] + 1e-06 na1[c] + 0.0152 nad[c] + 0.0136 nadp[c] + 0.034837 ocdca[c] + 0.009849 ocdcea[c] + 0.006798 pa160190[c] + 0.00724 pa160[c] + 0.006407 pa190190[c] + 0.001251 pat[c] + 0.004061 pe160[c] + 0.01885 peptido_TB1[c] + 0.01885 peptido_TB2[c] + 0.00613 pg160190[c] + 0.006487 pg160[c] + 0.00581 pg190[c] + 0.006453 phdca[c] + 0.048102 phe__L[c] + 0.13803 pro__L[c] + 0.000223 pydx5p[c] + 1e-06 quln[c] + 0.021723 rib__D[c] + 0.2326 ser__L[c] + 0.0008 sheme[c] + 0.001176 tat[c] + 0.0008 thf[c] + 0.0008 thmpp[c] + 0.13571 thr__L[c] + 0.001106 tmha1[c] + 0.0011 tmha2[c] + 0.001104 tmha3[c] + 0.001097 tmha4[c] + 0.006491 tre6p[c] + 0.00797 tre[c] + 0.006474 tres[c] + 0.020124 trp__L[c] + 0.012193 ttdca[c] + 0.031756 tyr__L[c] + 0.001008 uaaAgla[c] + 0.001008 uaaGgla[c] + 0.000986 uaagmda[c] + 0.002793 uamr[c] + 0.000977 ugagmda[c] + 0.0088 utp[c] + 0.20583 val__L[c] --> 60.0 adp[c] + 60.0 h[c] + 60.0 pi[c],
+1235,QRr,QRr,Oxidative Phosphorylation,h[c] + nadph[c] + q[c] <=> nadp[c] + qh2[c],Rv3777
+1236,NADH2r,NADH2r,Oxidative Phosphorylation,h[c] + nadh[c] + q[c] <=> nad[c] + qh2[c],Rv0082 and Rv3145 and Rv3146 and Rv3147 and Rv3148 and Rv3149 and Rv3150 and Rv3151 and Rv3152 and Rv3153 and Rv3154 and Rv3155 and Rv3156 and Rv3157 and Rv3158
+1237,ADK2,Adenylate kinase (Inorganic triphosphate),Purine and Pyrimidine Biosynthesis,adp[c] + ppi[c] <=> amp[c] + pppi[c],Rv0733

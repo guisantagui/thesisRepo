@@ -1,0 +1,10 @@
+1-	las infecciones de las dos primeras fechas son algo distintas que el resto, incluidos controles
+  	(se ve en el PCA coloreado por fecha de los datos crudos con controles). En estas dos fechas solo
+  	se hizo L5, por lo que es difícil decir si al calcular el FC estamos consiguiendo quitar la variabilidad
+  	por lote y la diferencia de L5 que vemos es solo biológica, o si la diferencia que vemos en L5 es por 
+  	el lote. Aclarar esto, si hubiesen mas infecciones de L5 sería genial.
+2-	Las infecciones del 2021-08-03 (chimp y L6 en thp1) a dia 6 tienen cero necrosis, en los datos crudos también.
+  	en los controles los valores son cercanos a cero, pero no cero (0.1-0.2). Esto es raro. Las infecciones de BoMac
+  	de estas mismas cepas (2021-08-10) a dia 6 tienen valores de necrosis de entre 0 y 9.2. Los controles de estas
+  	infecciones tienen valores de necrosis similares. Podría ser que en thp1 en chimp y L6 pasase algo con el 
+  	marcador de necrosis?

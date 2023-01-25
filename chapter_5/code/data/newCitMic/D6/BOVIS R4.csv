@@ -1,0 +1,15 @@
+Experiment Name,Cas3y7 + FixableViability 450
+Specimen Name,21-04-2021 D6
+Tube Name,Bovis R_004
+Record Date,"Apr 21, 2021 1:41:19 PM"
+$OP,CoscollaI2SysBio 
+GUID,f778e8b5-a0ec-45f8-815e-b92e6692dc96 
+Population,#Events,%Parent,FITC-A Mean,BV421-A Mean
+Single Cells,9854,81.0,9633,2510
+Viability450+,2198,22.3,16416,9611
+Cas3/7+,9822,99.7,9663,2514
+Necrotic,1342,13.6,3192,9875
+Late Apoptotic,888,9.0,33739,8970
+Viable,234,2.4,725,261
+Early Apoptotic,7390,75.0,8188,468
+

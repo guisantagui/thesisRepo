@@ -1,0 +1,11 @@
+output_*
+error_*
+testFiles.sh
+launch_CA.sh
+launch_delsUnsup.sh
+launch_filtOvrDeldGns.sh
+launch_getDelProp_RF_out.sh
+launch_getDelProp_univSign.sh
+launch_getDelPropAndFilt.sh
+launch_RF.sh
+launch_univAnalAllLinsVsRef.sh

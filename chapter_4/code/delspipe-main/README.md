@@ -1,0 +1,3 @@
+## Deletion analysis pipeline.
+Performs unsupervised (PCA and CA) and supervised (Random Forests) on the deletion data. Binarizes deletion data with a given threshold (default = 15% deleted). Does univariate analysis between L4 and each one of the other lineages and filters significative genes to get genes that are lost in the majority of a lineage, with the aim of building lineage specific genome-scale metabolic models (GEMs). <br>
+Run launch_delsPipe.sh for use, input is allDels.csv file, generated with deleted_epitopes.py, which is part of mapsPipe.

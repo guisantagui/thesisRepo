@@ -1,0 +1,15 @@
+Experiment Name,Cas3y7 + FixableViability 450
+Specimen Name,21-04-2021 D2
+Tube Name,L5 R_006
+Record Date,"Apr 21, 2021 1:04:04 PM"
+$OP,CoscollaI2SysBio 
+GUID,03e06b1a-f231-4449-ad31-3c6b11831f8d 
+Population,#Events,%Parent,FITC-A Mean,BV421-A Mean
+Single Cells,9837,78.6,3329,744
+Viability450+,310,3.2,15087,12345
+Cas3/7+,9817,99.8,3335,743
+Necrotic,54,0.5,1390,10657
+Late Apoptotic,229,2.3,17696,13924
+Viable,29,0.3,395,157
+Early Apoptotic,9525,96.8,3003,372
+

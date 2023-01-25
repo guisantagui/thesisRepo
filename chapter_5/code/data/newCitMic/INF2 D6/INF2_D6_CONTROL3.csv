@@ -1,0 +1,15 @@
+Experiment Name,Cas3y7 + FixableViability 450
+Specimen Name,INF2 D6
+Tube Name,Bomac CONTROL 3
+Record Date,"Mar 9, 2021 12:18:19 PM"
+$OP,CoscollaI2SysBio 
+GUID,ed6c760a-6703-45bf-9fc8-cbf4dfb629db 
+Population,#Events,%Parent,FITC-A Mean,BV421-A Mean
+Single Cells,10133,89.0,6918,3566
+Viability450+,4135,40.8,8616,7667
+Cas3/7+,5736,56.6,11040,3701
+Necrotic,2456,24.2,1119,5839
+Late Apoptotic,2283,22.5,15767,8501
+Viable,632,6.2,882,375
+Early Apoptotic,4762,47.0,6468,450
+
